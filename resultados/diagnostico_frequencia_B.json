@@ -1,0 +1,611 @@
+{
+ "descricao": "Surface-frequency diagnostic of the T1 and T3 items of corpus B, from the stored choices.",
+ "t1": {
+  "_base": {
+   "todos": {
+    "itens": 337,
+    "correta_mais_frequente": {
+     "taxa": 0.3293768545994065,
+     "itens": 337
+    },
+    "empate_no_topo": {
+     "taxa": 0.005934718100890208,
+     "itens": 337
+    }
+   },
+   "lei": {
+    "itens": 106,
+    "correta_mais_frequente": {
+     "taxa": 0.3113207547169811,
+     "itens": 106
+    },
+    "empate_no_topo": {
+     "taxa": 0.009433962264150943,
+     "itens": 106
+    }
+   },
+   "dec": {
+    "itens": 231,
+    "correta_mais_frequente": {
+     "taxa": 0.33766233766233766,
+     "itens": 231
+    },
+    "empate_no_topo": {
+     "taxa": 0.004329004329004329,
+     "itens": 231
+    }
+   },
+   "dec_grupo_de_1": {
+    "grupos": 67,
+    "de": 104,
+    "itens_em_grupos_maiores": 164,
+    "familias": {
+     "remissao": 67
+    }
+   },
+   "dec_remissao_alvo": {
+    "lei_no_treino": 38,
+    "lei_fora_do_treino": 53,
+    "nao_identificado": 135,
+    "proprio": 5
+   }
+  },
+  "ngrama": {
+   "todos": {
+    "escolhe_mais_frequente": 0.486646884272997,
+    "escolhe_distrator_mais_frequente": 0.44807121661721067,
+    "acerto": 0.258160237388724
+   },
+   "lei": {
+    "escolhe_mais_frequente": 0.5,
+    "escolhe_distrator_mais_frequente": 0.4339622641509434,
+    "acerto": 0.3113207547169811
+   },
+   "dec": {
+    "escolhe_mais_frequente": 0.4805194805194805,
+    "escolhe_distrator_mais_frequente": 0.45454545454545453,
+    "acerto": 0.23376623376623376
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.14925373134328357,
+    "p_abaixo_do_acaso": 0.033851855275540216
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.2682926829268293
+   },
+   "por_classe": {
+    "dec:remissao": {
+     "acerto": 0.23376623376623376,
+     "itens": 231
+    },
+    "correta_nao_mais_frequente": {
+     "acerto": 0.16371681415929204,
+     "itens": 226
+    },
+    "dec_remissao_lei_no_treino": {
+     "acerto": 0.18421052631578946,
+     "itens": 38
+    },
+    "dec_remissao_lei_fora_do_treino": {
+     "acerto": 0.2641509433962264,
+     "itens": 53
+    },
+    "correta_mais_frequente": {
+     "acerto": 0.45045045045045046,
+     "itens": 111
+    },
+    "dec_remissao_nao_identificado": {
+     "acerto": 0.24444444444444444,
+     "itens": 135
+    },
+    "dec_remissao_proprio": {
+     "acerto": 0.0,
+     "itens": 5
+    },
+    "lei:remissao": {
+     "acerto": 0.2857142857142857,
+     "itens": 77
+    },
+    "lei:numero": {
+     "acerto": 0.3793103448275862,
+     "itens": 29
+    }
+   },
+   "_corridas": 1
+  },
+  "ttl-160m": {
+   "todos": {
+    "escolhe_mais_frequente": 0.3086053412462908,
+    "escolhe_distrator_mais_frequente": 0.26112759643916916,
+    "acerto": 0.3560830860534125
+   },
+   "lei": {
+    "escolhe_mais_frequente": 0.3113207547169811,
+    "escolhe_distrator_mais_frequente": 0.1792452830188679,
+    "acerto": 0.49056603773584906
+   },
+   "dec": {
+    "escolhe_mais_frequente": 0.30735930735930733,
+    "escolhe_distrator_mais_frequente": 0.2987012987012987,
+    "acerto": 0.2943722943722944
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.1791044776119403,
+    "p_abaixo_do_acaso": 0.11277069797902156
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.34146341463414637
+   },
+   "por_classe": {
+    "dec:remissao": {
+     "acerto": 0.2943722943722944,
+     "itens": 231
+    },
+    "correta_nao_mais_frequente": {
+     "acerto": 0.3495575221238938,
+     "itens": 226
+    },
+    "dec_remissao_lei_no_treino": {
+     "acerto": 0.02631578947368421,
+     "itens": 38
+    },
+    "dec_remissao_lei_fora_do_treino": {
+     "acerto": 0.22641509433962265,
+     "itens": 53
+    },
+    "correta_mais_frequente": {
+     "acerto": 0.36936936936936937,
+     "itens": 111
+    },
+    "dec_remissao_nao_identificado": {
+     "acerto": 0.37777777777777777,
+     "itens": 135
+    },
+    "dec_remissao_proprio": {
+     "acerto": 0.8,
+     "itens": 5
+    },
+    "lei:remissao": {
+     "acerto": 0.4805194805194805,
+     "itens": 77
+    },
+    "lei:numero": {
+     "acerto": 0.5172413793103449,
+     "itens": 29
+    }
+   },
+   "_corridas": 1
+  },
+  "tucano-160m": {
+   "todos": {
+    "escolhe_mais_frequente": 0.2433234421364985,
+    "escolhe_distrator_mais_frequente": 0.20474777448071216,
+    "acerto": 0.36795252225519287
+   },
+   "lei": {
+    "escolhe_mais_frequente": 0.32075471698113206,
+    "escolhe_distrator_mais_frequente": 0.2169811320754717,
+    "acerto": 0.4528301886792453
+   },
+   "dec": {
+    "escolhe_mais_frequente": 0.2077922077922078,
+    "escolhe_distrator_mais_frequente": 0.19913419913419914,
+    "acerto": 0.329004329004329
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.19402985074626866,
+    "p_abaixo_do_acaso": 0.18051596986495316
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.38414634146341464
+   },
+   "por_classe": {
+    "dec:remissao": {
+     "acerto": 0.329004329004329,
+     "itens": 231
+    },
+    "correta_nao_mais_frequente": {
+     "acerto": 0.35398230088495575,
+     "itens": 226
+    },
+    "dec_remissao_lei_no_treino": {
+     "acerto": 0.07894736842105263,
+     "itens": 38
+    },
+    "dec_remissao_lei_fora_do_treino": {
+     "acerto": 0.3584905660377358,
+     "itens": 53
+    },
+    "correta_mais_frequente": {
+     "acerto": 0.3963963963963964,
+     "itens": 111
+    },
+    "dec_remissao_nao_identificado": {
+     "acerto": 0.37037037037037035,
+     "itens": 135
+    },
+    "dec_remissao_proprio": {
+     "acerto": 0.8,
+     "itens": 5
+    },
+    "lei:remissao": {
+     "acerto": 0.38961038961038963,
+     "itens": 77
+    },
+    "lei:numero": {
+     "acerto": 0.6206896551724138,
+     "itens": 29
+    }
+   },
+   "_corridas": 1
+  },
+  "tucano-630m": {
+   "todos": {
+    "escolhe_mais_frequente": 0.26706231454005935,
+    "escolhe_distrator_mais_frequente": 0.2195845697329377,
+    "acerto": 0.40059347181008903
+   },
+   "lei": {
+    "escolhe_mais_frequente": 0.330188679245283,
+    "escolhe_distrator_mais_frequente": 0.16981132075471697,
+    "acerto": 0.5377358490566038
+   },
+   "dec": {
+    "escolhe_mais_frequente": 0.23809523809523808,
+    "escolhe_distrator_mais_frequente": 0.24242424242424243,
+    "acerto": 0.33766233766233766
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.19402985074626866,
+    "p_abaixo_do_acaso": 0.18051596986495316
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.39634146341463417
+   },
+   "por_classe": {
+    "dec:remissao": {
+     "acerto": 0.33766233766233766,
+     "itens": 231
+    },
+    "correta_nao_mais_frequente": {
+     "acerto": 0.3938053097345133,
+     "itens": 226
+    },
+    "dec_remissao_lei_no_treino": {
+     "acerto": 0.02631578947368421,
+     "itens": 38
+    },
+    "dec_remissao_lei_fora_do_treino": {
+     "acerto": 0.33962264150943394,
+     "itens": 53
+    },
+    "correta_mais_frequente": {
+     "acerto": 0.4144144144144144,
+     "itens": 111
+    },
+    "dec_remissao_nao_identificado": {
+     "acerto": 0.4074074074074074,
+     "itens": 135
+    },
+    "dec_remissao_proprio": {
+     "acerto": 0.8,
+     "itens": 5
+    },
+    "lei:remissao": {
+     "acerto": 0.45454545454545453,
+     "itens": 77
+    },
+    "lei:numero": {
+     "acerto": 0.7586206896551724,
+     "itens": 29
+    }
+   },
+   "_corridas": 1
+  },
+  "autoregressivo": {
+   "todos": {
+    "escolhe_mais_frequente": 0.4759643916913946,
+    "escolhe_distrator_mais_frequente": 0.37329376854599405,
+    "acerto": 0.40118694362017804
+   },
+   "lei": {
+    "escolhe_mais_frequente": 0.530188679245283,
+    "escolhe_distrator_mais_frequente": 0.3886792452830189,
+    "acerto": 0.38113207547169814
+   },
+   "dec": {
+    "escolhe_mais_frequente": 0.4510822510822511,
+    "escolhe_distrator_mais_frequente": 0.36623376623376624,
+    "acerto": 0.4103896103896104
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.3850746268656716,
+    "p_abaixo_do_acaso": 0.9957921997034046
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.42073170731707316
+   },
+   "por_classe": {
+    "dec:remissao": {
+     "acerto": 0.4103896103896104,
+     "itens": 231
+    },
+    "correta_nao_mais_frequente": {
+     "acerto": 0.32123893805309733,
+     "itens": 226
+    },
+    "dec_remissao_lei_no_treino": {
+     "acerto": 0.5105263157894737,
+     "itens": 38
+    },
+    "dec_remissao_lei_fora_do_treino": {
+     "acerto": 0.37358490566037733,
+     "itens": 53
+    },
+    "correta_mais_frequente": {
+     "acerto": 0.563963963963964,
+     "itens": 111
+    },
+    "dec_remissao_nao_identificado": {
+     "acerto": 0.39111111111111113,
+     "itens": 135
+    },
+    "dec_remissao_proprio": {
+     "acerto": 0.56,
+     "itens": 5
+    },
+    "lei:remissao": {
+     "acerto": 0.3948051948051948,
+     "itens": 77
+    },
+    "lei:numero": {
+     "acerto": 0.3448275862068966,
+     "itens": 29
+    }
+   },
+   "_corridas": 5
+  },
+  "difusao": {
+   "todos": {
+    "escolhe_mais_frequente": 0.6894164193867458,
+    "escolhe_distrator_mais_frequente": 0.5326409495548962,
+    "acerto": 0.32047477744807124
+   },
+   "lei": {
+    "escolhe_mais_frequente": 0.6619496855345911,
+    "escolhe_distrator_mais_frequente": 0.4905660377358491,
+    "acerto": 0.3349056603773585
+   },
+   "dec": {
+    "escolhe_mais_frequente": 0.702020202020202,
+    "escolhe_distrator_mais_frequente": 0.551948051948052,
+    "acerto": 0.3138528138528139
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.2338308457711443,
+    "p_abaixo_do_acaso": 0.481337236691768
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.34654471544715443
+   },
+   "por_classe": {
+    "dec:remissao": {
+     "acerto": 0.31385281385281383,
+     "itens": 231
+    },
+    "correta_nao_mais_frequente": {
+     "acerto": 0.14749262536873156,
+     "itens": 226
+    },
+    "dec_remissao_lei_no_treino": {
+     "acerto": 0.14035087719298245,
+     "itens": 38
+    },
+    "dec_remissao_lei_fora_do_treino": {
+     "acerto": 0.32075471698113206,
+     "itens": 53
+    },
+    "correta_mais_frequente": {
+     "acerto": 0.6726726726726727,
+     "itens": 111
+    },
+    "dec_remissao_nao_identificado": {
+     "acerto": 0.35432098765432096,
+     "itens": 135
+    },
+    "dec_remissao_proprio": {
+     "acerto": 0.4666666666666667,
+     "itens": 5
+    },
+    "lei:remissao": {
+     "acerto": 0.3008658008658009,
+     "itens": 77
+    },
+    "lei:numero": {
+     "acerto": 0.42528735632183906,
+     "itens": 29
+    }
+   },
+   "_corridas": 6
+  }
+ },
+ "t3": {
+  "_base": {
+   "todos": {
+    "itens_com_valor": 940,
+    "original_mais_frequente": {
+     "taxa": 0.5457446808510639,
+     "itens": 940
+    }
+   },
+   "lei": {
+    "itens_com_valor": 190,
+    "original_mais_frequente": {
+     "taxa": 0.5631578947368421,
+     "itens": 190
+    }
+   },
+   "dec": {
+    "itens_com_valor": 750,
+    "original_mais_frequente": {
+     "taxa": 0.5413333333333333,
+     "itens": 750
+    }
+   },
+   "dec_grupo_de_1": {
+    "grupos": 265,
+    "de": 396,
+    "itens_em_grupos_maiores": 679,
+    "familias": {
+     "remissao": 232,
+     "embaralhamento": 14,
+     "termo": 19
+    }
+   }
+  },
+  "ngrama": {
+   "todos": {
+    "prefere_mais_frequente": 0.5574468085106383,
+    "acerto_original_mais_frequente": 0.6374269005847953,
+    "acerto_adulterado_mais_frequente": 0.5386416861826698
+   },
+   "lei": {
+    "prefere_mais_frequente": 0.6947368421052632,
+    "acerto_original_mais_frequente": 0.794392523364486,
+    "acerto_adulterado_mais_frequente": 0.43373493975903615
+   },
+   "dec": {
+    "prefere_mais_frequente": 0.5226666666666666,
+    "acerto_original_mais_frequente": 0.5960591133004927,
+    "acerto_adulterado_mais_frequente": 0.563953488372093
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.37735849056603776,
+    "p_abaixo_do_acaso": 3.9116573955677354e-05
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.695139911634757
+   }
+  },
+  "ttl-160m": {
+   "todos": {
+    "prefere_mais_frequente": 0.5861702127659575,
+    "acerto_original_mais_frequente": 0.6920077972709552,
+    "acerto_adulterado_mais_frequente": 0.5409836065573771
+   },
+   "lei": {
+    "prefere_mais_frequente": 0.5842105263157895,
+    "acerto_original_mais_frequente": 0.719626168224299,
+    "acerto_adulterado_mais_frequente": 0.5903614457831325
+   },
+   "dec": {
+    "prefere_mais_frequente": 0.5866666666666667,
+    "acerto_original_mais_frequente": 0.6847290640394089,
+    "acerto_adulterado_mais_frequente": 0.5290697674418605
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.47547169811320755,
+    "p_abaixo_do_acaso": 0.23054687499794102
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.6391752577319587
+   }
+  },
+  "tucano-160m": {
+   "todos": {
+    "prefere_mais_frequente": 0.4223404255319149,
+    "acerto_original_mais_frequente": 0.48927875243664715,
+    "acerto_adulterado_mais_frequente": 0.65807962529274
+   },
+   "lei": {
+    "prefere_mais_frequente": 0.5421052631578948,
+    "acerto_original_mais_frequente": 0.7476635514018691,
+    "acerto_adulterado_mais_frequente": 0.7228915662650602
+   },
+   "dec": {
+    "prefere_mais_frequente": 0.392,
+    "acerto_original_mais_frequente": 0.4211822660098522,
+    "acerto_adulterado_mais_frequente": 0.6424418604651163
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.2943396226415094,
+    "p_abaixo_do_acaso": 8.482365187620713e-12
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.6818851251840943
+   }
+  },
+  "tucano-630m": {
+   "todos": {
+    "prefere_mais_frequente": 0.5765957446808511,
+    "acerto_original_mais_frequente": 0.6939571150097466,
+    "acerto_adulterado_mais_frequente": 0.5644028103044496
+   },
+   "lei": {
+    "prefere_mais_frequente": 0.5473684210526316,
+    "acerto_original_mais_frequente": 0.7757009345794392,
+    "acerto_adulterado_mais_frequente": 0.7469879518072289
+   },
+   "dec": {
+    "prefere_mais_frequente": 0.584,
+    "acerto_original_mais_frequente": 0.6724137931034483,
+    "acerto_adulterado_mais_frequente": 0.5203488372093024
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.4339622641509434,
+    "p_abaixo_do_acaso": 0.01827198376006316
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.6229749631811488
+   }
+  },
+  "autoregressivo": {
+   "todos": {
+    "prefere_mais_frequente": 0.6759574468085107,
+    "acerto_original_mais_frequente": 0.7660818713450293,
+    "acerto_adulterado_mais_frequente": 0.43231850117096016
+   },
+   "lei": {
+    "prefere_mais_frequente": 0.6378947368421052,
+    "acerto_original_mais_frequente": 0.7439252336448597,
+    "acerto_adulterado_mais_frequente": 0.49879518072289153
+   },
+   "dec": {
+    "prefere_mais_frequente": 0.6856,
+    "acerto_original_mais_frequente": 0.7719211822660099,
+    "acerto_adulterado_mais_frequente": 0.4162790697674419
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.48226415094339625,
+    "p_abaixo_do_acaso": 0.3116007663529439
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.6586156111929308
+   }
+  },
+  "difusao": {
+   "todos": {
+    "prefere_mais_frequente": 0.698758865248227,
+    "acerto_original_mais_frequente": 0.7537361923326835,
+    "acerto_adulterado_mais_frequente": 0.3672911787665886
+   },
+   "lei": {
+    "prefere_mais_frequente": 0.7157894736842105,
+    "acerto_original_mais_frequente": 0.7741433021806854,
+    "acerto_adulterado_mais_frequente": 0.3594377510040161
+   },
+   "dec": {
+    "prefere_mais_frequente": 0.6944444444444445,
+    "acerto_original_mais_frequente": 0.7483579638752053,
+    "acerto_adulterado_mais_frequente": 0.3691860465116279
+   },
+   "dec_grupo_de_1": {
+    "acerto": 0.5264150943396226,
+    "p_abaixo_do_acaso": 0.8371618638441418
+   },
+   "dec_grupo_maior": {
+    "acerto": 0.5795287187039765
+   }
+  }
+ }
+}

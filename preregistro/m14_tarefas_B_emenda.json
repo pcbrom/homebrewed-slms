@@ -1,0 +1,42 @@
+{
+  "T3": "um item por familia aplicavel em cada artigo, no lugar de um operador por artigo",
+  "aprovada_por": "autor",
+  "conjunto_de_medida": "B_externo_atos",
+  "construcao_do_conjunto": "scripts/construir_corpus_b.py --anos 2025 2026 --particao externo --tipos LEI LCP DEC --saida corpus/B_externo_atos: leis ordinarias, leis complementares e decretos de 2025 e 2026 das classes substantiva e alteradora, num so agrupamento",
+  "construcao_dos_itens": "scripts/construir_tarefas.py --corpus B --externo B_externo_atos",
+  "data": "2026-10-28",
+  "documentos_sha256": "b97a763bc45d255d5fb12d759f2a8b7eb89c64aea4f247cd24b27fe66b51f83e",
+  "emenda_de": "m14_tarefas_B",
+  "grade_C_tfidf": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "inalterado": "todo o resto do pre-registro original, inclusive filtro, checkpoints, trilhas, testes e Holm",
+  "itens_sha256": {
+    "t1": "68a0ff3d211ba945b3a164b664ed9773bc6a72834bbea4d68bef0398a8b3a9ae",
+    "t2": "f8276c5fc6699c16177ee1dedbfe6f4aad62e1246588141f57e1cd9f11b60e67",
+    "t3": "a4fab8e8b7a10e004d852849b5f442eea570b6badb93b061ef12a566d90840b6",
+    "t4": "ffdbf4f9efcdd8c3e1b29d0eb5709925e98d6b25a35efed0bc7946a1d46a5044"
+  },
+  "ja_medido_antes_da_emenda": {
+    "conjunto": "B_externo (300 leis)",
+    "nada_mais": "nenhum checkpoint do projeto, regua publica ou Laya foi medido em tarefa antes desta emenda",
+    "pisos": {
+      "ngrama6": {
+        "T1": 0.3592,
+        "T2": 0.4966,
+        "T3": 0.6682,
+        "T4_bpb": 1.435
+      },
+      "tfidf": {
+        "T2": 0.5962,
+        "T3": 0.5321
+      }
+    }
+  },
+  "leitura_por_genero": "lei ordinaria, lei complementar e decreto relatados a parte como descricao, sem teste",
+  "motivo": "com o filtro de 13 tokens no item inteiro, o conjunto externo de leis deixava T1 com 89 itens em 23 grupos e T3 com 167 itens em 66 grupos; o teste do sinal so teria 80% de poder com 0,72 dos grupos a favor do modelo em T3 e 0,86 em T1 no pior caso de Holm. A emenda amplia os grupos sem afrouxar o filtro"
+}

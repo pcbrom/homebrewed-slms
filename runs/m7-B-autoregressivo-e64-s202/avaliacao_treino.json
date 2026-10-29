@@ -1,0 +1,2815 @@
+{
+  "conjunto": "treino",
+  "modo": "autoregressivo",
+  "K": 1,
+  "documentos": [
+    {
+      "doc_id": "B-lei-14453",
+      "grupo": "dec-95744",
+      "nats": 879.7172116841432,
+      "bytes": 3134,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13813",
+      "grupo": "del-1876",
+      "nats": 5162.963729132141,
+      "bytes": 18151,
+      "janelas": 25
+    },
+    {
+      "doc_id": "B-lei-13968",
+      "grupo": "del-2848",
+      "nats": 796.6669506899173,
+      "bytes": 2761,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14110",
+      "grupo": "del-2848",
+      "nats": 172.8170741358126,
+      "bytes": 992,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14132",
+      "grupo": "del-2848",
+      "nats": 382.7667093244779,
+      "bytes": 1776,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14155",
+      "grupo": "del-2848",
+      "nats": 1004.3460696113096,
+      "bytes": 3587,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14197",
+      "grupo": "del-2848",
+      "nats": 2095.3742909362018,
+      "bytes": 6440,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-14344",
+      "grupo": "del-2848",
+      "nats": 10038.416672396765,
+      "bytes": 33215,
+      "janelas": 50
+    },
+    {
+      "doc_id": "B-lei-14478",
+      "grupo": "del-2848",
+      "nats": 2811.7044329822847,
+      "bytes": 9751,
+      "janelas": 13
+    },
+    {
+      "doc_id": "B-lei-13867",
+      "grupo": "del-3365",
+      "nats": 794.5266371897726,
+      "bytes": 2374,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14273",
+      "grupo": "del-3365",
+      "nats": 26242.96167732154,
+      "bytes": 73871,
+      "janelas": 104
+    },
+    {
+      "doc_id": "B-lei-13876",
+      "grupo": "del-5452",
+      "nats": 1665.9192099472866,
+      "bytes": 6279,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-14331",
+      "grupo": "del-5452",
+      "nats": 2189.7723661530677,
+      "bytes": 7283,
+      "janelas": 10
+    },
+    {
+      "doc_id": "B-lei-14438",
+      "grupo": "del-5452",
+      "nats": 10119.444280609654,
+      "bytes": 38479,
+      "janelas": 54
+    },
+    {
+      "doc_id": "B-lei-14457",
+      "grupo": "del-5452",
+      "nats": 8508.150072822182,
+      "bytes": 29655,
+      "janelas": 43
+    },
+    {
+      "doc_id": "B-lei-13967",
+      "grupo": "del-667",
+      "nats": 508.85581182824706,
+      "bytes": 1858,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14017",
+      "grupo": "dlg-6",
+      "nats": 4793.049940464669,
+      "bytes": 18819,
+      "janelas": 26
+    },
+    {
+      "doc_id": "B-lei-14020",
+      "grupo": "dlg-6",
+      "nats": 8947.72275881361,
+      "bytes": 42937,
+      "janelas": 60
+    },
+    {
+      "doc_id": "B-lei-14036",
+      "grupo": "dlg-6",
+      "nats": 395.30269279845976,
+      "bytes": 2405,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14040",
+      "grupo": "dlg-6",
+      "nats": 2447.1537336602323,
+      "bytes": 8973,
+      "janelas": 13
+    },
+    {
+      "doc_id": "B-lei-14041",
+      "grupo": "dlg-6",
+      "nats": 835.4057961652779,
+      "bytes": 3543,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14057",
+      "grupo": "dlg-6",
+      "nats": 1956.9710595985302,
+      "bytes": 6548,
+      "janelas": 10
+    },
+    {
+      "doc_id": "B-lei-14058",
+      "grupo": "dlg-6",
+      "nats": 731.0747959060293,
+      "bytes": 3522,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14065",
+      "grupo": "dlg-6",
+      "nats": 1604.5800863068093,
+      "bytes": 8064,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14073",
+      "grupo": "dlg-6",
+      "nats": 5053.908140353244,
+      "bytes": 15518,
+      "janelas": 23
+    },
+    {
+      "doc_id": "B-lei-14150",
+      "grupo": "dlg-6",
+      "nats": 1390.124218045704,
+      "bytes": 7456,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14218",
+      "grupo": "dlg-6",
+      "nats": 160.5656358617179,
+      "bytes": 952,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14314",
+      "grupo": "lcp-173",
+      "nats": 320.46773074691276,
+      "bytes": 1443,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13932",
+      "grupo": "lcp-26",
+      "nats": 11741.97816914509,
+      "bytes": 35432,
+      "janelas": 50
+    },
+    {
+      "doc_id": "B-lei-14346",
+      "grupo": "lcp-79",
+      "nats": 153.25478905676806,
+      "bytes": 1097,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14319",
+      "grupo": "lcp-80",
+      "nats": 280.50967257399043,
+      "bytes": 1638,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14369",
+      "grupo": "lcp-89",
+      "nats": 1339.6968417358944,
+      "bytes": 4115,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14364",
+      "grupo": "lei-10048",
+      "nats": 281.606068012675,
+      "bytes": 1121,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14298",
+      "grupo": "lei-10233",
+      "nats": 642.5110591801243,
+      "bytes": 2728,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14465",
+      "grupo": "lei-10233",
+      "nats": 336.26353467469266,
+      "bytes": 1811,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14489",
+      "grupo": "lei-10257",
+      "nats": 353.72772703747046,
+      "bytes": 1314,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13930",
+      "grupo": "lei-10332",
+      "nats": 236.66215604577764,
+      "bytes": 1299,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14237",
+      "grupo": "lei-10336",
+      "nats": 7357.567105452159,
+      "bytes": 24309,
+      "janelas": 34
+    },
+    {
+      "doc_id": "B-lei-14146",
+      "grupo": "lei-10438",
+      "nats": 2224.1147446590935,
+      "bytes": 7289,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14299",
+      "grupo": "lei-10438",
+      "nats": 3123.844507709242,
+      "bytes": 10544,
+      "janelas": 15
+    },
+    {
+      "doc_id": "B-lei-14387",
+      "grupo": "lei-10447",
+      "nats": 143.6834198891899,
+      "bytes": 877,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13841",
+      "grupo": "lei-10480",
+      "nats": 485.7616010077438,
+      "bytes": 2301,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13912",
+      "grupo": "lei-10671",
+      "nats": 762.8629381550344,
+      "bytes": 2268,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14423",
+      "grupo": "lei-10741",
+      "nats": 10685.722819671542,
+      "bytes": 27869,
+      "janelas": 40
+    },
+    {
+      "doc_id": "B-lei-13905",
+      "grupo": "lei-10753",
+      "nats": 218.43507455091498,
+      "bytes": 1151,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13931",
+      "grupo": "lei-10778",
+      "nats": 223.83412326256035,
+      "bytes": 1202,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14431",
+      "grupo": "lei-10820",
+      "nats": 2673.504486820081,
+      "bytes": 10753,
+      "janelas": 15
+    },
+    {
+      "doc_id": "B-lei-14509",
+      "grupo": "lei-10820",
+      "nats": 865.3605099975288,
+      "bytes": 3836,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14300",
+      "grupo": "lei-10848",
+      "nats": 13069.198184718742,
+      "bytes": 42958,
+      "janelas": 60
+    },
+    {
+      "doc_id": "B-lei-13970",
+      "grupo": "lei-10931",
+      "nats": 1393.0789948026427,
+      "bytes": 5748,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-14350",
+      "grupo": "lei-11096",
+      "nats": 5129.182294651367,
+      "bytes": 18652,
+      "janelas": 26
+    },
+    {
+      "doc_id": "B-lei-14112",
+      "grupo": "lei-11101",
+      "nats": 40289.26521440651,
+      "bytes": 119823,
+      "janelas": 166
+    },
+    {
+      "doc_id": "B-lei-13821",
+      "grupo": "lei-11107",
+      "nats": 203.67250810122763,
+      "bytes": 989,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13822",
+      "grupo": "lei-11107",
+      "nats": 208.80020967959436,
+      "bytes": 1101,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14374",
+      "grupo": "lei-11196",
+      "nats": 1890.8260757283713,
+      "bytes": 7297,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14296",
+      "grupo": "lei-11279",
+      "nats": 2173.5283166902054,
+      "bytes": 5868,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-13827",
+      "grupo": "lei-11340",
+      "nats": 435.41279234648067,
+      "bytes": 2879,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13836",
+      "grupo": "lei-11340",
+      "nats": 181.98368562408996,
+      "bytes": 1141,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13880",
+      "grupo": "lei-11340",
+      "nats": 292.08749794874257,
+      "bytes": 1185,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13882",
+      "grupo": "lei-11340",
+      "nats": 356.6219649961007,
+      "bytes": 1937,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13894",
+      "grupo": "lei-11340",
+      "nats": 880.873917001104,
+      "bytes": 3841,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-13984",
+      "grupo": "lei-11340",
+      "nats": 196.45509537559164,
+      "bytes": 1149,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14188",
+      "grupo": "lei-11340",
+      "nats": 1066.2908752204994,
+      "bytes": 4237,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14310",
+      "grupo": "lei-11340",
+      "nats": 180.51885649097648,
+      "bytes": 1248,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13840",
+      "grupo": "lei-11343",
+      "nats": 9557.163661441897,
+      "bytes": 29146,
+      "janelas": 43
+    },
+    {
+      "doc_id": "B-lei-14322",
+      "grupo": "lei-11343",
+      "nats": 526.9116038987493,
+      "bytes": 1807,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14002",
+      "grupo": "lei-11371",
+      "nats": 8759.739281151138,
+      "bytes": 29074,
+      "janelas": 41
+    },
+    {
+      "doc_id": "B-lei-14355",
+      "grupo": "lei-11371",
+      "nats": 245.94970687183795,
+      "bytes": 1478,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14456",
+      "grupo": "lei-11416",
+      "nats": 368.30274920493406,
+      "bytes": 2243,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14439",
+      "grupo": "lei-11438",
+      "nats": 1360.3907232365914,
+      "bytes": 4725,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14206",
+      "grupo": "lei-11442",
+      "nats": 10924.300561722474,
+      "bytes": 34549,
+      "janelas": 46
+    },
+    {
+      "doc_id": "B-lei-13969",
+      "grupo": "lei-11484",
+      "nats": 12517.01530207509,
+      "bytes": 54189,
+      "janelas": 75
+    },
+    {
+      "doc_id": "B-lei-14302",
+      "grupo": "lei-11484",
+      "nats": 1499.173017264633,
+      "bytes": 5983,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14113",
+      "grupo": "lei-11494",
+      "nats": 24016.62165759534,
+      "bytes": 89802,
+      "janelas": 123
+    },
+    {
+      "doc_id": "B-lei-14276",
+      "grupo": "lei-11494",
+      "nats": 2266.332299225086,
+      "bytes": 10637,
+      "janelas": 15
+    },
+    {
+      "doc_id": "B-lei-14325",
+      "grupo": "lei-11494",
+      "nats": 673.0123583952468,
+      "bytes": 4672,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14184",
+      "grupo": "lei-11508",
+      "nats": 7939.074944321011,
+      "bytes": 25534,
+      "janelas": 36
+    },
+    {
+      "doc_id": "B-lei-14204",
+      "grupo": "lei-11526",
+      "nats": 4851.9318713852135,
+      "bytes": 17523,
+      "janelas": 27
+    },
+    {
+      "doc_id": "B-lei-13980",
+      "grupo": "lei-11664",
+      "nats": 306.46484723597496,
+      "bytes": 1157,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14335",
+      "grupo": "lei-11664",
+      "nats": 741.3278542083727,
+      "bytes": 2896,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14476",
+      "grupo": "lei-11771",
+      "nats": 3199.9487684381347,
+      "bytes": 11335,
+      "janelas": 17
+    },
+    {
+      "doc_id": "B-lei-13864",
+      "grupo": "lei-11775",
+      "nats": 214.62678038252085,
+      "bytes": 950,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14226",
+      "grupo": "lei-11798",
+      "nats": 3501.6270434394382,
+      "bytes": 12478,
+      "janelas": 18
+    },
+    {
+      "doc_id": "B-lei-14338",
+      "grupo": "lei-11903",
+      "nats": 1109.154993610251,
+      "bytes": 3138,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14060",
+      "grupo": "lei-11945",
+      "nats": 167.77465266298435,
+      "bytes": 1389,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13987",
+      "grupo": "lei-11947",
+      "nats": 303.15599973271503,
+      "bytes": 1350,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14462",
+      "grupo": "lei-11977",
+      "nats": 2266.6166949372464,
+      "bytes": 9684,
+      "janelas": 14
+    },
+    {
+      "doc_id": "B-lei-14042",
+      "grupo": "lei-12087",
+      "nats": 11139.012193041657,
+      "bytes": 50977,
+      "janelas": 69
+    },
+    {
+      "doc_id": "B-lei-14203",
+      "grupo": "lei-12212",
+      "nats": 185.45398840959132,
+      "bytes": 1069,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13797",
+      "grupo": "lei-12213",
+      "nats": 760.7808995424666,
+      "bytes": 2973,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13885",
+      "grupo": "lei-12276",
+      "nats": 1478.8939269285838,
+      "bytes": 5446,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-14340",
+      "grupo": "lei-12318",
+      "nats": 1141.425122688624,
+      "bytes": 3662,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14066",
+      "grupo": "lei-12334",
+      "nats": 12490.412607405395,
+      "bytes": 34686,
+      "janelas": 51
+    },
+    {
+      "doc_id": "B-lei-14156",
+      "grupo": "lei-12343",
+      "nats": 413.6333082686155,
+      "bytes": 1406,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14468",
+      "grupo": "lei-12343",
+      "nats": 216.6587093482111,
+      "bytes": 1388,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13933",
+      "grupo": "lei-12458",
+      "nats": 242.4011076763008,
+      "bytes": 893,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13828",
+      "grupo": "lei-12485",
+      "nats": 277.1083396729856,
+      "bytes": 1127,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14417",
+      "grupo": "lei-12513",
+      "nats": 335.6990104329784,
+      "bytes": 1727,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14345",
+      "grupo": "lei-12527",
+      "nats": 354.07282373158074,
+      "bytes": 1550,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14470",
+      "grupo": "lei-12529",
+      "nats": 871.467688623233,
+      "bytes": 2861,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14288",
+      "grupo": "lei-12546",
+      "nats": 573.7988862656537,
+      "bytes": 2816,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14000",
+      "grupo": "lei-12587",
+      "nats": 716.1680720513888,
+      "bytes": 2653,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14459",
+      "grupo": "lei-12598",
+      "nats": 1078.8445128501464,
+      "bytes": 3581,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-13809",
+      "grupo": "lei-12618",
+      "nats": 368.0697599624098,
+      "bytes": 1761,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14463",
+      "grupo": "lei-12618",
+      "nats": 2221.5520090824516,
+      "bytes": 8130,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-13887",
+      "grupo": "lei-12651",
+      "nats": 572.658132755751,
+      "bytes": 2009,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14285",
+      "grupo": "lei-12651",
+      "nats": 1307.1243488079342,
+      "bytes": 4281,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14406",
+      "grupo": "lei-12651",
+      "nats": 524.0460269760385,
+      "bytes": 2060,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14227",
+      "grupo": "lei-12712",
+      "nats": 4331.370215492238,
+      "bytes": 15710,
+      "janelas": 21
+    },
+    {
+      "doc_id": "B-lei-14108",
+      "grupo": "lei-12715",
+      "nats": 521.8793103925757,
+      "bytes": 3401,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13896",
+      "grupo": "lei-12732",
+      "nats": 247.66341789246366,
+      "bytes": 1033,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13977",
+      "grupo": "lei-12764",
+      "nats": 1321.3819592875398,
+      "bytes": 4580,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-14031",
+      "grupo": "lei-12865",
+      "nats": 2801.3222590199566,
+      "bytes": 10802,
+      "janelas": 15
+    },
+    {
+      "doc_id": "B-lei-14185",
+      "grupo": "lei-12865",
+      "nats": 457.9913852461318,
+      "bytes": 2073,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14221",
+      "grupo": "lei-13049",
+      "nats": 193.20310589290784,
+      "bytes": 1080,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14341",
+      "grupo": "lei-13105",
+      "nats": 3188.566260280451,
+      "bytes": 9991,
+      "janelas": 14
+    },
+    {
+      "doc_id": "B-lei-14424",
+      "grupo": "lei-13116",
+      "nats": 596.8540221190323,
+      "bytes": 2169,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14009",
+      "grupo": "lei-13146",
+      "nats": 136.99529302655702,
+      "bytes": 1014,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14159",
+      "grupo": "lei-13146",
+      "nats": 117.44790805273215,
+      "bytes": 1050,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14117",
+      "grupo": "lei-13155",
+      "nats": 1119.1049346334485,
+      "bytes": 4481,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14177",
+      "grupo": "lei-13178",
+      "nats": 385.988813931089,
+      "bytes": 1469,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13915",
+      "grupo": "lei-13328",
+      "nats": 334.34111704726433,
+      "bytes": 1429,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13844",
+      "grupo": "lei-13334",
+      "nats": 2668.4106669300845,
+      "bytes": 10631,
+      "janelas": 16
+    },
+    {
+      "doc_id": "B-lei-13901",
+      "grupo": "lei-13334",
+      "nats": 3498.100143032497,
+      "bytes": 13282,
+      "janelas": 20
+    },
+    {
+      "doc_id": "B-lei-14074",
+      "grupo": "lei-13334",
+      "nats": 2338.362434053078,
+      "bytes": 10806,
+      "janelas": 16
+    },
+    {
+      "doc_id": "B-lei-14261",
+      "grupo": "lei-13334",
+      "nats": 1256.923318874708,
+      "bytes": 5086,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-14048",
+      "grupo": "lei-13340",
+      "nats": 530.4270726906416,
+      "bytes": 2586,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14275",
+      "grupo": "lei-13340",
+      "nats": 4086.739847440551,
+      "bytes": 15417,
+      "janelas": 22
+    },
+    {
+      "doc_id": "B-lei-13873",
+      "grupo": "lei-13364",
+      "nats": 1332.8847290293875,
+      "bytes": 4141,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14015",
+      "grupo": "lei-13460",
+      "nats": 620.1449756725566,
+      "bytes": 2211,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13988",
+      "grupo": "lei-13464",
+      "nats": 11960.462606330155,
+      "bytes": 37666,
+      "janelas": 52
+    },
+    {
+      "doc_id": "B-lei-14163",
+      "grupo": "lei-13475",
+      "nats": 174.55925915326378,
+      "bytes": 1108,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14044",
+      "grupo": "lei-13594",
+      "nats": 770.0091480856333,
+      "bytes": 2687,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13999",
+      "grupo": "lei-13636",
+      "nats": 8085.847328743568,
+      "bytes": 36833,
+      "janelas": 50
+    },
+    {
+      "doc_id": "B-lei-14045",
+      "grupo": "lei-13636",
+      "nats": 659.4046108015524,
+      "bytes": 3703,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14161",
+      "grupo": "lei-13636",
+      "nats": 1358.7884390827994,
+      "bytes": 7548,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14257",
+      "grupo": "lei-13636",
+      "nats": 3212.353881467223,
+      "bytes": 13657,
+      "janelas": 18
+    },
+    {
+      "doc_id": "B-lei-14348",
+      "grupo": "lei-13636",
+      "nats": 1075.5844671980642,
+      "bytes": 6849,
+      "janelas": 10
+    },
+    {
+      "doc_id": "B-lei-14330",
+      "grupo": "lei-13675",
+      "nats": 176.39281152555657,
+      "bytes": 1096,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14445",
+      "grupo": "lei-13703",
+      "nats": 270.7379452032204,
+      "bytes": 1299,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13853",
+      "grupo": "lei-13709",
+      "nats": 6925.449969189927,
+      "bytes": 21877,
+      "janelas": 30
+    },
+    {
+      "doc_id": "B-lei-14460",
+      "grupo": "lei-13709",
+      "nats": 878.4824252264807,
+      "bytes": 4061,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14148",
+      "grupo": "lei-13756",
+      "nats": 7909.960964131262,
+      "bytes": 29704,
+      "janelas": 41
+    },
+    {
+      "doc_id": "B-lei-14294",
+      "grupo": "lei-13756",
+      "nats": 614.1521352938908,
+      "bytes": 2738,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14316",
+      "grupo": "lei-13756",
+      "nats": 453.1494241352949,
+      "bytes": 2343,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14455",
+      "grupo": "lei-13756",
+      "nats": 1213.0371914155826,
+      "bytes": 5036,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-13791",
+      "grupo": "lei-13791",
+      "nats": 1315.4323325835705,
+      "bytes": 4232,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-13793",
+      "grupo": "lei-13793",
+      "nats": 954.6466281127742,
+      "bytes": 3103,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13875",
+      "grupo": "lei-13793",
+      "nats": 294.9940214791654,
+      "bytes": 1146,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14039",
+      "grupo": "lei-13793",
+      "nats": 446.41440788241175,
+      "bytes": 2230,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14365",
+      "grupo": "lei-13793",
+      "nats": 8058.214716998649,
+      "bytes": 22149,
+      "janelas": 32
+    },
+    {
+      "doc_id": "B-lei-14508",
+      "grupo": "lei-13793",
+      "nats": 328.49980199826433,
+      "bytes": 1431,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13794",
+      "grupo": "lei-13794",
+      "nats": 716.016952369295,
+      "bytes": 2424,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13796",
+      "grupo": "lei-13796",
+      "nats": 903.081509784239,
+      "bytes": 2564,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13803",
+      "grupo": "lei-13796",
+      "nats": 185.91506961340988,
+      "bytes": 900,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13826",
+      "grupo": "lei-13796",
+      "nats": 340.753794498018,
+      "bytes": 1382,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14164",
+      "grupo": "lei-13796",
+      "nats": 632.4745343545828,
+      "bytes": 2430,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14191",
+      "grupo": "lei-13796",
+      "nats": 1490.2515798688648,
+      "bytes": 5346,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-14333",
+      "grupo": "lei-13796",
+      "nats": 233.17349573329318,
+      "bytes": 1182,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14407",
+      "grupo": "lei-13796",
+      "nats": 275.56293247918916,
+      "bytes": 1422,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13798",
+      "grupo": "lei-13798",
+      "nats": 244.0795730982085,
+      "bytes": 1250,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13812",
+      "grupo": "lei-13798",
+      "nats": 3785.2859016190805,
+      "bytes": 12097,
+      "janelas": 17
+    },
+    {
+      "doc_id": "B-lei-13824",
+      "grupo": "lei-13798",
+      "nats": 193.10731578571927,
+      "bytes": 1166,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13845",
+      "grupo": "lei-13798",
+      "nats": 224.4588392733684,
+      "bytes": 1161,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14154",
+      "grupo": "lei-13798",
+      "nats": 821.9309491898512,
+      "bytes": 2679,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13799",
+      "grupo": "lei-13799",
+      "nats": 822.7038401712298,
+      "bytes": 3156,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13800",
+      "grupo": "lei-13800",
+      "nats": 11231.918837068135,
+      "bytes": 37805,
+      "janelas": 51
+    },
+    {
+      "doc_id": "B-lei-13801",
+      "grupo": "lei-13801",
+      "nats": 268.63175897716496,
+      "bytes": 1105,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13804",
+      "grupo": "lei-13804",
+      "nats": 583.0077743759972,
+      "bytes": 2163,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13855",
+      "grupo": "lei-13804",
+      "nats": 167.80065088097314,
+      "bytes": 1112,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14071",
+      "grupo": "lei-13804",
+      "nats": 10954.896677570112,
+      "bytes": 33610,
+      "janelas": 50
+    },
+    {
+      "doc_id": "B-lei-14157",
+      "grupo": "lei-13804",
+      "nats": 1250.9373266740838,
+      "bytes": 3921,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14304",
+      "grupo": "lei-13804",
+      "nats": 374.9070402918725,
+      "bytes": 1685,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13805",
+      "grupo": "lei-13805",
+      "nats": 492.70777969649157,
+      "bytes": 1990,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13806",
+      "grupo": "lei-13806",
+      "nats": 504.3131661586468,
+      "bytes": 1859,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13814",
+      "grupo": "lei-13814",
+      "nats": 977.5072311975798,
+      "bytes": 4100,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-13818",
+      "grupo": "lei-13818",
+      "nats": 681.8110607384237,
+      "bytes": 2244,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14430",
+      "grupo": "lei-13818",
+      "nats": 14238.734260065154,
+      "bytes": 45370,
+      "janelas": 65
+    },
+    {
+      "doc_id": "B-lei-13819",
+      "grupo": "lei-13819",
+      "nats": 2081.3800591801332,
+      "bytes": 7005,
+      "janelas": 10
+    },
+    {
+      "doc_id": "B-lei-14307",
+      "grupo": "lei-13819",
+      "nats": 2281.8129475372452,
+      "bytes": 7674,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14454",
+      "grupo": "lei-13819",
+      "nats": 780.0077681574876,
+      "bytes": 2862,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13820",
+      "grupo": "lei-13820",
+      "nats": 2707.623585199262,
+      "bytes": 9893,
+      "janelas": 14
+    },
+    {
+      "doc_id": "B-lei-13823",
+      "grupo": "lei-13823",
+      "nats": 362.08373196590594,
+      "bytes": 1520,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13830",
+      "grupo": "lei-13830",
+      "nats": 949.0626109392865,
+      "bytes": 2724,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13831",
+      "grupo": "lei-13831",
+      "nats": 1962.7949723315105,
+      "bytes": 5981,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-13877",
+      "grupo": "lei-13831",
+      "nats": 5563.233509902343,
+      "bytes": 15508,
+      "janelas": 22
+    },
+    {
+      "doc_id": "B-lei-14063",
+      "grupo": "lei-13831",
+      "nats": 4933.403844037357,
+      "bytes": 15548,
+      "janelas": 23
+    },
+    {
+      "doc_id": "B-lei-14208",
+      "grupo": "lei-13831",
+      "nats": 1217.6904637065613,
+      "bytes": 4242,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14291",
+      "grupo": "lei-13831",
+      "nats": 3226.678386277971,
+      "bytes": 9245,
+      "janelas": 14
+    },
+    {
+      "doc_id": "B-lei-13832",
+      "grupo": "lei-13832",
+      "nats": 494.0016025568134,
+      "bytes": 2299,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14118",
+      "grupo": "lei-13832",
+      "nats": 5620.965135355562,
+      "bytes": 17486,
+      "janelas": 24
+    },
+    {
+      "doc_id": "B-lei-13833",
+      "grupo": "lei-13833",
+      "nats": 1556.2697909122599,
+      "bytes": 5943,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-13834",
+      "grupo": "lei-13834",
+      "nats": 412.9381757109008,
+      "bytes": 1556,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14192",
+      "grupo": "lei-13834",
+      "nats": 1564.1640231320785,
+      "bytes": 5118,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-14211",
+      "grupo": "lei-13834",
+      "nats": 1702.192902891565,
+      "bytes": 5056,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-13838",
+      "grupo": "lei-13838",
+      "nats": 193.75103960403766,
+      "bytes": 894,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13846",
+      "grupo": "lei-13838",
+      "nats": 23116.966565425086,
+      "bytes": 76161,
+      "janelas": 105
+    },
+    {
+      "doc_id": "B-lei-13865",
+      "grupo": "lei-13838",
+      "nats": 215.06622515333436,
+      "bytes": 1131,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14011",
+      "grupo": "lei-13838",
+      "nats": 10561.019836596512,
+      "bytes": 35111,
+      "janelas": 48
+    },
+    {
+      "doc_id": "B-lei-13842",
+      "grupo": "lei-13842",
+      "nats": 170.01388151375,
+      "bytes": 1172,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14034",
+      "grupo": "lei-13842",
+      "nats": 3901.1947649274402,
+      "bytes": 12246,
+      "janelas": 18
+    },
+    {
+      "doc_id": "B-lei-14174",
+      "grupo": "lei-13842",
+      "nats": 732.4477415300265,
+      "bytes": 2988,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13847",
+      "grupo": "lei-13847",
+      "nats": 129.18211987954234,
+      "bytes": 744,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14131",
+      "grupo": "lei-13847",
+      "nats": 1383.2307078761971,
+      "bytes": 5274,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-14441",
+      "grupo": "lei-13847",
+      "nats": 2297.4904630629617,
+      "bytes": 8755,
+      "janelas": 13
+    },
+    {
+      "doc_id": "B-lei-13848",
+      "grupo": "lei-13848",
+      "nats": 15707.830345555383,
+      "bytes": 56441,
+      "janelas": 81
+    },
+    {
+      "doc_id": "B-lei-14052",
+      "grupo": "lei-13848",
+      "nats": 3566.3769228844667,
+      "bytes": 11225,
+      "janelas": 16
+    },
+    {
+      "doc_id": "B-lei-14385",
+      "grupo": "lei-13848",
+      "nats": 1351.200748246971,
+      "bytes": 5045,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-13854",
+      "grupo": "lei-13854",
+      "nats": 1140.3522036649429,
+      "bytes": 3857,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-13856",
+      "grupo": "lei-13856",
+      "nats": 1865.3332435916445,
+      "bytes": 6157,
+      "janelas": 10
+    },
+    {
+      "doc_id": "B-lei-13860",
+      "grupo": "lei-13860",
+      "nats": 1763.7027480649592,
+      "bytes": 5193,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-13861",
+      "grupo": "lei-13861",
+      "nats": 189.35166357726916,
+      "bytes": 863,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13862",
+      "grupo": "lei-13862",
+      "nats": 368.64472824544043,
+      "bytes": 1610,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13866",
+      "grupo": "lei-13866",
+      "nats": 176.98383322480444,
+      "bytes": 812,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13868",
+      "grupo": "lei-13868",
+      "nats": 501.9171146635522,
+      "bytes": 1982,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13869",
+      "grupo": "lei-13869",
+      "nats": 6954.128406074141,
+      "bytes": 19260,
+      "janelas": 30
+    },
+    {
+      "doc_id": "B-lei-14321",
+      "grupo": "lei-13869",
+      "nats": 224.77329300183044,
+      "bytes": 1349,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13872",
+      "grupo": "lei-13872",
+      "nats": 741.741620586296,
+      "bytes": 2434,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13878",
+      "grupo": "lei-13878",
+      "nats": 372.06558867629496,
+      "bytes": 1446,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13879",
+      "grupo": "lei-13879",
+      "nats": 2928.367999780474,
+      "bytes": 8714,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-14109",
+      "grupo": "lei-13879",
+      "nats": 2698.0854048403125,
+      "bytes": 10097,
+      "janelas": 15
+    },
+    {
+      "doc_id": "B-lei-13881",
+      "grupo": "lei-13881",
+      "nats": 346.93744382841305,
+      "bytes": 1355,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13986",
+      "grupo": "lei-13881",
+      "nats": 27085.540833953193,
+      "bytes": 92120,
+      "janelas": 130
+    },
+    {
+      "doc_id": "B-lei-13886",
+      "grupo": "lei-13886",
+      "nats": 5726.294965191816,
+      "bytes": 18454,
+      "janelas": 26
+    },
+    {
+      "doc_id": "B-lei-13895",
+      "grupo": "lei-13895",
+      "nats": 677.9854527327226,
+      "bytes": 2220,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13902",
+      "grupo": "lei-13902",
+      "nats": 292.75021181710053,
+      "bytes": 1149,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13903",
+      "grupo": "lei-13903",
+      "nats": 5935.135170075309,
+      "bytes": 20455,
+      "janelas": 28
+    },
+    {
+      "doc_id": "B-lei-13913",
+      "grupo": "lei-13913",
+      "nats": 510.14552116670995,
+      "bytes": 2080,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-13934",
+      "grupo": "lei-13934",
+      "nats": 2050.814455079919,
+      "bytes": 6288,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-13935",
+      "grupo": "lei-13935",
+      "nats": 287.3286273169787,
+      "bytes": 1336,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13954",
+      "grupo": "lei-13954",
+      "nats": 21145.0247239791,
+      "bytes": 68537,
+      "janelas": 104
+    },
+    {
+      "doc_id": "B-lei-13959",
+      "grupo": "lei-13959",
+      "nats": 869.687829215439,
+      "bytes": 2862,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13964",
+      "grupo": "lei-13964",
+      "nats": 29914.922437265574,
+      "bytes": 79916,
+      "janelas": 116
+    },
+    {
+      "doc_id": "B-lei-13966",
+      "grupo": "lei-13966",
+      "nats": 4563.082832682743,
+      "bytes": 11542,
+      "janelas": 17
+    },
+    {
+      "doc_id": "B-lei-13974",
+      "grupo": "lei-13974",
+      "nats": 2375.196595899083,
+      "bytes": 8261,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-13975",
+      "grupo": "lei-13975",
+      "nats": 236.9713201685464,
+      "bytes": 921,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13976",
+      "grupo": "lei-13976",
+      "nats": 256.9091724141557,
+      "bytes": 1146,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13979",
+      "grupo": "lei-13979",
+      "nats": 6578.4957928422955,
+      "bytes": 31552,
+      "janelas": 43
+    },
+    {
+      "doc_id": "B-lei-14006",
+      "grupo": "lei-13979",
+      "nats": 533.860585312849,
+      "bytes": 2979,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14019",
+      "grupo": "lei-13979",
+      "nats": 1451.401165782235,
+      "bytes": 7551,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14022",
+      "grupo": "lei-13979",
+      "nats": 2683.8950737293712,
+      "bytes": 10474,
+      "janelas": 16
+    },
+    {
+      "doc_id": "B-lei-14023",
+      "grupo": "lei-13979",
+      "nats": 803.3427684114356,
+      "bytes": 4402,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14028",
+      "grupo": "lei-13979",
+      "nats": 172.856819343657,
+      "bytes": 1143,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14035",
+      "grupo": "lei-13979",
+      "nats": 1804.1600673159796,
+      "bytes": 10991,
+      "janelas": 15
+    },
+    {
+      "doc_id": "B-lei-13981",
+      "grupo": "lei-13981",
+      "nats": 279.85910758130785,
+      "bytes": 1089,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-13982",
+      "grupo": "lei-13981",
+      "nats": 3800.8352533740335,
+      "bytes": 14184,
+      "janelas": 20
+    },
+    {
+      "doc_id": "B-lei-13998",
+      "grupo": "lei-13981",
+      "nats": 635.6926722024242,
+      "bytes": 2773,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14075",
+      "grupo": "lei-13981",
+      "nats": 2194.0330467431404,
+      "bytes": 8230,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-14171",
+      "grupo": "lei-13981",
+      "nats": 936.8390764483831,
+      "bytes": 3594,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14176",
+      "grupo": "lei-13981",
+      "nats": 3274.319168240269,
+      "bytes": 12605,
+      "janelas": 18
+    },
+    {
+      "doc_id": "B-lei-14284",
+      "grupo": "lei-13981",
+      "nats": 1642.0075737326167,
+      "bytes": 5280,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-14342",
+      "grupo": "lei-13981",
+      "nats": 457.3487207077093,
+      "bytes": 1883,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13985",
+      "grupo": "lei-13985",
+      "nats": 773.270938475471,
+      "bytes": 3003,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-13989",
+      "grupo": "lei-13989",
+      "nats": 591.1162550559184,
+      "bytes": 1916,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13993",
+      "grupo": "lei-13993",
+      "nats": 448.43521924131545,
+      "bytes": 1478,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13994",
+      "grupo": "lei-13994",
+      "nats": 386.58219778742864,
+      "bytes": 1378,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-13995",
+      "grupo": "lei-13995",
+      "nats": 1072.5654437351347,
+      "bytes": 3869,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-13996",
+      "grupo": "lei-13996",
+      "nats": 221.74245202766048,
+      "bytes": 1553,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14059",
+      "grupo": "lei-13996",
+      "nats": 369.0659446150613,
+      "bytes": 2081,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14515",
+      "grupo": "lei-13996",
+      "nats": 11477.21613402235,
+      "bytes": 38673,
+      "janelas": 55
+    },
+    {
+      "doc_id": "B-lei-13997",
+      "grupo": "lei-13997",
+      "nats": 156.4696949831087,
+      "bytes": 1586,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14003",
+      "grupo": "lei-14003",
+      "nats": 398.6797342799847,
+      "bytes": 2195,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14004",
+      "grupo": "lei-14004",
+      "nats": 1149.439276602664,
+      "bytes": 3618,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14007",
+      "grupo": "lei-14007",
+      "nats": 675.2476106038218,
+      "bytes": 2643,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14010",
+      "grupo": "lei-14010",
+      "nats": 2600.8460895180524,
+      "bytes": 7568,
+      "janelas": 13
+    },
+    {
+      "doc_id": "B-lei-14013",
+      "grupo": "lei-14013",
+      "nats": 226.56176937621797,
+      "bytes": 1331,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14018",
+      "grupo": "lei-14018",
+      "nats": 514.2715207138416,
+      "bytes": 2341,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14021",
+      "grupo": "lei-14021",
+      "nats": 6611.177822441083,
+      "bytes": 19787,
+      "janelas": 30
+    },
+    {
+      "doc_id": "B-lei-14141",
+      "grupo": "lei-14021",
+      "nats": 307.22451835890087,
+      "bytes": 1390,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14313",
+      "grupo": "lei-14021",
+      "nats": 654.3670909996738,
+      "bytes": 2200,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14510",
+      "grupo": "lei-14021",
+      "nats": 1772.9336552181246,
+      "bytes": 5169,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-14025",
+      "grupo": "lei-14025",
+      "nats": 197.3896519738765,
+      "bytes": 920,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14026",
+      "grupo": "lei-14026",
+      "nats": 28621.214707682753,
+      "bytes": 89195,
+      "janelas": 121
+    },
+    {
+      "doc_id": "B-lei-14027",
+      "grupo": "lei-14027",
+      "nats": 2412.67053090286,
+      "bytes": 7455,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14029",
+      "grupo": "lei-14029",
+      "nats": 1539.8329533375668,
+      "bytes": 4929,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14030",
+      "grupo": "lei-14030",
+      "nats": 2107.871494642025,
+      "bytes": 7708,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14038",
+      "grupo": "lei-14038",
+      "nats": 876.2656624675317,
+      "bytes": 3102,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14043",
+      "grupo": "lei-14043",
+      "nats": 4370.237635172674,
+      "bytes": 18996,
+      "janelas": 26
+    },
+    {
+      "doc_id": "B-lei-14115",
+      "grupo": "lei-14043",
+      "nats": 214.7736748728754,
+      "bytes": 1313,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14046",
+      "grupo": "lei-14046",
+      "nats": 1885.5826422347277,
+      "bytes": 7217,
+      "janelas": 10
+    },
+    {
+      "doc_id": "B-lei-14186",
+      "grupo": "lei-14046",
+      "nats": 367.1395321360055,
+      "bytes": 1892,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14390",
+      "grupo": "lei-14046",
+      "nats": 814.5995220724599,
+      "bytes": 4418,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14047",
+      "grupo": "lei-14047",
+      "nats": 5805.037006734835,
+      "bytes": 18825,
+      "janelas": 26
+    },
+    {
+      "doc_id": "B-lei-14053",
+      "grupo": "lei-14053",
+      "nats": 460.55701905588114,
+      "bytes": 1790,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14064",
+      "grupo": "lei-14064",
+      "nats": 184.3129086841926,
+      "bytes": 1010,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14069",
+      "grupo": "lei-14069",
+      "nats": 464.72806022000276,
+      "bytes": 1903,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14070",
+      "grupo": "lei-14070",
+      "nats": 325.0234058051483,
+      "bytes": 1803,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14072",
+      "grupo": "lei-14072",
+      "nats": 192.61035429950743,
+      "bytes": 1369,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14076",
+      "grupo": "lei-14076",
+      "nats": 558.0258456207398,
+      "bytes": 2251,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14106",
+      "grupo": "lei-14106",
+      "nats": 192.25724348575102,
+      "bytes": 1644,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14119",
+      "grupo": "lei-14119",
+      "nats": 9089.53438512008,
+      "bytes": 26675,
+      "janelas": 38
+    },
+    {
+      "doc_id": "B-lei-14199",
+      "grupo": "lei-14119",
+      "nats": 1388.919588983291,
+      "bytes": 4638,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14360",
+      "grupo": "lei-14119",
+      "nats": 335.0643045373063,
+      "bytes": 1815,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14120",
+      "grupo": "lei-14120",
+      "nats": 8855.445889857461,
+      "bytes": 29665,
+      "janelas": 41
+    },
+    {
+      "doc_id": "B-lei-14121",
+      "grupo": "lei-14121",
+      "nats": 1297.5523461296812,
+      "bytes": 4496,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14124",
+      "grupo": "lei-14124",
+      "nats": 5130.117355053337,
+      "bytes": 23321,
+      "janelas": 32
+    },
+    {
+      "doc_id": "B-lei-14190",
+      "grupo": "lei-14124",
+      "nats": 229.10514602277846,
+      "bytes": 1500,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14259",
+      "grupo": "lei-14124",
+      "nats": 489.5585901521233,
+      "bytes": 2580,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14466",
+      "grupo": "lei-14125",
+      "nats": 135.63145382197047,
+      "bytes": 981,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14126",
+      "grupo": "lei-14126",
+      "nats": 125.54097744160131,
+      "bytes": 802,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14128",
+      "grupo": "lei-14128",
+      "nats": 2586.3077594493234,
+      "bytes": 9458,
+      "janelas": 14
+    },
+    {
+      "doc_id": "B-lei-14129",
+      "grupo": "lei-14129",
+      "nats": 15320.110930773722,
+      "bytes": 46233,
+      "janelas": 64
+    },
+    {
+      "doc_id": "B-lei-14130",
+      "grupo": "lei-14130",
+      "nats": 1875.5057411230657,
+      "bytes": 6914,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14133",
+      "grupo": "lei-14133",
+      "nats": 97831.17994966816,
+      "bytes": 274989,
+      "janelas": 368
+    },
+    {
+      "doc_id": "B-lei-14134",
+      "grupo": "lei-14134",
+      "nats": 16346.231309195176,
+      "bytes": 51357,
+      "janelas": 71
+    },
+    {
+      "doc_id": "B-lei-14292",
+      "grupo": "lei-14134",
+      "nats": 1225.0224460015033,
+      "bytes": 4517,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14367",
+      "grupo": "lei-14134",
+      "nats": 877.543335073498,
+      "bytes": 4418,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14440",
+      "grupo": "lei-14134",
+      "nats": 8110.565120631028,
+      "bytes": 26286,
+      "janelas": 38
+    },
+    {
+      "doc_id": "B-lei-14178",
+      "grupo": "lei-14144",
+      "nats": 69.20590686768917,
+      "bytes": 600,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14213",
+      "grupo": "lei-14144",
+      "nats": 1084.1887807669916,
+      "bytes": 3814,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14145",
+      "grupo": "lei-14145",
+      "nats": 263.89374372819304,
+      "bytes": 2293,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14147",
+      "grupo": "lei-14147",
+      "nats": 245.0573886415418,
+      "bytes": 1238,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14149",
+      "grupo": "lei-14149",
+      "nats": 505.8230078034369,
+      "bytes": 2238,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14151",
+      "grupo": "lei-14151",
+      "nats": 527.8013901871448,
+      "bytes": 3080,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14311",
+      "grupo": "lei-14151",
+      "nats": 696.3188125833387,
+      "bytes": 3829,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14152",
+      "grupo": "lei-14152",
+      "nats": 416.7906688867986,
+      "bytes": 1710,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14158",
+      "grupo": "lei-14158",
+      "nats": 101.25190490438212,
+      "bytes": 1109,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14160",
+      "grupo": "lei-14160",
+      "nats": 422.7656671642148,
+      "bytes": 2931,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14458",
+      "grupo": "lei-14160",
+      "nats": 435.6049624210332,
+      "bytes": 2938,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14162",
+      "grupo": "lei-14162",
+      "nats": 677.8243449180451,
+      "bytes": 2866,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14165",
+      "grupo": "lei-14165",
+      "nats": 5199.972722425613,
+      "bytes": 16703,
+      "janelas": 24
+    },
+    {
+      "doc_id": "B-lei-14166",
+      "grupo": "lei-14166",
+      "nats": 7284.354852683755,
+      "bytes": 30341,
+      "janelas": 42
+    },
+    {
+      "doc_id": "B-lei-14172",
+      "grupo": "lei-14172",
+      "nats": 2499.365089926283,
+      "bytes": 8931,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-14173",
+      "grupo": "lei-14173",
+      "nats": 2236.5498494855146,
+      "bytes": 8111,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-14180",
+      "grupo": "lei-14180",
+      "nats": 1990.907746233727,
+      "bytes": 6733,
+      "janelas": 10
+    },
+    {
+      "doc_id": "B-lei-14181",
+      "grupo": "lei-14181",
+      "nats": 6856.0705383761,
+      "bytes": 17464,
+      "janelas": 25
+    },
+    {
+      "doc_id": "B-lei-14182",
+      "grupo": "lei-14182",
+      "nats": 13429.898507619526,
+      "bytes": 49104,
+      "janelas": 69
+    },
+    {
+      "doc_id": "B-lei-14183",
+      "grupo": "lei-14183",
+      "nats": 2650.7616189262353,
+      "bytes": 9658,
+      "janelas": 15
+    },
+    {
+      "doc_id": "B-lei-14446",
+      "grupo": "lei-14183",
+      "nats": 161.303265469096,
+      "bytes": 1305,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14187",
+      "grupo": "lei-14187",
+      "nats": 989.106459084057,
+      "bytes": 3231,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14193",
+      "grupo": "lei-14193",
+      "nats": 12445.788503491667,
+      "bytes": 37587,
+      "janelas": 54
+    },
+    {
+      "doc_id": "B-lei-14205",
+      "grupo": "lei-14193",
+      "nats": 921.6088160543354,
+      "bytes": 3055,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14196",
+      "grupo": "lei-14196",
+      "nats": 697.1951065275503,
+      "bytes": 2541,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14198",
+      "grupo": "lei-14198",
+      "nats": 622.4092557587854,
+      "bytes": 2050,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14200",
+      "grupo": "lei-14200",
+      "nats": 2413.748177632486,
+      "bytes": 7955,
+      "janelas": 11
+    },
+    {
+      "doc_id": "B-lei-14210",
+      "grupo": "lei-14210",
+      "nats": 1620.469600492046,
+      "bytes": 4469,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14215",
+      "grupo": "lei-14215",
+      "nats": 2659.6089099208016,
+      "bytes": 8568,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-14216",
+      "grupo": "lei-14216",
+      "nats": 2636.168785556329,
+      "bytes": 8170,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-14217",
+      "grupo": "lei-14217",
+      "nats": 3214.7753287994447,
+      "bytes": 16049,
+      "janelas": 22
+    },
+    {
+      "doc_id": "B-lei-14222",
+      "grupo": "lei-14222",
+      "nats": 10792.717443947764,
+      "bytes": 35577,
+      "janelas": 53
+    },
+    {
+      "doc_id": "B-lei-14514",
+      "grupo": "lei-14222",
+      "nats": 7229.39099445721,
+      "bytes": 23268,
+      "janelas": 35
+    },
+    {
+      "doc_id": "B-lei-14228",
+      "grupo": "lei-14228",
+      "nats": 496.05268605358947,
+      "bytes": 1929,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14229",
+      "grupo": "lei-14229",
+      "nats": 3545.707454267594,
+      "bytes": 12491,
+      "janelas": 18
+    },
+    {
+      "doc_id": "B-lei-14231",
+      "grupo": "lei-14231",
+      "nats": 171.90552544495642,
+      "bytes": 927,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14232",
+      "grupo": "lei-14232",
+      "nats": 1582.7258920203099,
+      "bytes": 5794,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-14234",
+      "grupo": "lei-14234",
+      "nats": 219.08403457673296,
+      "bytes": 1168,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14245",
+      "grupo": "lei-14245",
+      "nats": 679.5508008624304,
+      "bytes": 3480,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14248",
+      "grupo": "lei-14248",
+      "nats": 630.2053875839479,
+      "bytes": 2085,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14253",
+      "grupo": "lei-14253",
+      "nats": 464.1435904140898,
+      "bytes": 2819,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14254",
+      "grupo": "lei-14254",
+      "nats": 993.8735898273919,
+      "bytes": 3016,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14258",
+      "grupo": "lei-14258",
+      "nats": 212.11718758943744,
+      "bytes": 745,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14260",
+      "grupo": "lei-14260",
+      "nats": 1760.3718865554022,
+      "bytes": 6149,
+      "janelas": 10
+    },
+    {
+      "doc_id": "B-lei-14282",
+      "grupo": "lei-14282",
+      "nats": 3071.1386165643144,
+      "bytes": 8012,
+      "janelas": 12
+    },
+    {
+      "doc_id": "B-lei-14286",
+      "grupo": "lei-14286",
+      "nats": 8543.13500660567,
+      "bytes": 28401,
+      "janelas": 41
+    },
+    {
+      "doc_id": "B-lei-14287",
+      "grupo": "lei-14287",
+      "nats": 684.3841269615172,
+      "bytes": 2895,
+      "janelas": 5
+    },
+    {
+      "doc_id": "B-lei-14289",
+      "grupo": "lei-14289",
+      "nats": 1382.8007116349522,
+      "bytes": 5818,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-14290",
+      "grupo": "lei-14290",
+      "nats": 859.2281281155041,
+      "bytes": 3846,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14293",
+      "grupo": "lei-14293",
+      "nats": 1850.5707371209344,
+      "bytes": 6071,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-14295",
+      "grupo": "lei-14295",
+      "nats": 163.84066989580603,
+      "bytes": 1073,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14412",
+      "grupo": "lei-14303",
+      "nats": 1364.4304000110967,
+      "bytes": 4471,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14305",
+      "grupo": "lei-14305",
+      "nats": 481.14598322542525,
+      "bytes": 2442,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14308",
+      "grupo": "lei-14308",
+      "nats": 3680.25056261571,
+      "bytes": 10176,
+      "janelas": 16
+    },
+    {
+      "doc_id": "B-lei-14312",
+      "grupo": "lei-14312",
+      "nats": 7141.4447533353505,
+      "bytes": 26042,
+      "janelas": 36
+    },
+    {
+      "doc_id": "B-lei-14317",
+      "grupo": "lei-14317",
+      "nats": 3505.7329680710377,
+      "bytes": 10845,
+      "janelas": 16
+    },
+    {
+      "doc_id": "B-lei-14318",
+      "grupo": "lei-14318",
+      "nats": 503.3401989500371,
+      "bytes": 2039,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14323",
+      "grupo": "lei-14323",
+      "nats": 249.74453892456876,
+      "bytes": 1800,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14326",
+      "grupo": "lei-14326",
+      "nats": 326.10995345509514,
+      "bytes": 1537,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14327",
+      "grupo": "lei-14327",
+      "nats": 1234.4924892953895,
+      "bytes": 4104,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14332",
+      "grupo": "lei-14332",
+      "nats": 619.98912936487,
+      "bytes": 2086,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14334",
+      "grupo": "lei-14334",
+      "nats": 598.206623174468,
+      "bytes": 2070,
+      "janelas": 4
+    },
+    {
+      "doc_id": "B-lei-14343",
+      "grupo": "lei-14343",
+      "nats": 354.76188932152786,
+      "bytes": 1894,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14351",
+      "grupo": "lei-14351",
+      "nats": 3631.148221208108,
+      "bytes": 12771,
+      "janelas": 18
+    },
+    {
+      "doc_id": "B-lei-14408",
+      "grupo": "lei-14351",
+      "nats": 522.1628677202814,
+      "bytes": 1747,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14358",
+      "grupo": "lei-14358",
+      "nats": 129.69649926877787,
+      "bytes": 1118,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14366",
+      "grupo": "lei-14366",
+      "nats": 1358.3198553263114,
+      "bytes": 5738,
+      "janelas": 9
+    },
+    {
+      "doc_id": "B-lei-14368",
+      "grupo": "lei-14368",
+      "nats": 10293.940833197365,
+      "bytes": 31609,
+      "janelas": 48
+    },
+    {
+      "doc_id": "B-lei-14377",
+      "grupo": "lei-14377",
+      "nats": 6421.207223940561,
+      "bytes": 22862,
+      "janelas": 33
+    },
+    {
+      "doc_id": "B-lei-14382",
+      "grupo": "lei-14382",
+      "nats": 28561.308839707122,
+      "bytes": 78011,
+      "janelas": 110
+    },
+    {
+      "doc_id": "B-lei-14386",
+      "grupo": "lei-14386",
+      "nats": 4143.946518955341,
+      "bytes": 13888,
+      "janelas": 20
+    },
+    {
+      "doc_id": "B-lei-14391",
+      "grupo": "lei-14391",
+      "nats": 153.77056076936742,
+      "bytes": 1304,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14416",
+      "grupo": "lei-14391",
+      "nats": 198.68656809771304,
+      "bytes": 1346,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14393",
+      "grupo": "lei-14393",
+      "nats": 1534.6327766614195,
+      "bytes": 4174,
+      "janelas": 7
+    },
+    {
+      "doc_id": "B-lei-14395",
+      "grupo": "lei-14395",
+      "nats": 193.40536555168427,
+      "bytes": 996,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14397",
+      "grupo": "lei-14397",
+      "nats": 273.5697483129964,
+      "bytes": 1319,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14398",
+      "grupo": "lei-14398",
+      "nats": 1084.879749855991,
+      "bytes": 3965,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14421",
+      "grupo": "lei-14421",
+      "nats": 3968.6293420349234,
+      "bytes": 15135,
+      "janelas": 22
+    },
+    {
+      "doc_id": "B-lei-14434",
+      "grupo": "lei-14434",
+      "nats": 619.273267762874,
+      "bytes": 3141,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14437",
+      "grupo": "lei-14437",
+      "nats": 9387.19533872454,
+      "bytes": 45834,
+      "janelas": 62
+    },
+    {
+      "doc_id": "B-lei-14442",
+      "grupo": "lei-14442",
+      "nats": 2703.7809806972177,
+      "bytes": 10526,
+      "janelas": 14
+    },
+    {
+      "doc_id": "B-lei-14443",
+      "grupo": "lei-14443",
+      "nats": 537.5402431270061,
+      "bytes": 1943,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14447",
+      "grupo": "lei-14447",
+      "nats": 3000.403827088159,
+      "bytes": 8827,
+      "janelas": 20
+    },
+    {
+      "doc_id": "B-lei-14449",
+      "grupo": "lei-14449",
+      "nats": 207.4236538022323,
+      "bytes": 1122,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14450",
+      "grupo": "lei-14450",
+      "nats": 1125.8318813175376,
+      "bytes": 3600,
+      "janelas": 6
+    },
+    {
+      "doc_id": "B-lei-14452",
+      "grupo": "lei-14452",
+      "nats": 20895.346551708673,
+      "bytes": 72360,
+      "janelas": 170
+    },
+    {
+      "doc_id": "B-lei-14516",
+      "grupo": "lei-14452",
+      "nats": 20519.532159630107,
+      "bytes": 71530,
+      "janelas": 169
+    },
+    {
+      "doc_id": "B-lei-14461",
+      "grupo": "lei-14461",
+      "nats": 181.7422343747321,
+      "bytes": 1532,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14464",
+      "grupo": "lei-14464",
+      "nats": 204.1679646659905,
+      "bytes": 1011,
+      "janelas": 2
+    },
+    {
+      "doc_id": "B-lei-14467",
+      "grupo": "lei-14467",
+      "nats": 3343.027436942569,
+      "bytes": 12647,
+      "janelas": 18
+    },
+    {
+      "doc_id": "B-lei-14473",
+      "grupo": "lei-14473",
+      "nats": 516.6752975158121,
+      "bytes": 1900,
+      "janelas": 3
+    },
+    {
+      "doc_id": "B-lei-14475",
+      "grupo": "lei-14475",
+      "nats": 1449.2090995156093,
+      "bytes": 4712,
+      "janelas": 8
+    },
+    {
+      "doc_id": "B-lei-14479",
+      "grupo": "lei-14479",
+      "nats": 3766.2501533118148,
+      "bytes": 11455,
+      "janelas": 17
+    }
+  ],
+  "bpb": 0.4235844392874527
+}

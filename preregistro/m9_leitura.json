@@ -1,0 +1,27 @@
+{
+  "amostras_por_corrida": 8,
+  "avaliadores": "o autor e dois alunos",
+  "concordancia": "alfa de Krippendorff ordinal nos itens de modelo, limiar 0,667, com e sem o autor",
+  "excertos_humanos_referencia": 500,
+  "filtro_avaliador": "humano acima do embaralhado em pelo menos 18 de 20 pares, soma de N2 a N4, empate ou falta conta como falha",
+  "itens_por_modo_e_ponto": 12,
+  "limiar_copia": "k = percentil 99 do maior trecho copiado entre os excertos humanos de referencia",
+  "n1": "|taxa media das amostras - taxa media humana| <= 0,05",
+  "niveis": [
+    "N2",
+    "N3",
+    "N4"
+  ],
+  "nivel_atingido": "pelo menos 10 de 12 itens com mediana >= 2, limite inferior de Clopper-Pearson unilateral de 95%",
+  "notas": [
+    0,
+    1,
+    2
+  ],
+  "palavras_por_item": 60,
+  "pares_de_controle_por_lote": 20,
+  "recorte": "posicao inicial sorteada em amostras e excertos humanos",
+  "rubrica": "docs/RUBRICA_LEITURA.md",
+  "rubrica_sha256": "3ec29ef6c78bfb5bdd4f887ecee33cf0d56599940fa3c7b99f80452e7350ae4e",
+  "sementes_por_ponto": 4
+}

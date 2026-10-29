@@ -1,0 +1,778 @@
+{
+  "conjunto": "validacao",
+  "modo": "autoregressivo",
+  "K": 1,
+  "documentos": [
+    {
+      "doc_id": "A-55752-c115",
+      "grupo": "dom_casmurro",
+      "nats": 4834.81689453125,
+      "bytes": 2913,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-55752-c116",
+      "grupo": "dom_casmurro",
+      "nats": 4670.129241943359,
+      "bytes": 2811,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-55752-c117",
+      "grupo": "dom_casmurro",
+      "nats": 5084.105224609375,
+      "bytes": 2966,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-55752-c118",
+      "grupo": "dom_casmurro",
+      "nats": 10910.980224609375,
+      "bytes": 6327,
+      "janelas": 10
+    },
+    {
+      "doc_id": "A-55752-c119",
+      "grupo": "dom_casmurro",
+      "nats": 600.918701171875,
+      "bytes": 244,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55752-c120",
+      "grupo": "dom_casmurro",
+      "nats": 2000.6464233398438,
+      "bytes": 1129,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55752-c121",
+      "grupo": "dom_casmurro",
+      "nats": 1129.4271240234375,
+      "bytes": 603,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55752-c122",
+      "grupo": "dom_casmurro",
+      "nats": 3170.2598266601562,
+      "bytes": 1971,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55752-c123",
+      "grupo": "dom_casmurro",
+      "nats": 1743.81103515625,
+      "bytes": 939,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55752-c124",
+      "grupo": "dom_casmurro",
+      "nats": 3535.413185119629,
+      "bytes": 1970,
+      "janelas": 4
+    },
+    {
+      "doc_id": "A-55752-c125",
+      "grupo": "dom_casmurro",
+      "nats": 1559.0968017578125,
+      "bytes": 850,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55752-c126",
+      "grupo": "dom_casmurro",
+      "nats": 3879.1463012695312,
+      "bytes": 2241,
+      "janelas": 4
+    },
+    {
+      "doc_id": "A-55752-c127",
+      "grupo": "dom_casmurro",
+      "nats": 2917.8206787109375,
+      "bytes": 1785,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55752-c128",
+      "grupo": "dom_casmurro",
+      "nats": 4429.845458984375,
+      "bytes": 3024,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-55752-c129",
+      "grupo": "dom_casmurro",
+      "nats": 1827.6262817382812,
+      "bytes": 830,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55752-c130",
+      "grupo": "dom_casmurro",
+      "nats": 2314.3131909370422,
+      "bytes": 1346,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-54829-c118",
+      "grupo": "braz_cubas",
+      "nats": 2055.984619140625,
+      "bytes": 831,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c119",
+      "grupo": "braz_cubas",
+      "nats": 2715.0279541015625,
+      "bytes": 872,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c120",
+      "grupo": "braz_cubas",
+      "nats": 1689.9522705078125,
+      "bytes": 990,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c121",
+      "grupo": "braz_cubas",
+      "nats": 7488.784820556641,
+      "bytes": 3832,
+      "janelas": 7
+    },
+    {
+      "doc_id": "A-54829-c122",
+      "grupo": "braz_cubas",
+      "nats": 2056.7452392578125,
+      "bytes": 1124,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c123",
+      "grupo": "braz_cubas",
+      "nats": 6825.52001953125,
+      "bytes": 3436,
+      "janelas": 6
+    },
+    {
+      "doc_id": "A-54829-c124",
+      "grupo": "braz_cubas",
+      "nats": 2656.2210388183594,
+      "bytes": 1489,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-54829-c125",
+      "grupo": "braz_cubas",
+      "nats": 1153.07275390625,
+      "bytes": 102,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-54829-c126",
+      "grupo": "braz_cubas",
+      "nats": 4491.329895019531,
+      "bytes": 2373,
+      "janelas": 4
+    },
+    {
+      "doc_id": "A-54829-c127",
+      "grupo": "braz_cubas",
+      "nats": 3514.593505859375,
+      "bytes": 1901,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-54829-c128",
+      "grupo": "braz_cubas",
+      "nats": 1582.3915405273438,
+      "bytes": 881,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c129",
+      "grupo": "braz_cubas",
+      "nats": 1628.865234375,
+      "bytes": 850,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c130",
+      "grupo": "braz_cubas",
+      "nats": 1994.3671875,
+      "bytes": 848,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c131",
+      "grupo": "braz_cubas",
+      "nats": 5040.753952026367,
+      "bytes": 2405,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-54829-c132",
+      "grupo": "braz_cubas",
+      "nats": 759.5985107421875,
+      "bytes": 310,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-54829-c133",
+      "grupo": "braz_cubas",
+      "nats": 1857.74609375,
+      "bytes": 984,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c134",
+      "grupo": "braz_cubas",
+      "nats": 3428.9261474609375,
+      "bytes": 1550,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-54829-c135",
+      "grupo": "braz_cubas",
+      "nats": 3312.3011474609375,
+      "bytes": 1444,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-54829-c136",
+      "grupo": "braz_cubas",
+      "nats": 204.12210083007812,
+      "bytes": 79,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-54829-c137",
+      "grupo": "braz_cubas",
+      "nats": 7998.956787109375,
+      "bytes": 4386,
+      "janelas": 7
+    },
+    {
+      "doc_id": "A-54829-c138",
+      "grupo": "braz_cubas",
+      "nats": 1405.345703125,
+      "bytes": 593,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-54829-c139",
+      "grupo": "braz_cubas",
+      "nats": 122.60133361816406,
+      "bytes": 114,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55682-c166",
+      "grupo": "quincas_borba",
+      "nats": 455.33343505859375,
+      "bytes": 296,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55682-c167",
+      "grupo": "quincas_borba",
+      "nats": 7530.835266113281,
+      "bytes": 4563,
+      "janelas": 7
+    },
+    {
+      "doc_id": "A-55682-c168",
+      "grupo": "quincas_borba",
+      "nats": 752.7686157226562,
+      "bytes": 479,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55682-c169",
+      "grupo": "quincas_borba",
+      "nats": 6232.555480957031,
+      "bytes": 3881,
+      "janelas": 6
+    },
+    {
+      "doc_id": "A-55682-c170",
+      "grupo": "quincas_borba",
+      "nats": 3228.6129150390625,
+      "bytes": 2271,
+      "janelas": 4
+    },
+    {
+      "doc_id": "A-55682-c171",
+      "grupo": "quincas_borba",
+      "nats": 5217.7901611328125,
+      "bytes": 3313,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-55682-c172",
+      "grupo": "quincas_borba",
+      "nats": 714.3972778320312,
+      "bytes": 556,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55682-c173",
+      "grupo": "quincas_borba",
+      "nats": 2996.3343505859375,
+      "bytes": 1513,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55682-c174",
+      "grupo": "quincas_borba",
+      "nats": 4397.1201171875,
+      "bytes": 2730,
+      "janelas": 4
+    },
+    {
+      "doc_id": "A-55682-c175",
+      "grupo": "quincas_borba",
+      "nats": 13492.324279785156,
+      "bytes": 6946,
+      "janelas": 12
+    },
+    {
+      "doc_id": "A-55682-c176",
+      "grupo": "quincas_borba",
+      "nats": 2291.5468139648438,
+      "bytes": 1554,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55682-c177",
+      "grupo": "quincas_borba",
+      "nats": 2704.2822875976562,
+      "bytes": 1696,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55682-c178",
+      "grupo": "quincas_borba",
+      "nats": 1729.7066040039062,
+      "bytes": 1016,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-57001-c008",
+      "grupo": "papeis_avulsos",
+      "nats": 31881.663330078125,
+      "bytes": 16323,
+      "janelas": 27
+    },
+    {
+      "doc_id": "A-57001-c009",
+      "grupo": "papeis_avulsos",
+      "nats": 40714.65869140625,
+      "bytes": 17591,
+      "janelas": 32
+    },
+    {
+      "doc_id": "A-57001-c010",
+      "grupo": "papeis_avulsos",
+      "nats": 36752.511779785156,
+      "bytes": 19030,
+      "janelas": 31
+    },
+    {
+      "doc_id": "A-57001-c011",
+      "grupo": "papeis_avulsos",
+      "nats": 34727.56628417969,
+      "bytes": 15045,
+      "janelas": 28
+    },
+    {
+      "doc_id": "A-57001-c012",
+      "grupo": "papeis_avulsos",
+      "nats": 43505.07763671875,
+      "bytes": 20977,
+      "janelas": 35
+    },
+    {
+      "doc_id": "A-33056-c008",
+      "grupo": "historias_sem_data",
+      "nats": 40373.23767089844,
+      "bytes": 18158,
+      "janelas": 33
+    },
+    {
+      "doc_id": "A-33056-c009",
+      "grupo": "historias_sem_data",
+      "nats": 35530.16711425781,
+      "bytes": 18537,
+      "janelas": 30
+    },
+    {
+      "doc_id": "A-33056-c010",
+      "grupo": "historias_sem_data",
+      "nats": 32210.78253173828,
+      "bytes": 15819,
+      "janelas": 27
+    },
+    {
+      "doc_id": "A-33056-c011",
+      "grupo": "historias_sem_data",
+      "nats": 35835.482666015625,
+      "bytes": 18815,
+      "janelas": 31
+    },
+    {
+      "doc_id": "A-33056-c012",
+      "grupo": "historias_sem_data",
+      "nats": 23178.838863372803,
+      "bytes": 13421,
+      "janelas": 21
+    },
+    {
+      "doc_id": "A-53101-c009",
+      "grupo": "mao_e_luva",
+      "nats": 20218.379943847656,
+      "bytes": 12049,
+      "janelas": 18
+    },
+    {
+      "doc_id": "A-53101-c010",
+      "grupo": "mao_e_luva",
+      "nats": 28586.35223388672,
+      "bytes": 18205,
+      "janelas": 26
+    },
+    {
+      "doc_id": "A-53101-c011",
+      "grupo": "mao_e_luva",
+      "nats": 15415.508041381836,
+      "bytes": 10053,
+      "janelas": 15
+    },
+    {
+      "doc_id": "A-53101-c012",
+      "grupo": "mao_e_luva",
+      "nats": 15474.675048828125,
+      "bytes": 9968,
+      "janelas": 14
+    },
+    {
+      "doc_id": "A-53101-c013",
+      "grupo": "mao_e_luva",
+      "nats": 16204.5474319458,
+      "bytes": 9678,
+      "janelas": 15
+    },
+    {
+      "doc_id": "A-67162-c018",
+      "grupo": "helena",
+      "nats": 17924.923950195312,
+      "bytes": 11183,
+      "janelas": 17
+    },
+    {
+      "doc_id": "A-67162-c019",
+      "grupo": "helena",
+      "nats": 17969.288818359375,
+      "bytes": 10668,
+      "janelas": 16
+    },
+    {
+      "doc_id": "A-67162-c020",
+      "grupo": "helena",
+      "nats": 12665.840759277344,
+      "bytes": 7698,
+      "janelas": 12
+    },
+    {
+      "doc_id": "A-67162-c021",
+      "grupo": "helena",
+      "nats": 29785.80010986328,
+      "bytes": 16322,
+      "janelas": 26
+    },
+    {
+      "doc_id": "A-67162-c022",
+      "grupo": "helena",
+      "nats": 21264.470458984375,
+      "bytes": 12570,
+      "janelas": 19
+    },
+    {
+      "doc_id": "A-56737-c098",
+      "grupo": "esau_e_jacob",
+      "nats": 4936.162109375,
+      "bytes": 3113,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-56737-c099",
+      "grupo": "esau_e_jacob",
+      "nats": 5185.126220703125,
+      "bytes": 3158,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-56737-c100",
+      "grupo": "esau_e_jacob",
+      "nats": 4605.354797363281,
+      "bytes": 3128,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-56737-c101",
+      "grupo": "esau_e_jacob",
+      "nats": 2522.0750427246094,
+      "bytes": 1587,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-56737-c102",
+      "grupo": "esau_e_jacob",
+      "nats": 2271.4310913085938,
+      "bytes": 1490,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-56737-c103",
+      "grupo": "esau_e_jacob",
+      "nats": 10342.837539672852,
+      "bytes": 6378,
+      "janelas": 10
+    },
+    {
+      "doc_id": "A-56737-c104",
+      "grupo": "esau_e_jacob",
+      "nats": 4609.630035400391,
+      "bytes": 2986,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-56737-c105",
+      "grupo": "esau_e_jacob",
+      "nats": 5282.591857910156,
+      "bytes": 3489,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-56737-c106",
+      "grupo": "esau_e_jacob",
+      "nats": 8068.5179443359375,
+      "bytes": 5185,
+      "janelas": 8
+    },
+    {
+      "doc_id": "A-56737-c107",
+      "grupo": "esau_e_jacob",
+      "nats": 1111.7061767578125,
+      "bytes": 691,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55797-c123",
+      "grupo": "memorial_de_ayres",
+      "nats": 607.2471313476562,
+      "bytes": 435,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55797-c124",
+      "grupo": "memorial_de_ayres",
+      "nats": 4060.357177734375,
+      "bytes": 2662,
+      "janelas": 4
+    },
+    {
+      "doc_id": "A-55797-c125",
+      "grupo": "memorial_de_ayres",
+      "nats": 956.6605834960938,
+      "bytes": 578,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55797-c126",
+      "grupo": "memorial_de_ayres",
+      "nats": 678.299072265625,
+      "bytes": 345,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55797-c127",
+      "grupo": "memorial_de_ayres",
+      "nats": 4328.4462890625,
+      "bytes": 2408,
+      "janelas": 4
+    },
+    {
+      "doc_id": "A-55797-c128",
+      "grupo": "memorial_de_ayres",
+      "nats": 846.3624267578125,
+      "bytes": 624,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55797-c129",
+      "grupo": "memorial_de_ayres",
+      "nats": 1515.490966796875,
+      "bytes": 724,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55797-c130",
+      "grupo": "memorial_de_ayres",
+      "nats": 712.1396484375,
+      "bytes": 466,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55797-c131",
+      "grupo": "memorial_de_ayres",
+      "nats": 3205.5965576171875,
+      "bytes": 1938,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55797-c132",
+      "grupo": "memorial_de_ayres",
+      "nats": 2313.2366428375244,
+      "bytes": 1416,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55797-c133",
+      "grupo": "memorial_de_ayres",
+      "nats": 3290.9202880859375,
+      "bytes": 1614,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55797-c134",
+      "grupo": "memorial_de_ayres",
+      "nats": 2759.967315673828,
+      "bytes": 1608,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55797-c135",
+      "grupo": "memorial_de_ayres",
+      "nats": 1886.0247802734375,
+      "bytes": 1232,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55797-c136",
+      "grupo": "memorial_de_ayres",
+      "nats": 3110.8341064453125,
+      "bytes": 1587,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55797-c137",
+      "grupo": "memorial_de_ayres",
+      "nats": 766.9773559570312,
+      "bytes": 509,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55797-c138",
+      "grupo": "memorial_de_ayres",
+      "nats": 3134.8372802734375,
+      "bytes": 1861,
+      "janelas": 3
+    },
+    {
+      "doc_id": "A-55797-c139",
+      "grupo": "memorial_de_ayres",
+      "nats": 4670.617385864258,
+      "bytes": 2867,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-55797-c140",
+      "grupo": "memorial_de_ayres",
+      "nats": 4761.190612792969,
+      "bytes": 3176,
+      "janelas": 5
+    },
+    {
+      "doc_id": "A-55797-c141",
+      "grupo": "memorial_de_ayres",
+      "nats": 2182.9906616210938,
+      "bytes": 1227,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55797-c142",
+      "grupo": "memorial_de_ayres",
+      "nats": 932.2642211914062,
+      "bytes": 535,
+      "janelas": 1
+    },
+    {
+      "doc_id": "A-55797-c143",
+      "grupo": "memorial_de_ayres",
+      "nats": 1846.110107421875,
+      "bytes": 1244,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55797-c144",
+      "grupo": "memorial_de_ayres",
+      "nats": 1248.3305053710938,
+      "bytes": 744,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-55797-c145",
+      "grupo": "memorial_de_ayres",
+      "nats": 1792.2791748046875,
+      "bytes": 1200,
+      "janelas": 2
+    },
+    {
+      "doc_id": "A-67780-c007",
+      "grupo": "yaya_garcia",
+      "nats": 30215.905517578125,
+      "bytes": 17972,
+      "janelas": 27
+    },
+    {
+      "doc_id": "A-67780-c008",
+      "grupo": "yaya_garcia",
+      "nats": 27309.79605102539,
+      "bytes": 18261,
+      "janelas": 26
+    },
+    {
+      "doc_id": "A-67780-c009",
+      "grupo": "yaya_garcia",
+      "nats": 22705.221252441406,
+      "bytes": 14331,
+      "janelas": 20
+    },
+    {
+      "doc_id": "A-67780-c010",
+      "grupo": "yaya_garcia",
+      "nats": 35949.87194824219,
+      "bytes": 21114,
+      "janelas": 32
+    },
+    {
+      "doc_id": "A-67780-c011",
+      "grupo": "yaya_garcia",
+      "nats": 33356.497482299805,
+      "bytes": 19422,
+      "janelas": 30
+    }
+  ],
+  "bpb": 2.595260846991586,
+  "resumo_treino": {
+    "passos_aplicados": 765,
+    "passos_pulados": 0,
+    "tempo_s": 10.60591435432434,
+    "perda_final": 3.7076714038848877,
+    "epocas": 14.831869130566496
+  }
+}

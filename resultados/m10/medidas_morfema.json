@@ -1,0 +1,203 @@
+{
+ "bytes_validacao": 539572,
+ "linhas": [
+  {
+   "unidade": "morfema flexao",
+   "A": 2,
+   "esquema": "huffman",
+   "inventario": 22871,
+   "oov_valid": 0.0188,
+   "simbolos_por_byte": 3.1764,
+   "bits_nominais_por_byte": 3.176,
+   "xent_unidades_por_byte": 3.176,
+   "info_por_bit": 1.0
+  },
+  {
+   "unidade": "morfema flexao",
+   "A": 256,
+   "esquema": "huffman",
+   "inventario": 22871,
+   "oov_valid": 0.0188,
+   "simbolos_por_byte": 0.4707,
+   "bits_nominais_por_byte": 3.766,
+   "xent_unidades_por_byte": 3.176,
+   "info_por_bit": 0.843
+  },
+  {
+   "unidade": "morfema flexao",
+   "A": 4096,
+   "esquema": "huffman",
+   "inventario": 22871,
+   "oov_valid": 0.0188,
+   "simbolos_por_byte": 0.377,
+   "bits_nominais_por_byte": 4.524,
+   "xent_unidades_por_byte": 3.176,
+   "info_por_bit": 0.702
+  },
+  {
+   "unidade": "mista 4096 flexao",
+   "A": 2,
+   "esquema": "huffman",
+   "inventario": 23503,
+   "oov_valid": 0.0212,
+   "simbolos_por_byte": 2.997,
+   "bits_nominais_por_byte": 2.997,
+   "xent_unidades_por_byte": 2.993,
+   "info_por_bit": 0.999
+  },
+  {
+   "unidade": "mista 4096 flexao",
+   "A": 256,
+   "esquema": "huffman",
+   "inventario": 23503,
+   "oov_valid": 0.0212,
+   "simbolos_por_byte": 0.4322,
+   "bits_nominais_por_byte": 3.458,
+   "xent_unidades_por_byte": 2.993,
+   "info_por_bit": 0.866
+  },
+  {
+   "unidade": "mista 4096 flexao",
+   "A": 4096,
+   "esquema": "huffman",
+   "inventario": 23503,
+   "oov_valid": 0.0212,
+   "simbolos_por_byte": 0.3403,
+   "bits_nominais_por_byte": 4.084,
+   "xent_unidades_por_byte": 2.993,
+   "info_por_bit": 0.733
+  },
+  {
+   "unidade": "morfema derivacao",
+   "A": 2,
+   "esquema": "huffman",
+   "inventario": 21008,
+   "oov_valid": 0.0172,
+   "simbolos_por_byte": 3.1395,
+   "bits_nominais_por_byte": 3.14,
+   "xent_unidades_por_byte": 3.138,
+   "info_por_bit": 0.999
+  },
+  {
+   "unidade": "morfema derivacao",
+   "A": 256,
+   "esquema": "huffman",
+   "inventario": 21008,
+   "oov_valid": 0.0172,
+   "simbolos_por_byte": 0.4621,
+   "bits_nominais_por_byte": 3.697,
+   "xent_unidades_por_byte": 3.138,
+   "info_por_bit": 0.849
+  },
+  {
+   "unidade": "morfema derivacao",
+   "A": 4096,
+   "esquema": "huffman",
+   "inventario": 21008,
+   "oov_valid": 0.0172,
+   "simbolos_por_byte": 0.3673,
+   "bits_nominais_por_byte": 4.408,
+   "xent_unidades_por_byte": 3.138,
+   "info_por_bit": 0.712
+  },
+  {
+   "unidade": "mista 4096 derivacao",
+   "A": 2,
+   "esquema": "huffman",
+   "inventario": 22079,
+   "oov_valid": 0.0197,
+   "simbolos_por_byte": 2.9207,
+   "bits_nominais_por_byte": 2.921,
+   "xent_unidades_por_byte": 2.919,
+   "info_por_bit": 1.0
+  },
+  {
+   "unidade": "mista 4096 derivacao",
+   "A": 256,
+   "esquema": "huffman",
+   "inventario": 22079,
+   "oov_valid": 0.0197,
+   "simbolos_por_byte": 0.4209,
+   "bits_nominais_por_byte": 3.367,
+   "xent_unidades_por_byte": 2.919,
+   "info_por_bit": 0.867
+  },
+  {
+   "unidade": "mista 4096 derivacao",
+   "A": 4096,
+   "esquema": "huffman",
+   "inventario": 22079,
+   "oov_valid": 0.0197,
+   "simbolos_por_byte": 0.3298,
+   "bits_nominais_por_byte": 3.958,
+   "xent_unidades_por_byte": 2.919,
+   "info_por_bit": 0.738
+  },
+  {
+   "unidade": "morfema prefixo",
+   "A": 2,
+   "esquema": "huffman",
+   "inventario": 20944,
+   "oov_valid": 0.0171,
+   "simbolos_por_byte": 3.1394,
+   "bits_nominais_por_byte": 3.139,
+   "xent_unidades_por_byte": 3.138,
+   "info_por_bit": 0.999
+  },
+  {
+   "unidade": "morfema prefixo",
+   "A": 256,
+   "esquema": "huffman",
+   "inventario": 20944,
+   "oov_valid": 0.0171,
+   "simbolos_por_byte": 0.4619,
+   "bits_nominais_por_byte": 3.695,
+   "xent_unidades_por_byte": 3.138,
+   "info_por_bit": 0.849
+  },
+  {
+   "unidade": "morfema prefixo",
+   "A": 4096,
+   "esquema": "huffman",
+   "inventario": 20944,
+   "oov_valid": 0.0171,
+   "simbolos_por_byte": 0.3671,
+   "bits_nominais_por_byte": 4.406,
+   "xent_unidades_por_byte": 3.138,
+   "info_por_bit": 0.712
+  },
+  {
+   "unidade": "mista 4096 prefixo",
+   "A": 2,
+   "esquema": "huffman",
+   "inventario": 22029,
+   "oov_valid": 0.0196,
+   "simbolos_por_byte": 2.9176,
+   "bits_nominais_por_byte": 2.918,
+   "xent_unidades_por_byte": 2.917,
+   "info_por_bit": 1.0
+  },
+  {
+   "unidade": "mista 4096 prefixo",
+   "A": 256,
+   "esquema": "huffman",
+   "inventario": 22029,
+   "oov_valid": 0.0196,
+   "simbolos_por_byte": 0.4204,
+   "bits_nominais_por_byte": 3.363,
+   "xent_unidades_por_byte": 2.917,
+   "info_por_bit": 0.867
+  },
+  {
+   "unidade": "mista 4096 prefixo",
+   "A": 4096,
+   "esquema": "huffman",
+   "inventario": 22029,
+   "oov_valid": 0.0196,
+   "simbolos_por_byte": 0.3294,
+   "bits_nominais_por_byte": 3.953,
+   "xent_unidades_por_byte": 2.917,
+   "info_por_bit": 0.738
+  }
+ ]
+}

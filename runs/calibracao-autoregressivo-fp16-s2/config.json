@@ -1,0 +1,39 @@
+{
+  "modo": "autoregressivo",
+  "vocab_size": 4096,
+  "L": 256,
+  "n_layer": 6,
+  "d": 384,
+  "n_head": 6,
+  "dropout": 0.0,
+  "lote": 64,
+  "epocas": 16.0,
+  "lr": 0.001,
+  "lr_min_frac": 0.1,
+  "aquecimento_frac": 0.02,
+  "weight_decay": 0.1,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "clip": 1.0,
+  "precisao": "fp16",
+  "atencao": "efficient",
+  "semente": 2,
+  "papel": "calibracao",
+  "corpus": "A",
+  "corpus_hash": "364aa78f417a13fd49a71a380cdff9d86ffee8c3ef3a159237fe50befcc43f77",
+  "tokenizador_hash": "6930554efc8122701ece5b7506c1f1f56dd314a38970536c56cfa8744d0951b6",
+  "registro_cada": 50,
+  "sentinela_cada": 500,
+  "run_id": "calibracao-autoregressivo-fp16-s2",
+  "extra": {},
+  "maquina": {
+    "python": "3.12.3",
+    "torch": "2.10.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "driver": "595.99.02",
+    "teto_potencia": "500.00 W"
+  }
+}

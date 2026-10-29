@@ -1,0 +1,34 @@
+{
+ "revisao": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851",
+ "semente": 13,
+ "t2": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.5484929175359614,
+   "3e-05": 0.5625318920804294,
+   "0.0001": 0.49920148689760296
+  },
+  "temperatura": 2.631782713016832,
+  "ece_externo": 0.10956999331183119,
+  "ece_externo_calibrado": 0.055830884153122685,
+  "limiar_seletivo": 0.9335151399967178,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null,
+  "acuracia_balanceada_sem_ajuste": 0.5147496571983747
+ },
+ "t3": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.5023923444976077,
+   "3e-05": 0.5053827751196173,
+   "0.0001": 0.4898325358851675
+  },
+  "temperatura": 1.7229667082579159,
+  "ece_externo": 0.005366978564845859,
+  "ece_externo_calibrado": 0.004354236045467197,
+  "limiar_seletivo": 0.5096342591130056,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null,
+  "acuracia_balanceada_sem_ajuste": 0.48227848101265824
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "corpus": "B",
+ "vocab_size": 1024,
+ "ordens": {
+  "3": {
+   "bpb_validacao": 1.222992755129252,
+   "segundos": 1.2628579139709473
+  },
+  "4": {
+   "bpb_validacao": 1.0913027638523156,
+   "segundos": 2.228213310241699
+  },
+  "5": {
+   "bpb_validacao": 1.0564971790462476,
+   "segundos": 3.671231746673584
+  },
+  "6": {
+   "bpb_validacao": 1.0377285821613624,
+   "segundos": 5.28203821182251
+  }
+ },
+ "ordem_escolhida": 6,
+ "bpb_teste": 1.0459610455283226,
+ "externo": {
+  "corpus": "B_externo",
+  "bpb": 1.2058247935913062
+ }
+}

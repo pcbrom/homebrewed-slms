@@ -1,0 +1,16 @@
+{
+  "aprovada_por": "autor",
+  "construcao_dos_itens": "scripts/construir_tarefas.py --corpus B --externo B_externo_atos",
+  "data": "2026-10-28",
+  "emenda_de": "m14_tarefas_B_emenda",
+  "inalterado": "todo o resto do pre-registro e da primeira emenda",
+  "itens_sha256": {
+    "t1": "68a0ff3d211ba945b3a164b664ed9773bc6a72834bbea4d68bef0398a8b3a9ae",
+    "t2": "f56515ab081329c3903b30ee55503682d9a19ee618948fc777db63073781c890",
+    "t3": "a4fab8e8b7a10e004d852849b5f442eea570b6badb93b061ef12a566d90840b6",
+    "t4": "ffdbf4f9efcdd8c3e1b29d0eb5709925e98d6b25a35efed0bc7946a1d46a5044"
+  },
+  "ja_calculado_antes_desta_emenda": "uma cadeia de medida interrompida pela recusa da difusao gravou os escores do n-grama, do TF-IDF e do modo autorregressivo nos itens da primeira emenda; nenhum desses escores no conjunto externo foi lido, e todos sao recalculados",
+  "motivo": "o filtro de 254 tokens de T2 media o caput sozinho, e a pontuacao gerativa poe antes dele o prefixo de insercao, de 20 tokens; 13 dos 4.960 itens de T2 passavam da janela de 256 (4 no conjunto externo, 8 no treino e 1 na validacao), o que a difusao recusa e o modo autorregressivo pontuaria com o contexto cortado",
+  "regra": "item de T2 entra quando o caput com o prefixo de insercao cabe em 254 tokens, para todos os pontuadores"
+}

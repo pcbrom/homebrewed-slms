@@ -1,0 +1,13 @@
+{
+  "contagem": {
+    "A_256_epocas": "2 a 3 por corrida, de 11.120 passos aplicados",
+    "B_256_epocas": "6 a 10 por corrida, de 25.632 passos aplicados",
+    "B_4_epocas_difusao": "1 em uma corrida, de 400",
+    "demais_pontos": 0
+  },
+  "corrige": "campo criterio_de_orcamento de preregistro/sensibilidade.json",
+  "data": "2026-10-28",
+  "leitura": "a contagem por passo aplicado e por passo nominal difere em no maximo 10 passos, 0,04% do treino, todos no fim do cosseno, com a taxa no piso; o efeito sobre o bits por byte nao foi medido e fica declarado como limite, nao como igualdade",
+  "medida_opcional": "treinar no corpus A, 256 epocas, 3 sementes por modo, com contagem por passo nominal, se o autor pedir",
+  "motivo": "a contagem citada no pre-registro procurou o campo de passos pulados com nome errado e devolveu zero; a contagem pelo campo passos_pulados de resumo_treino da 123 passos pulados nos 104 runs do M7"
+}

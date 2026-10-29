@@ -1,0 +1,41 @@
+{
+  "modo": "autoregressivo",
+  "vocab_size": 260,
+  "L": 256,
+  "n_layer": 6,
+  "d": 384,
+  "n_head": 6,
+  "dropout": 0.2,
+  "lote": 64,
+  "epocas": 237.227621,
+  "lr": 0.0003,
+  "lr_min_frac": 0.1,
+  "aquecimento_frac": 0.02,
+  "weight_decay": 0.1,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "clip": 1.0,
+  "precisao": "fp16",
+  "atencao": "efficient",
+  "semente": 1,
+  "papel": "tokenizador",
+  "corpus": "A",
+  "corpus_hash": "364aa78f417a13fd49a71a380cdff9d86ffee8c3ef3a159237fe50befcc43f77",
+  "tokenizador_hash": "fcce84db0061d00c380ffc6b219ef1a8e8cb9cd70e291ebe69644a4869304cec",
+  "registro_cada": 50,
+  "sentinela_cada": 500,
+  "run_id": "m10-C3-simbolos-e256-s1-aut",
+  "extra": {
+    "tokenizador": "privado/tokenizador_C3"
+  },
+  "maquina": {
+    "python": "3.12.3",
+    "torch": "2.10.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "driver": "595.99.02",
+    "teto_potencia": "500.00 W"
+  }
+}

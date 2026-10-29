@@ -1,0 +1,65 @@
+{
+ "descricao": "Best point against best point, a post-hoc analysis declared as such (not preregistered).",
+ "A": {
+  "validacao": {
+   "diferenca": 0.019354778732009636,
+   "ic90": [
+    0.015631096233388632,
+    0.02307846123063064
+   ],
+   "margem": 0.09068214244282155,
+   "fracao_da_margem": 0.21343539323868027,
+   "gl_welch": 8.830868165298764,
+   "p_tost": 4.207747860364063e-11,
+   "equivalente": true
+  },
+  "teste": {
+   "diferenca": 0.05981360092323729,
+   "ic90": [
+    0.056089846645975966,
+    0.06353735520049861
+   ],
+   "margem": 0.09068214244282155,
+   "fracao_da_margem": 0.6595962480810593,
+   "gl_welch": 8.997849162720554,
+   "p_tost": 5.051273671837813e-08,
+   "equivalente": true
+  },
+  "sinal_por_unidade_teste": {
+   "unidades": 9,
+   "a_favor_da_difusao": 9,
+   "p_bilateral": 0.00390625
+  }
+ },
+ "B": {
+  "validacao": {
+   "diferenca": 0.06883351149866446,
+   "ic90": [
+    0.06380281568606529,
+    0.07386420731126363
+   ],
+   "margem": 0.13036742782791055,
+   "fracao_da_margem": 0.5279962383665883,
+   "gl_welch": 7.349629094033191,
+   "p_tost": 2.029095927073181e-08,
+   "equivalente": true
+  },
+  "teste": {
+   "diferenca": 0.061095912443605016,
+   "ic90": [
+    0.05770417351963707,
+    0.06448765136757297
+   ],
+   "margem": 0.13036742782791055,
+   "fracao_da_margem": 0.46864399690583525,
+   "gl_welch": 8.896233129526701,
+   "p_tost": 2.106043698804859e-11,
+   "equivalente": true
+  },
+  "sinal_por_unidade_teste": {
+   "unidades": 12,
+   "a_favor_da_difusao": 11,
+   "p_bilateral": 0.00634765625
+  }
+ }
+}

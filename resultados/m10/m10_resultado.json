@@ -1,0 +1,194 @@
+{
+ "autoregressivo|e16|B0-simbolos": {
+  "diferencas": [
+   0.8076,
+   0.7798,
+   0.8031
+  ],
+  "media": 0.7969,
+  "ic95": [
+   0.7598,
+   0.8339
+  ]
+ },
+ "autoregressivo|e16|B0-bytes": {
+  "diferencas": [
+   1.4173,
+   1.4105,
+   1.4138
+  ],
+  "media": 1.4139,
+  "ic95": [
+   1.4054,
+   1.4223
+  ]
+ },
+ "autoregressivo|e16|C1-simbolos": {
+  "diferencas": [
+   0.744,
+   0.7424,
+   0.7493
+  ],
+  "media": 0.7452,
+  "ic95": [
+   0.7364,
+   0.7541
+  ]
+ },
+ "autoregressivo|e16|C1-bytes": {
+  "diferencas": [
+   0.7586,
+   0.758,
+   0.7711
+  ],
+  "media": 0.7626,
+  "ic95": [
+   0.7441,
+   0.781
+  ]
+ },
+ "autoregressivo|e16|C2-simbolos": {
+  "diferencas": [
+   0.7039,
+   0.7132,
+   0.7016
+  ],
+  "media": 0.7062,
+  "ic95": [
+   0.691,
+   0.7214
+  ]
+ },
+ "autoregressivo|e16|C2-bytes": {
+  "diferencas": [
+   0.6946,
+   0.6867,
+   0.6997
+  ],
+  "media": 0.6936,
+  "ic95": [
+   0.6773,
+   0.71
+  ]
+ },
+ "autoregressivo|e16|C3-simbolos": {
+  "diferencas": [
+   0.6488,
+   0.6399,
+   0.6374
+  ],
+  "media": 0.6421,
+  "ic95": [
+   0.6271,
+   0.657
+  ]
+ },
+ "autoregressivo|e16|C3-bytes": {
+  "diferencas": [
+   0.6694,
+   0.6647,
+   0.6625
+  ],
+  "media": 0.6655,
+  "ic95": [
+   0.6568,
+   0.6743
+  ]
+ },
+ "autoregressivo|e256|B0-simbolos": {
+  "diferencas": [
+   -1.0107,
+   -0.9924,
+   -0.9967
+  ],
+  "media": -0.9999,
+  "ic95": [
+   -1.0237,
+   -0.9762
+  ]
+ },
+ "autoregressivo|e256|B0-bytes": {
+  "diferencas": [
+   -1.0158,
+   -1.0101,
+   -1.0028
+  ],
+  "media": -1.0096,
+  "ic95": [
+   -1.0258,
+   -0.9934
+  ]
+ },
+ "autoregressivo|e256|C1-simbolos": {
+  "diferencas": [
+   0.9873,
+   0.9682,
+   1.0042
+  ],
+  "media": 0.9866,
+  "ic95": [
+   0.9418,
+   1.0313
+  ]
+ },
+ "autoregressivo|e256|C1-bytes": {
+  "diferencas": [
+   0.9032,
+   0.8566,
+   0.8875
+  ],
+  "media": 0.8824,
+  "ic95": [
+   0.8236,
+   0.9413
+  ]
+ },
+ "autoregressivo|e256|C2-simbolos": {
+  "diferencas": [
+   1.5202,
+   1.571,
+   1.5268
+  ],
+  "media": 1.5393,
+  "ic95": [
+   1.4707,
+   1.608
+  ]
+ },
+ "autoregressivo|e256|C2-bytes": {
+  "diferencas": [
+   1.5163,
+   1.5395,
+   1.589
+  ],
+  "media": 1.5483,
+  "ic95": [
+   1.4561,
+   1.6405
+  ]
+ },
+ "autoregressivo|e256|C3-simbolos": {
+  "diferencas": [
+   0.7467,
+   0.7375,
+   0.7631
+  ],
+  "media": 0.7491,
+  "ic95": [
+   0.717,
+   0.7812
+  ]
+ },
+ "autoregressivo|e256|C3-bytes": {
+  "diferencas": [
+   0.6852,
+   0.6678,
+   0.6761
+  ],
+  "media": 0.6764,
+  "ic95": [
+   0.6548,
+   0.698
+  ]
+ }
+}

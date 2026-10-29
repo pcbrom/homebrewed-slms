@@ -1,0 +1,81 @@
+---
+config:
+  layout: elk
+---
+flowchart TD
+    AUTOR(["Autor<br>a. aceita decisões e pré-registro<br>b. confere corpus e testes no Colab<br>c. lê amostras às cegas"])
+
+    subgraph OFF["Preparação (offline, uma vez)"]
+        C0["0. Configuração<br>corpus, V, L, rede, modo, orçamento<br>[script det. + humano]"]
+        C1["1. Adaptador de domínio<br>fonte para documentos limpos em NFC<br>divisão em blocos de capítulos<br>[script det.]"]
+        C2["2. Tokenizador<br>BPE em nível de byte, V por medida<br>contrato U1 a U6<br>[script det.]"]
+        C0 --> C1 --> C2
+    end
+
+    DB[("Repositório versionado<br>corpus A e B com manifesto e sha256<br>tokenizer.json, pré-registro com hash")]
+
+    subgraph RUN["Treino (runtime)"]
+        R3["3. Janelamento<br>janelas de L tokens por documento<br>EOS e preenchimento previstos<br>[script det.]"]
+        R4{"4. Modo<br>[script det.]"}
+        R4A["4a. Mascaramento da difusão<br>l ~ U{1..L} estratificado<br>l posições trocadas por MASK<br>[script det.]"]
+        R4B["4b. Autoregressivo<br>máscara de atenção causal<br>[script det.]"]
+        R5["5. Rede Transformer<br>mesmos parâmetros nos dois modos<br>sem entrada de tempo<br>[script det.]"]
+        R6["6. Perda e otimização<br>difusão (1/l) soma CE, AR média por token<br>perda fp32, AdamW, fp16 com GradScaler<br>[script det.]"]
+        R3 --> R4
+        R4 -->|difusão| R4A
+        R4 -->|autoregressivo| R4B
+        R4A --> R5
+        R4B --> R5
+        R5 --> R6
+    end
+
+    subgraph AVAL["Avaliação e geração"]
+        R7["7. Geração<br>ancestral, revelação aleatória<br>sorteio float64<br>[script det.]"]
+        R8["8. Avaliação<br>bpb por razão de somas<br>NELBO por número de máscaras em fp32<br>[script det.]"]
+        G{"9. Comparação<br>IC de Δ = bpb_dif − bpb_AR<br>[script det.]"}
+        R10["10. Leitura cega<br>níveis N1 a N4, filtro de cópia<br>[script det. + humano]"]
+        G -->|IC abaixo de 0| V1["difusão melhor<br>(conclusivo)"]
+        G -->|IC acima de 0| V2["AR supera o limite<br>(sem conclusão sobre a difusão)"]
+        G -->|IC contém 0| V3["inconclusivo"]
+    end
+
+    subgraph GOVN["Governança"]
+        GG["Portões<br>1. G0 e G1 da formulação em CPU, bloqueantes<br>2. sentinela de gradiente até o fim do treino<br>3. Δ_min e sementes congelados com hash<br>4. teto de 24 h de GPU a 500 W<br>5. leitura humana só define o roteiro"]
+    end
+
+    C2 --> DB
+    DB --> R3
+    R6 --> R8
+    R6 --> R7
+    R8 --> G
+    R7 --> R10
+    GG -. governa .-> R6
+    GG -. governa .-> G
+    AUTOR -. aceite .-> C0
+    AUTOR -. leitura .-> R10
+
+    V3 ~~~ L1
+
+    subgraph LEG["Legenda das cores"]
+        L1["preparação"]
+        L2["execução"]
+        L3["decisão ou portão"]
+        L4["governança"]
+        L5["armazenamento"]
+        L6(["humano"])
+    end
+
+    classDef off fill:#d8e8f4,stroke:#1f5a7a,stroke-width:2px,color:#1a1a1a
+    classDef run fill:#e6f4d8,stroke:#4a7a1f,stroke-width:2px,color:#1a1a1a
+    classDef det fill:#f4e6d8,stroke:#a15a1f,stroke-width:2px,color:#1a1a1a
+    classDef cond fill:#f0f0f0,stroke:#888,stroke-width:1px,stroke-dasharray:5 4,color:#1a1a1a
+    classDef gov fill:#efe6f4,stroke:#5a2f7a,stroke-width:2px,color:#1a1a1a
+    classDef dbc fill:#cfe0ef,stroke:#1f5a7a,stroke-width:2px,color:#1a1a1a
+    classDef hum fill:#f7e7b4,stroke:#8a6d1f,stroke-width:2px,color:#1a1a1a
+    class C0,C1,C2,L1 off
+    class R3,R4A,R4B,R5,R6,R7,R8,L2 run
+    class R4,G,R10,L3 det
+    class V1,V2,V3 cond
+    class GG,L4 gov
+    class DB,L5 dbc
+    class AUTOR,L6 hum

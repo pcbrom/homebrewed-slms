@@ -1,0 +1,2206 @@
+{
+  "corpus": "B_externo",
+  "regra": "Cada lei entra no grupo da primeira lei citada na ementa, e leis com Jaccard de 5-gramas de palavras de pelo menos 0,8 entram no mesmo grupo. Todos os grupos vao para a particao externo.",
+  "parametros": {
+    "anos": [
+      2025,
+      2026
+    ],
+    "tipo_senado": "LEI-n",
+    "classes_mantidas": [
+      "substantiva",
+      "alteradora"
+    ],
+    "minhash_permutacoes": 128,
+    "minhash_bandas": 32,
+    "shingle_palavras": 5,
+    "limiar_jaccard": 0.8
+  },
+  "listas_senado": {
+    "2025": {
+      "documentos": 239,
+      "tipos": {
+        "LEI-n": 239
+      }
+    },
+    "2026": {
+      "documentos": 204,
+      "tipos": {
+        "LEI-n": 204
+      }
+    }
+  },
+  "classes_na_lista": {
+    "credito": 33,
+    "orcamento": 5,
+    "homenagem": 105,
+    "alteradora": 163,
+    "substantiva": 137
+  },
+  "leis_na_lista": 443,
+  "paginas": {
+    "tentadas": 300,
+    "baixadas": 300,
+    "fracao_baixadas": 1.0,
+    "validas": 300,
+    "excluidas": 0,
+    "fracao_validas": 1.0,
+    "motivos_exclusao": {}
+  },
+  "classes_no_corpus": {
+    "alteradora": 163,
+    "substantiva": 137
+  },
+  "bytes_total": 2362717,
+  "bytes_citados_blockquote": 840606,
+  "fracao_citada": 0.35577938449674673,
+  "pares_quase_copia": [],
+  "maior_grupo": {
+    "grupo": "lei-15141",
+    "documentos": 1,
+    "bytes": 256431,
+    "fracao_bytes": 0.10853225333376786
+  },
+  "particoes": {
+    "externo": {
+      "documentos": 300,
+      "bytes": 2362717,
+      "grupos": 229
+    }
+  },
+  "grupos": {
+    "del-1804": {
+      "particao": "externo",
+      "balde": 63,
+      "documentos": 1,
+      "bytes": 9487,
+      "leis": [
+        "lei-15502"
+      ]
+    },
+    "del-2848": {
+      "particao": "externo",
+      "balde": 38,
+      "documentos": 16,
+      "bytes": 78346,
+      "leis": [
+        "lei-15123",
+        "lei-15134",
+        "lei-15159",
+        "lei-15160",
+        "lei-15163",
+        "lei-15181",
+        "lei-15229",
+        "lei-15245",
+        "lei-15280",
+        "lei-15353",
+        "lei-15397",
+        "lei-15425",
+        "lei-15438",
+        "lei-15455",
+        "lei-15487",
+        "lei-15517"
+      ]
+    },
+    "del-3240": {
+      "particao": "externo",
+      "balde": 90,
+      "documentos": 1,
+      "bytes": 9564,
+      "leis": [
+        "lei-15327"
+      ]
+    },
+    "del-3689": {
+      "particao": "externo",
+      "balde": 30,
+      "documentos": 1,
+      "bytes": 4097,
+      "leis": [
+        "lei-15272"
+      ]
+    },
+    "del-401": {
+      "particao": "externo",
+      "balde": 35,
+      "documentos": 1,
+      "bytes": 1223,
+      "leis": [
+        "lei-15329"
+      ]
+    },
+    "del-5452": {
+      "particao": "externo",
+      "balde": 14,
+      "documentos": 5,
+      "bytes": 30330,
+      "leis": [
+        "lei-15156",
+        "lei-15175",
+        "lei-15222",
+        "lei-15371",
+        "lei-15377"
+      ]
+    },
+    "lcp-89": {
+      "particao": "externo",
+      "balde": 37,
+      "documentos": 1,
+      "bytes": 4973,
+      "leis": [
+        "lei-15480"
+      ]
+    },
+    "lei-10098": {
+      "particao": "externo",
+      "balde": 99,
+      "documentos": 1,
+      "bytes": 4782,
+      "leis": [
+        "lei-15249"
+      ]
+    },
+    "lei-10257": {
+      "particao": "externo",
+      "balde": 41,
+      "documentos": 2,
+      "bytes": 64540,
+      "leis": [
+        "lei-15333",
+        "lei-15432"
+      ]
+    },
+    "lei-10356": {
+      "particao": "externo",
+      "balde": 99,
+      "documentos": 1,
+      "bytes": 10614,
+      "leis": [
+        "lei-15351"
+      ]
+    },
+    "lei-10420": {
+      "particao": "externo",
+      "balde": 6,
+      "documentos": 1,
+      "bytes": 3566,
+      "leis": [
+        "lei-15236"
+      ]
+    },
+    "lei-10438": {
+      "particao": "externo",
+      "balde": 5,
+      "documentos": 1,
+      "bytes": 8386,
+      "leis": [
+        "lei-15235"
+      ]
+    },
+    "lei-10714": {
+      "particao": "externo",
+      "balde": 60,
+      "documentos": 1,
+      "bytes": 1319,
+      "leis": [
+        "lei-15478"
+      ]
+    },
+    "lei-10779": {
+      "particao": "externo",
+      "balde": 49,
+      "documentos": 1,
+      "bytes": 11444,
+      "leis": [
+        "lei-15399"
+      ]
+    },
+    "lei-10820": {
+      "particao": "externo",
+      "balde": 48,
+      "documentos": 1,
+      "bytes": 22995,
+      "leis": [
+        "lei-15179"
+      ]
+    },
+    "lei-10826": {
+      "particao": "externo",
+      "balde": 96,
+      "documentos": 2,
+      "bytes": 6677,
+      "leis": [
+        "lei-15306",
+        "lei-15474"
+      ]
+    },
+    "lei-10865": {
+      "particao": "externo",
+      "balde": 94,
+      "documentos": 1,
+      "bytes": 12874,
+      "leis": [
+        "lei-15294"
+      ]
+    },
+    "lei-10880": {
+      "particao": "externo",
+      "balde": 39,
+      "documentos": 1,
+      "bytes": 2369,
+      "leis": [
+        "lei-15255"
+      ]
+    },
+    "lei-11091": {
+      "particao": "externo",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 124347,
+      "leis": [
+        "lei-15367"
+      ]
+    },
+    "lei-11196": {
+      "particao": "externo",
+      "balde": 69,
+      "documentos": 2,
+      "bytes": 23033,
+      "leis": [
+        "lei-15394",
+        "lei-15504"
+      ]
+    },
+    "lei-11340": {
+      "particao": "externo",
+      "balde": 38,
+      "documentos": 7,
+      "bytes": 14817,
+      "leis": [
+        "lei-15125",
+        "lei-15212",
+        "lei-15380",
+        "lei-15383",
+        "lei-15384",
+        "lei-15411",
+        "lei-15412"
+      ]
+    },
+    "lei-11343": {
+      "particao": "externo",
+      "balde": 53,
+      "documentos": 1,
+      "bytes": 1061,
+      "leis": [
+        "lei-15281"
+      ]
+    },
+    "lei-11346": {
+      "particao": "externo",
+      "balde": 93,
+      "documentos": 2,
+      "bytes": 3133,
+      "leis": [
+        "lei-15225",
+        "lei-15451"
+      ]
+    },
+    "lei-11416": {
+      "particao": "externo",
+      "balde": 7,
+      "documentos": 3,
+      "bytes": 9228,
+      "leis": [
+        "lei-15285",
+        "lei-15292",
+        "lei-15293"
+      ]
+    },
+    "lei-11445": {
+      "particao": "externo",
+      "balde": 24,
+      "documentos": 1,
+      "bytes": 1345,
+      "leis": [
+        "lei-15112"
+      ]
+    },
+    "lei-11482": {
+      "particao": "externo",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 1572,
+      "leis": [
+        "lei-15191"
+      ]
+    },
+    "lei-11488": {
+      "particao": "externo",
+      "balde": 56,
+      "documentos": 1,
+      "bytes": 60806,
+      "leis": [
+        "lei-15506"
+      ]
+    },
+    "lei-11540": {
+      "particao": "externo",
+      "balde": 4,
+      "documentos": 1,
+      "bytes": 1242,
+      "leis": [
+        "lei-15184"
+      ]
+    },
+    "lei-11578": {
+      "particao": "externo",
+      "balde": 95,
+      "documentos": 1,
+      "bytes": 18711,
+      "leis": [
+        "lei-15436"
+      ]
+    },
+    "lei-11664": {
+      "particao": "externo",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 1005,
+      "leis": [
+        "lei-15284"
+      ]
+    },
+    "lei-11671": {
+      "particao": "externo",
+      "balde": 72,
+      "documentos": 1,
+      "bytes": 3315,
+      "leis": [
+        "lei-15407"
+      ]
+    },
+    "lei-11675": {
+      "particao": "externo",
+      "balde": 75,
+      "documentos": 1,
+      "bytes": 792,
+      "leis": [
+        "lei-15330"
+      ]
+    },
+    "lei-11678": {
+      "particao": "externo",
+      "balde": 35,
+      "documentos": 1,
+      "bytes": 1714,
+      "leis": [
+        "lei-15168"
+      ]
+    },
+    "lei-11738": {
+      "particao": "externo",
+      "balde": 90,
+      "documentos": 2,
+      "bytes": 8205,
+      "leis": [
+        "lei-15326",
+        "lei-15437"
+      ]
+    },
+    "lei-11762": {
+      "particao": "externo",
+      "balde": 80,
+      "documentos": 1,
+      "bytes": 3441,
+      "leis": [
+        "lei-15441"
+      ]
+    },
+    "lei-11794": {
+      "particao": "externo",
+      "balde": 60,
+      "documentos": 1,
+      "bytes": 5176,
+      "leis": [
+        "lei-15183"
+      ]
+    },
+    "lei-11892": {
+      "particao": "externo",
+      "balde": 61,
+      "documentos": 1,
+      "bytes": 8255,
+      "leis": [
+        "lei-15521"
+      ]
+    },
+    "lei-11947": {
+      "particao": "externo",
+      "balde": 88,
+      "documentos": 1,
+      "bytes": 2651,
+      "leis": [
+        "lei-15226"
+      ]
+    },
+    "lei-12136": {
+      "particao": "externo",
+      "balde": 55,
+      "documentos": 1,
+      "bytes": 1778,
+      "leis": [
+        "lei-15465"
+      ]
+    },
+    "lei-12300": {
+      "particao": "externo",
+      "balde": 79,
+      "documentos": 1,
+      "bytes": 7438,
+      "leis": [
+        "lei-15350"
+      ]
+    },
+    "lei-12305": {
+      "particao": "externo",
+      "balde": 29,
+      "documentos": 1,
+      "bytes": 1408,
+      "leis": [
+        "lei-15088"
+      ]
+    },
+    "lei-12351": {
+      "particao": "externo",
+      "balde": 64,
+      "documentos": 1,
+      "bytes": 16396,
+      "leis": [
+        "lei-15164"
+      ]
+    },
+    "lei-12468": {
+      "particao": "externo",
+      "balde": 51,
+      "documentos": 1,
+      "bytes": 7600,
+      "leis": [
+        "lei-15271"
+      ]
+    },
+    "lei-12629": {
+      "particao": "externo",
+      "balde": 24,
+      "documentos": 1,
+      "bytes": 1251,
+      "leis": [
+        "lei-15448"
+      ]
+    },
+    "lei-12634": {
+      "particao": "externo",
+      "balde": 19,
+      "documentos": 1,
+      "bytes": 5233,
+      "leis": [
+        "lei-15419"
+      ]
+    },
+    "lei-12712": {
+      "particao": "externo",
+      "balde": 54,
+      "documentos": 1,
+      "bytes": 9927,
+      "leis": [
+        "lei-15359"
+      ]
+    },
+    "lei-12715": {
+      "particao": "externo",
+      "balde": 3,
+      "documentos": 1,
+      "bytes": 2485,
+      "leis": [
+        "lei-15513"
+      ]
+    },
+    "lei-12764": {
+      "particao": "externo",
+      "balde": 3,
+      "documentos": 2,
+      "bytes": 2501,
+      "leis": [
+        "lei-15131",
+        "lei-15256"
+      ]
+    },
+    "lei-12845": {
+      "particao": "externo",
+      "balde": 22,
+      "documentos": 1,
+      "bytes": 5963,
+      "leis": [
+        "lei-15516"
+      ]
+    },
+    "lei-12852": {
+      "particao": "externo",
+      "balde": 70,
+      "documentos": 1,
+      "bytes": 7129,
+      "leis": [
+        "lei-15178"
+      ]
+    },
+    "lei-12858": {
+      "particao": "externo",
+      "balde": 0,
+      "documentos": 1,
+      "bytes": 2669,
+      "leis": [
+        "lei-15169"
+      ]
+    },
+    "lei-12990": {
+      "particao": "externo",
+      "balde": 17,
+      "documentos": 1,
+      "bytes": 10786,
+      "leis": [
+        "lei-15142"
+      ]
+    },
+    "lei-13018": {
+      "particao": "externo",
+      "balde": 17,
+      "documentos": 1,
+      "bytes": 1246,
+      "leis": [
+        "lei-15481"
+      ]
+    },
+    "lei-13105": {
+      "particao": "externo",
+      "balde": 25,
+      "documentos": 3,
+      "bytes": 16575,
+      "leis": [
+        "lei-15109",
+        "lei-15479",
+        "lei-15484"
+      ]
+    },
+    "lei-13178": {
+      "particao": "externo",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 1117,
+      "leis": [
+        "lei-15206"
+      ]
+    },
+    "lei-13240": {
+      "particao": "externo",
+      "balde": 59,
+      "documentos": 1,
+      "bytes": 6038,
+      "leis": [
+        "lei-15343"
+      ]
+    },
+    "lei-13257": {
+      "particao": "externo",
+      "balde": 15,
+      "documentos": 1,
+      "bytes": 1441,
+      "leis": [
+        "lei-15220"
+      ]
+    },
+    "lei-13316": {
+      "particao": "externo",
+      "balde": 19,
+      "documentos": 1,
+      "bytes": 2266,
+      "leis": [
+        "lei-15373"
+      ]
+    },
+    "lei-13636": {
+      "particao": "externo",
+      "balde": 44,
+      "documentos": 1,
+      "bytes": 3399,
+      "leis": [
+        "lei-15364"
+      ]
+    },
+    "lei-13652": {
+      "particao": "externo",
+      "balde": 43,
+      "documentos": 1,
+      "bytes": 1146,
+      "leis": [
+        "lei-15365"
+      ]
+    },
+    "lei-13703": {
+      "particao": "externo",
+      "balde": 87,
+      "documentos": 1,
+      "bytes": 35001,
+      "leis": [
+        "lei-15485"
+      ]
+    },
+    "lei-13709": {
+      "particao": "externo",
+      "balde": 79,
+      "documentos": 1,
+      "bytes": 10293,
+      "leis": [
+        "lei-15352"
+      ]
+    },
+    "lei-13710": {
+      "particao": "externo",
+      "balde": 90,
+      "documentos": 1,
+      "bytes": 5494,
+      "leis": [
+        "lei-15337"
+      ]
+    },
+    "lei-13756": {
+      "particao": "externo",
+      "balde": 75,
+      "documentos": 1,
+      "bytes": 1807,
+      "leis": [
+        "lei-15523"
+      ]
+    },
+    "lei-13819": {
+      "particao": "externo",
+      "balde": 70,
+      "documentos": 2,
+      "bytes": 3728,
+      "leis": [
+        "lei-15231",
+        "lei-15232"
+      ]
+    },
+    "lei-13903": {
+      "particao": "externo",
+      "balde": 81,
+      "documentos": 1,
+      "bytes": 5188,
+      "leis": [
+        "lei-15083"
+      ]
+    },
+    "lei-13954": {
+      "particao": "externo",
+      "balde": 3,
+      "documentos": 1,
+      "bytes": 1575,
+      "leis": [
+        "lei-15167"
+      ]
+    },
+    "lei-13988": {
+      "particao": "externo",
+      "balde": 6,
+      "documentos": 1,
+      "bytes": 17257,
+      "leis": [
+        "lei-15103"
+      ]
+    },
+    "lei-13999": {
+      "particao": "externo",
+      "balde": 65,
+      "documentos": 1,
+      "bytes": 2488,
+      "leis": [
+        "lei-15356"
+      ]
+    },
+    "lei-14133": {
+      "particao": "externo",
+      "balde": 57,
+      "documentos": 2,
+      "bytes": 4223,
+      "leis": [
+        "lei-15210",
+        "lei-15266"
+      ]
+    },
+    "lei-14165": {
+      "particao": "externo",
+      "balde": 21,
+      "documentos": 1,
+      "bytes": 3052,
+      "leis": [
+        "lei-15102"
+      ]
+    },
+    "lei-14193": {
+      "particao": "externo",
+      "balde": 0,
+      "documentos": 2,
+      "bytes": 18463,
+      "leis": [
+        "lei-15427",
+        "lei-15522"
+      ]
+    },
+    "lei-14232": {
+      "particao": "externo",
+      "balde": 40,
+      "documentos": 1,
+      "bytes": 1056,
+      "leis": [
+        "lei-15336"
+      ]
+    },
+    "lei-14237": {
+      "particao": "externo",
+      "balde": 83,
+      "documentos": 1,
+      "bytes": 29732,
+      "leis": [
+        "lei-15348"
+      ]
+    },
+    "lei-14293": {
+      "particao": "externo",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 7725,
+      "leis": [
+        "lei-15490"
+      ]
+    },
+    "lei-14308": {
+      "particao": "externo",
+      "balde": 45,
+      "documentos": 1,
+      "bytes": 1005,
+      "leis": [
+        "lei-15442"
+      ]
+    },
+    "lei-14377": {
+      "particao": "externo",
+      "balde": 58,
+      "documentos": 1,
+      "bytes": 1367,
+      "leis": [
+        "lei-15372"
+      ]
+    },
+    "lei-14597": {
+      "particao": "externo",
+      "balde": 58,
+      "documentos": 2,
+      "bytes": 2987,
+      "leis": [
+        "lei-15386",
+        "lei-15387"
+      ]
+    },
+    "lei-14628": {
+      "particao": "externo",
+      "balde": 13,
+      "documentos": 1,
+      "bytes": 1270,
+      "leis": [
+        "lei-15227"
+      ]
+    },
+    "lei-14705": {
+      "particao": "externo",
+      "balde": 43,
+      "documentos": 1,
+      "bytes": 2948,
+      "leis": [
+        "lei-15176"
+      ]
+    },
+    "lei-14747": {
+      "particao": "externo",
+      "balde": 68,
+      "documentos": 1,
+      "bytes": 1079,
+      "leis": [
+        "lei-15494"
+      ]
+    },
+    "lei-14758": {
+      "particao": "externo",
+      "balde": 32,
+      "documentos": 1,
+      "bytes": 5195,
+      "leis": [
+        "lei-15385"
+      ]
+    },
+    "lei-15089": {
+      "particao": "externo",
+      "balde": 36,
+      "documentos": 1,
+      "bytes": 5514,
+      "leis": [
+        "lei-15089"
+      ]
+    },
+    "lei-15090": {
+      "particao": "externo",
+      "balde": 12,
+      "documentos": 1,
+      "bytes": 54689,
+      "leis": [
+        "lei-15090"
+      ]
+    },
+    "lei-15094": {
+      "particao": "externo",
+      "balde": 84,
+      "documentos": 1,
+      "bytes": 1147,
+      "leis": [
+        "lei-15094"
+      ]
+    },
+    "lei-15095": {
+      "particao": "externo",
+      "balde": 45,
+      "documentos": 1,
+      "bytes": 1125,
+      "leis": [
+        "lei-15095"
+      ]
+    },
+    "lei-15096": {
+      "particao": "externo",
+      "balde": 35,
+      "documentos": 1,
+      "bytes": 1693,
+      "leis": [
+        "lei-15096"
+      ]
+    },
+    "lei-15097": {
+      "particao": "externo",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 29302,
+      "leis": [
+        "lei-15097"
+      ]
+    },
+    "lei-15100": {
+      "particao": "externo",
+      "balde": 69,
+      "documentos": 1,
+      "bytes": 2969,
+      "leis": [
+        "lei-15100"
+      ]
+    },
+    "lei-15108": {
+      "particao": "externo",
+      "balde": 49,
+      "documentos": 5,
+      "bytes": 53275,
+      "leis": [
+        "lei-15108",
+        "lei-15157",
+        "lei-15265",
+        "lei-15288",
+        "lei-15415"
+      ]
+    },
+    "lei-15116": {
+      "particao": "externo",
+      "balde": 84,
+      "documentos": 1,
+      "bytes": 2249,
+      "leis": [
+        "lei-15116"
+      ]
+    },
+    "lei-15117": {
+      "particao": "externo",
+      "balde": 98,
+      "documentos": 1,
+      "bytes": 1208,
+      "leis": [
+        "lei-15117"
+      ]
+    },
+    "lei-15120": {
+      "particao": "externo",
+      "balde": 57,
+      "documentos": 5,
+      "bytes": 34938,
+      "leis": [
+        "lei-15120",
+        "lei-15126",
+        "lei-15233",
+        "lei-15379",
+        "lei-15390"
+      ]
+    },
+    "lei-15121": {
+      "particao": "externo",
+      "balde": 74,
+      "documentos": 1,
+      "bytes": 613,
+      "leis": [
+        "lei-15278"
+      ]
+    },
+    "lei-15122": {
+      "particao": "externo",
+      "balde": 19,
+      "documentos": 1,
+      "bytes": 6532,
+      "leis": [
+        "lei-15122"
+      ]
+    },
+    "lei-15124": {
+      "particao": "externo",
+      "balde": 18,
+      "documentos": 1,
+      "bytes": 2156,
+      "leis": [
+        "lei-15124"
+      ]
+    },
+    "lei-15130": {
+      "particao": "externo",
+      "balde": 65,
+      "documentos": 1,
+      "bytes": 3026,
+      "leis": [
+        "lei-15130"
+      ]
+    },
+    "lei-15132": {
+      "particao": "externo",
+      "balde": 46,
+      "documentos": 1,
+      "bytes": 7953,
+      "leis": [
+        "lei-15132"
+      ]
+    },
+    "lei-15133": {
+      "particao": "externo",
+      "balde": 85,
+      "documentos": 1,
+      "bytes": 2052,
+      "leis": [
+        "lei-15133"
+      ]
+    },
+    "lei-15138": {
+      "particao": "externo",
+      "balde": 82,
+      "documentos": 1,
+      "bytes": 3232,
+      "leis": [
+        "lei-15138"
+      ]
+    },
+    "lei-15139": {
+      "particao": "externo",
+      "balde": 79,
+      "documentos": 1,
+      "bytes": 11325,
+      "leis": [
+        "lei-15139"
+      ]
+    },
+    "lei-15140": {
+      "particao": "externo",
+      "balde": 82,
+      "documentos": 1,
+      "bytes": 1848,
+      "leis": [
+        "lei-15140"
+      ]
+    },
+    "lei-15141": {
+      "particao": "externo",
+      "balde": 59,
+      "documentos": 1,
+      "bytes": 256431,
+      "leis": [
+        "lei-15141"
+      ]
+    },
+    "lei-15143": {
+      "particao": "externo",
+      "balde": 2,
+      "documentos": 1,
+      "bytes": 18698,
+      "leis": [
+        "lei-15143"
+      ]
+    },
+    "lei-15144": {
+      "particao": "externo",
+      "balde": 73,
+      "documentos": 1,
+      "bytes": 1288,
+      "leis": [
+        "lei-15144"
+      ]
+    },
+    "lei-15148": {
+      "particao": "externo",
+      "balde": 1,
+      "documentos": 1,
+      "bytes": 788,
+      "leis": [
+        "lei-15148"
+      ]
+    },
+    "lei-15150": {
+      "particao": "externo",
+      "balde": 11,
+      "documentos": 5,
+      "bytes": 113041,
+      "leis": [
+        "lei-15150",
+        "lei-15190",
+        "lei-15299",
+        "lei-15300",
+        "lei-15355"
+      ]
+    },
+    "lei-15153": {
+      "particao": "externo",
+      "balde": 61,
+      "documentos": 4,
+      "bytes": 32267,
+      "leis": [
+        "lei-15153",
+        "lei-15428",
+        "lei-15452",
+        "lei-15503"
+      ]
+    },
+    "lei-15154": {
+      "particao": "externo",
+      "balde": 33,
+      "documentos": 3,
+      "bytes": 27432,
+      "leis": [
+        "lei-15154",
+        "lei-15440",
+        "lei-15471"
+      ]
+    },
+    "lei-15155": {
+      "particao": "externo",
+      "balde": 22,
+      "documentos": 1,
+      "bytes": 4417,
+      "leis": [
+        "lei-15155"
+      ]
+    },
+    "lei-15165": {
+      "particao": "externo",
+      "balde": 67,
+      "documentos": 1,
+      "bytes": 1331,
+      "leis": [
+        "lei-15165"
+      ]
+    },
+    "lei-15166": {
+      "particao": "externo",
+      "balde": 74,
+      "documentos": 1,
+      "bytes": 1254,
+      "leis": [
+        "lei-15166"
+      ]
+    },
+    "lei-15171": {
+      "particao": "externo",
+      "balde": 95,
+      "documentos": 2,
+      "bytes": 4147,
+      "leis": [
+        "lei-15171",
+        "lei-15267"
+      ]
+    },
+    "lei-15172": {
+      "particao": "externo",
+      "balde": 9,
+      "documentos": 1,
+      "bytes": 1911,
+      "leis": [
+        "lei-15172"
+      ]
+    },
+    "lei-15173": {
+      "particao": "externo",
+      "balde": 22,
+      "documentos": 1,
+      "bytes": 1531,
+      "leis": [
+        "lei-15173"
+      ]
+    },
+    "lei-15174": {
+      "particao": "externo",
+      "balde": 12,
+      "documentos": 1,
+      "bytes": 2127,
+      "leis": [
+        "lei-15174"
+      ]
+    },
+    "lei-15177": {
+      "particao": "externo",
+      "balde": 9,
+      "documentos": 1,
+      "bytes": 5702,
+      "leis": [
+        "lei-15177"
+      ]
+    },
+    "lei-15180": {
+      "particao": "externo",
+      "balde": 57,
+      "documentos": 1,
+      "bytes": 13420,
+      "leis": [
+        "lei-15180"
+      ]
+    },
+    "lei-15182": {
+      "particao": "externo",
+      "balde": 16,
+      "documentos": 2,
+      "bytes": 10722,
+      "leis": [
+        "lei-15182",
+        "lei-15423"
+      ]
+    },
+    "lei-15185": {
+      "particao": "externo",
+      "balde": 5,
+      "documentos": 1,
+      "bytes": 2133,
+      "leis": [
+        "lei-15185"
+      ]
+    },
+    "lei-15197": {
+      "particao": "externo",
+      "balde": 52,
+      "documentos": 1,
+      "bytes": 1338,
+      "leis": [
+        "lei-15197"
+      ]
+    },
+    "lei-15198": {
+      "particao": "externo",
+      "balde": 59,
+      "documentos": 1,
+      "bytes": 4020,
+      "leis": [
+        "lei-15198"
+      ]
+    },
+    "lei-15201": {
+      "particao": "externo",
+      "balde": 35,
+      "documentos": 2,
+      "bytes": 11193,
+      "leis": [
+        "lei-15201",
+        "lei-15497"
+      ]
+    },
+    "lei-15202": {
+      "particao": "externo",
+      "balde": 41,
+      "documentos": 1,
+      "bytes": 2029,
+      "leis": [
+        "lei-15202"
+      ]
+    },
+    "lei-15204": {
+      "particao": "externo",
+      "balde": 7,
+      "documentos": 1,
+      "bytes": 689,
+      "leis": [
+        "lei-15204"
+      ]
+    },
+    "lei-15208": {
+      "particao": "externo",
+      "balde": 37,
+      "documentos": 1,
+      "bytes": 1513,
+      "leis": [
+        "lei-15208"
+      ]
+    },
+    "lei-15209": {
+      "particao": "externo",
+      "balde": 59,
+      "documentos": 1,
+      "bytes": 1457,
+      "leis": [
+        "lei-15209"
+      ]
+    },
+    "lei-15211": {
+      "particao": "externo",
+      "balde": 46,
+      "documentos": 1,
+      "bytes": 48698,
+      "leis": [
+        "lei-15211"
+      ]
+    },
+    "lei-15214": {
+      "particao": "externo",
+      "balde": 2,
+      "documentos": 1,
+      "bytes": 2651,
+      "leis": [
+        "lei-15214"
+      ]
+    },
+    "lei-15215": {
+      "particao": "externo",
+      "balde": 63,
+      "documentos": 1,
+      "bytes": 3008,
+      "leis": [
+        "lei-15215"
+      ]
+    },
+    "lei-15218": {
+      "particao": "externo",
+      "balde": 1,
+      "documentos": 1,
+      "bytes": 777,
+      "leis": [
+        "lei-15218"
+      ]
+    },
+    "lei-15223": {
+      "particao": "externo",
+      "balde": 11,
+      "documentos": 1,
+      "bytes": 4979,
+      "leis": [
+        "lei-15223"
+      ]
+    },
+    "lei-15224": {
+      "particao": "externo",
+      "balde": 25,
+      "documentos": 1,
+      "bytes": 12272,
+      "leis": [
+        "lei-15224"
+      ]
+    },
+    "lei-15228": {
+      "particao": "externo",
+      "balde": 13,
+      "documentos": 1,
+      "bytes": 19675,
+      "leis": [
+        "lei-15228"
+      ]
+    },
+    "lei-15230": {
+      "particao": "externo",
+      "balde": 90,
+      "documentos": 1,
+      "bytes": 1598,
+      "leis": [
+        "lei-15230"
+      ]
+    },
+    "lei-15234": {
+      "particao": "externo",
+      "balde": 34,
+      "documentos": 1,
+      "bytes": 1509,
+      "leis": [
+        "lei-15234"
+      ]
+    },
+    "lei-15240": {
+      "particao": "externo",
+      "balde": 12,
+      "documentos": 6,
+      "bytes": 11471,
+      "leis": [
+        "lei-15240",
+        "lei-15243",
+        "lei-15268",
+        "lei-15413",
+        "lei-15426",
+        "lei-15450"
+      ]
+    },
+    "lei-15244": {
+      "particao": "externo",
+      "balde": 67,
+      "documentos": 1,
+      "bytes": 1195,
+      "leis": [
+        "lei-15244"
+      ]
+    },
+    "lei-15247": {
+      "particao": "externo",
+      "balde": 70,
+      "documentos": 1,
+      "bytes": 17697,
+      "leis": [
+        "lei-15247"
+      ]
+    },
+    "lei-15250": {
+      "particao": "externo",
+      "balde": 58,
+      "documentos": 1,
+      "bytes": 4303,
+      "leis": [
+        "lei-15250"
+      ]
+    },
+    "lei-15251": {
+      "particao": "externo",
+      "balde": 87,
+      "documentos": 1,
+      "bytes": 1662,
+      "leis": [
+        "lei-15251"
+      ]
+    },
+    "lei-15252": {
+      "particao": "externo",
+      "balde": 99,
+      "documentos": 1,
+      "bytes": 14618,
+      "leis": [
+        "lei-15252"
+      ]
+    },
+    "lei-15253": {
+      "particao": "externo",
+      "balde": 31,
+      "documentos": 1,
+      "bytes": 1651,
+      "leis": [
+        "lei-15253"
+      ]
+    },
+    "lei-15257": {
+      "particao": "externo",
+      "balde": 61,
+      "documentos": 1,
+      "bytes": 848,
+      "leis": [
+        "lei-15257"
+      ]
+    },
+    "lei-15260": {
+      "particao": "externo",
+      "balde": 74,
+      "documentos": 1,
+      "bytes": 1617,
+      "leis": [
+        "lei-15260"
+      ]
+    },
+    "lei-15261": {
+      "particao": "externo",
+      "balde": 21,
+      "documentos": 1,
+      "bytes": 2066,
+      "leis": [
+        "lei-15261"
+      ]
+    },
+    "lei-15262": {
+      "particao": "externo",
+      "balde": 70,
+      "documentos": 1,
+      "bytes": 1357,
+      "leis": [
+        "lei-15262"
+      ]
+    },
+    "lei-15263": {
+      "particao": "externo",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 4575,
+      "leis": [
+        "lei-15263"
+      ]
+    },
+    "lei-15269": {
+      "particao": "externo",
+      "balde": 52,
+      "documentos": 1,
+      "bytes": 60884,
+      "leis": [
+        "lei-15269"
+      ]
+    },
+    "lei-15270": {
+      "particao": "externo",
+      "balde": 7,
+      "documentos": 1,
+      "bytes": 23455,
+      "leis": [
+        "lei-15270"
+      ]
+    },
+    "lei-15273": {
+      "particao": "externo",
+      "balde": 81,
+      "documentos": 1,
+      "bytes": 1763,
+      "leis": [
+        "lei-15273"
+      ]
+    },
+    "lei-15274": {
+      "particao": "externo",
+      "balde": 84,
+      "documentos": 1,
+      "bytes": 1151,
+      "leis": [
+        "lei-15274"
+      ]
+    },
+    "lei-15275": {
+      "particao": "externo",
+      "balde": 46,
+      "documentos": 1,
+      "bytes": 1391,
+      "leis": [
+        "lei-15275"
+      ]
+    },
+    "lei-15276": {
+      "particao": "externo",
+      "balde": 77,
+      "documentos": 5,
+      "bytes": 7706,
+      "leis": [
+        "lei-15276",
+        "lei-15360",
+        "lei-15369",
+        "lei-15462",
+        "lei-15468"
+      ]
+    },
+    "lei-15279": {
+      "particao": "externo",
+      "balde": 62,
+      "documentos": 1,
+      "bytes": 2936,
+      "leis": [
+        "lei-15279"
+      ]
+    },
+    "lei-15282": {
+      "particao": "externo",
+      "balde": 13,
+      "documentos": 1,
+      "bytes": 1543,
+      "leis": [
+        "lei-15282"
+      ]
+    },
+    "lei-15283": {
+      "particao": "externo",
+      "balde": 89,
+      "documentos": 1,
+      "bytes": 2589,
+      "leis": [
+        "lei-15283"
+      ]
+    },
+    "lei-15286": {
+      "particao": "externo",
+      "balde": 95,
+      "documentos": 1,
+      "bytes": 659,
+      "leis": [
+        "lei-15286"
+      ]
+    },
+    "lei-15291": {
+      "particao": "externo",
+      "balde": 99,
+      "documentos": 1,
+      "bytes": 1676,
+      "leis": [
+        "lei-15291"
+      ]
+    },
+    "lei-15295": {
+      "particao": "externo",
+      "balde": 61,
+      "documentos": 3,
+      "bytes": 9503,
+      "leis": [
+        "lei-15295",
+        "lei-15402",
+        "lei-15410"
+      ]
+    },
+    "lei-15320": {
+      "particao": "externo",
+      "balde": 63,
+      "documentos": 1,
+      "bytes": 3078,
+      "leis": [
+        "lei-15320"
+      ]
+    },
+    "lei-15324": {
+      "particao": "externo",
+      "balde": 4,
+      "documentos": 1,
+      "bytes": 4492,
+      "leis": [
+        "lei-15324"
+      ]
+    },
+    "lei-15325": {
+      "particao": "externo",
+      "balde": 10,
+      "documentos": 1,
+      "bytes": 3801,
+      "leis": [
+        "lei-15325"
+      ]
+    },
+    "lei-15335": {
+      "particao": "externo",
+      "balde": 67,
+      "documentos": 1,
+      "bytes": 2585,
+      "leis": [
+        "lei-15335"
+      ]
+    },
+    "lei-15338": {
+      "particao": "externo",
+      "balde": 97,
+      "documentos": 1,
+      "bytes": 2030,
+      "leis": [
+        "lei-15338"
+      ]
+    },
+    "lei-15341": {
+      "particao": "externo",
+      "balde": 82,
+      "documentos": 1,
+      "bytes": 1090,
+      "leis": [
+        "lei-15341"
+      ]
+    },
+    "lei-15344": {
+      "particao": "externo",
+      "balde": 18,
+      "documentos": 1,
+      "bytes": 6937,
+      "leis": [
+        "lei-15344"
+      ]
+    },
+    "lei-15345": {
+      "particao": "externo",
+      "balde": 71,
+      "documentos": 1,
+      "bytes": 2951,
+      "leis": [
+        "lei-15345"
+      ]
+    },
+    "lei-15349": {
+      "particao": "externo",
+      "balde": 6,
+      "documentos": 1,
+      "bytes": 6195,
+      "leis": [
+        "lei-15349"
+      ]
+    },
+    "lei-15357": {
+      "particao": "externo",
+      "balde": 45,
+      "documentos": 1,
+      "bytes": 2970,
+      "leis": [
+        "lei-15357"
+      ]
+    },
+    "lei-15358": {
+      "particao": "externo",
+      "balde": 87,
+      "documentos": 1,
+      "bytes": 81075,
+      "leis": [
+        "lei-15358"
+      ]
+    },
+    "lei-15361": {
+      "particao": "externo",
+      "balde": 15,
+      "documentos": 1,
+      "bytes": 1109,
+      "leis": [
+        "lei-15361"
+      ]
+    },
+    "lei-15363": {
+      "particao": "externo",
+      "balde": 73,
+      "documentos": 1,
+      "bytes": 1424,
+      "leis": [
+        "lei-15363"
+      ]
+    },
+    "lei-15366": {
+      "particao": "externo",
+      "balde": 93,
+      "documentos": 1,
+      "bytes": 1656,
+      "leis": [
+        "lei-15366"
+      ]
+    },
+    "lei-15370": {
+      "particao": "externo",
+      "balde": 78,
+      "documentos": 1,
+      "bytes": 3069,
+      "leis": [
+        "lei-15370"
+      ]
+    },
+    "lei-15374": {
+      "particao": "externo",
+      "balde": 73,
+      "documentos": 1,
+      "bytes": 1271,
+      "leis": [
+        "lei-15374"
+      ]
+    },
+    "lei-15378": {
+      "particao": "externo",
+      "balde": 28,
+      "documentos": 1,
+      "bytes": 12052,
+      "leis": [
+        "lei-15378"
+      ]
+    },
+    "lei-15381": {
+      "particao": "externo",
+      "balde": 95,
+      "documentos": 1,
+      "bytes": 4350,
+      "leis": [
+        "lei-15381"
+      ]
+    },
+    "lei-15388": {
+      "particao": "externo",
+      "balde": 75,
+      "documentos": 1,
+      "bytes": 30079,
+      "leis": [
+        "lei-15388"
+      ]
+    },
+    "lei-15391": {
+      "particao": "externo",
+      "balde": 98,
+      "documentos": 1,
+      "bytes": 14775,
+      "leis": [
+        "lei-15391"
+      ]
+    },
+    "lei-15392": {
+      "particao": "externo",
+      "balde": 77,
+      "documentos": 1,
+      "bytes": 3502,
+      "leis": [
+        "lei-15392"
+      ]
+    },
+    "lei-15395": {
+      "particao": "externo",
+      "balde": 49,
+      "documentos": 1,
+      "bytes": 22154,
+      "leis": [
+        "lei-15395"
+      ]
+    },
+    "lei-15396": {
+      "particao": "externo",
+      "balde": 77,
+      "documentos": 1,
+      "bytes": 4737,
+      "leis": [
+        "lei-15396"
+      ]
+    },
+    "lei-15398": {
+      "particao": "externo",
+      "balde": 2,
+      "documentos": 1,
+      "bytes": 10845,
+      "leis": [
+        "lei-15398"
+      ]
+    },
+    "lei-15400": {
+      "particao": "externo",
+      "balde": 13,
+      "documentos": 1,
+      "bytes": 1162,
+      "leis": [
+        "lei-15400"
+      ]
+    },
+    "lei-15401": {
+      "particao": "externo",
+      "balde": 22,
+      "documentos": 1,
+      "bytes": 3011,
+      "leis": [
+        "lei-15401"
+      ]
+    },
+    "lei-15404": {
+      "particao": "externo",
+      "balde": 83,
+      "documentos": 1,
+      "bytes": 5637,
+      "leis": [
+        "lei-15404"
+      ]
+    },
+    "lei-15409": {
+      "particao": "externo",
+      "balde": 24,
+      "documentos": 1,
+      "bytes": 2904,
+      "leis": [
+        "lei-15409"
+      ]
+    },
+    "lei-15416": {
+      "particao": "externo",
+      "balde": 18,
+      "documentos": 1,
+      "bytes": 1585,
+      "leis": [
+        "lei-15416"
+      ]
+    },
+    "lei-15418": {
+      "particao": "externo",
+      "balde": 53,
+      "documentos": 1,
+      "bytes": 5421,
+      "leis": [
+        "lei-15418"
+      ]
+    },
+    "lei-15421": {
+      "particao": "externo",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 62741,
+      "leis": [
+        "lei-15421"
+      ]
+    },
+    "lei-15422": {
+      "particao": "externo",
+      "balde": 24,
+      "documentos": 1,
+      "bytes": 1205,
+      "leis": [
+        "lei-15422"
+      ]
+    },
+    "lei-15429": {
+      "particao": "externo",
+      "balde": 85,
+      "documentos": 1,
+      "bytes": 950,
+      "leis": [
+        "lei-15429"
+      ]
+    },
+    "lei-15430": {
+      "particao": "externo",
+      "balde": 82,
+      "documentos": 1,
+      "bytes": 3459,
+      "leis": [
+        "lei-15430"
+      ]
+    },
+    "lei-15434": {
+      "particao": "externo",
+      "balde": 10,
+      "documentos": 1,
+      "bytes": 3475,
+      "leis": [
+        "lei-15434"
+      ]
+    },
+    "lei-15435": {
+      "particao": "externo",
+      "balde": 81,
+      "documentos": 1,
+      "bytes": 2426,
+      "leis": [
+        "lei-15435"
+      ]
+    },
+    "lei-15439": {
+      "particao": "externo",
+      "balde": 39,
+      "documentos": 1,
+      "bytes": 4953,
+      "leis": [
+        "lei-15439"
+      ]
+    },
+    "lei-15443": {
+      "particao": "externo",
+      "balde": 94,
+      "documentos": 1,
+      "bytes": 1335,
+      "leis": [
+        "lei-15443"
+      ]
+    },
+    "lei-15444": {
+      "particao": "externo",
+      "balde": 1,
+      "documentos": 1,
+      "bytes": 1303,
+      "leis": [
+        "lei-15444"
+      ]
+    },
+    "lei-15445": {
+      "particao": "externo",
+      "balde": 22,
+      "documentos": 1,
+      "bytes": 1975,
+      "leis": [
+        "lei-15445"
+      ]
+    },
+    "lei-15449": {
+      "particao": "externo",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 3017,
+      "leis": [
+        "lei-15449"
+      ]
+    },
+    "lei-15454": {
+      "particao": "externo",
+      "balde": 27,
+      "documentos": 1,
+      "bytes": 1485,
+      "leis": [
+        "lei-15454"
+      ]
+    },
+    "lei-15456": {
+      "particao": "externo",
+      "balde": 95,
+      "documentos": 1,
+      "bytes": 3474,
+      "leis": [
+        "lei-15456"
+      ]
+    },
+    "lei-15457": {
+      "particao": "externo",
+      "balde": 86,
+      "documentos": 1,
+      "bytes": 6107,
+      "leis": [
+        "lei-15457"
+      ]
+    },
+    "lei-15459": {
+      "particao": "externo",
+      "balde": 33,
+      "documentos": 1,
+      "bytes": 2772,
+      "leis": [
+        "lei-15459"
+      ]
+    },
+    "lei-15466": {
+      "particao": "externo",
+      "balde": 83,
+      "documentos": 1,
+      "bytes": 1974,
+      "leis": [
+        "lei-15466"
+      ]
+    },
+    "lei-15472": {
+      "particao": "externo",
+      "balde": 93,
+      "documentos": 2,
+      "bytes": 3074,
+      "leis": [
+        "lei-15472",
+        "lei-15511"
+      ]
+    },
+    "lei-15473": {
+      "particao": "externo",
+      "balde": 58,
+      "documentos": 1,
+      "bytes": 8611,
+      "leis": [
+        "lei-15473"
+      ]
+    },
+    "lei-15475": {
+      "particao": "externo",
+      "balde": 14,
+      "documentos": 1,
+      "bytes": 1546,
+      "leis": [
+        "lei-15475"
+      ]
+    },
+    "lei-15476": {
+      "particao": "externo",
+      "balde": 98,
+      "documentos": 1,
+      "bytes": 2886,
+      "leis": [
+        "lei-15476"
+      ]
+    },
+    "lei-15482": {
+      "particao": "externo",
+      "balde": 13,
+      "documentos": 1,
+      "bytes": 1536,
+      "leis": [
+        "lei-15482"
+      ]
+    },
+    "lei-15486": {
+      "particao": "externo",
+      "balde": 15,
+      "documentos": 1,
+      "bytes": 1802,
+      "leis": [
+        "lei-15486"
+      ]
+    },
+    "lei-15492": {
+      "particao": "externo",
+      "balde": 14,
+      "documentos": 1,
+      "bytes": 5559,
+      "leis": [
+        "lei-15492"
+      ]
+    },
+    "lei-15493": {
+      "particao": "externo",
+      "balde": 68,
+      "documentos": 1,
+      "bytes": 3177,
+      "leis": [
+        "lei-15493"
+      ]
+    },
+    "lei-15496": {
+      "particao": "externo",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 9519,
+      "leis": [
+        "lei-15496"
+      ]
+    },
+    "lei-15498": {
+      "particao": "externo",
+      "balde": 56,
+      "documentos": 1,
+      "bytes": 10101,
+      "leis": [
+        "lei-15498"
+      ]
+    },
+    "lei-15499": {
+      "particao": "externo",
+      "balde": 71,
+      "documentos": 1,
+      "bytes": 5501,
+      "leis": [
+        "lei-15499"
+      ]
+    },
+    "lei-15500": {
+      "particao": "externo",
+      "balde": 50,
+      "documentos": 1,
+      "bytes": 5761,
+      "leis": [
+        "lei-15500"
+      ]
+    },
+    "lei-15501": {
+      "particao": "externo",
+      "balde": 19,
+      "documentos": 1,
+      "bytes": 1518,
+      "leis": [
+        "lei-15501"
+      ]
+    },
+    "lei-15505": {
+      "particao": "externo",
+      "balde": 71,
+      "documentos": 1,
+      "bytes": 1645,
+      "leis": [
+        "lei-15505"
+      ]
+    },
+    "lei-15508": {
+      "particao": "externo",
+      "balde": 24,
+      "documentos": 1,
+      "bytes": 826,
+      "leis": [
+        "lei-15508"
+      ]
+    },
+    "lei-15509": {
+      "particao": "externo",
+      "balde": 0,
+      "documentos": 1,
+      "bytes": 985,
+      "leis": [
+        "lei-15509"
+      ]
+    },
+    "lei-15512": {
+      "particao": "externo",
+      "balde": 61,
+      "documentos": 1,
+      "bytes": 26830,
+      "leis": [
+        "lei-15512"
+      ]
+    },
+    "lei-15518": {
+      "particao": "externo",
+      "balde": 2,
+      "documentos": 1,
+      "bytes": 6525,
+      "leis": [
+        "lei-15518"
+      ]
+    },
+    "lei-15519": {
+      "particao": "externo",
+      "balde": 48,
+      "documentos": 1,
+      "bytes": 2714,
+      "leis": [
+        "lei-15519"
+      ]
+    },
+    "lei-15520": {
+      "particao": "externo",
+      "balde": 13,
+      "documentos": 1,
+      "bytes": 4863,
+      "leis": [
+        "lei-15520"
+      ]
+    },
+    "lei-15524": {
+      "particao": "externo",
+      "balde": 90,
+      "documentos": 1,
+      "bytes": 4605,
+      "leis": [
+        "lei-15524"
+      ]
+    },
+    "lei-15525": {
+      "particao": "externo",
+      "balde": 94,
+      "documentos": 1,
+      "bytes": 3408,
+      "leis": [
+        "lei-15525"
+      ]
+    },
+    "lei-15526": {
+      "particao": "externo",
+      "balde": 73,
+      "documentos": 1,
+      "bytes": 17759,
+      "leis": [
+        "lei-15526"
+      ]
+    }
+  },
+  "sha256_documentos": "d3650a88b3fbeba046b8c3edab071a412bf7cf1ffc189aa2dfb2d7402635b176"
+}

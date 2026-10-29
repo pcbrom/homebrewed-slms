@@ -1,0 +1,38 @@
+{
+  "avaliacao": "conjunto externo B_externo, mesmas janelas de 256, preenchimento fora",
+  "corpus": "B",
+  "delta_min": 0.13036742782791055,
+  "escolha_orcamento": "menor media de bits por byte na validacao entre os orcamentos, por fracao",
+  "fracoes": [
+    0.125,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "hiperparametros": {
+    "dropout": 0.2,
+    "lr": 0.0003
+  },
+  "leitura": "por fracao, D = bpb_ngrama - bpb_T no externo, media das sementes com IC de 95% por t com 2 gl; o Transformer vale a pena na fracao quando o limite inferior do IC passa delta_min; a mistura e relatada com o mesmo intervalo, sem criterio",
+  "mistura": "p = lam p_T + (1 - lam) p_ng, lam em passos de 0,01 ajustado na validacao por semente",
+  "modo": "autoregressivo",
+  "ngrama": {
+    "escolha": "menor bits por byte na validacao, por fracao",
+    "ordens": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "orcamentos": [
+    16,
+    64
+  ],
+  "selecao_fracao": "prefixo de grupos inteiros em ordem sha256(semente:grupo), aninhado",
+  "sementes": [
+    500,
+    501,
+    502
+  ]
+}

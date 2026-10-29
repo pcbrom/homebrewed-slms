@@ -1,0 +1,81 @@
+---
+config:
+  layout: elk
+---
+flowchart TD
+    AUTOR(["Author<br>a. accepts decisions and preregistration<br>b. checks corpus and tests in Colab<br>c. reads samples blind"])
+
+    subgraph OFF["Preparation (offline, once)"]
+        C0["0. Configuration<br>corpus, V, L, network, mode, budget<br>[det. script + human]"]
+        C1["1. Domain adapter<br>source to clean NFC documents<br>split into chapter blocks<br>[det. script]"]
+        C2["2. Tokenizer<br>byte-level BPE, V by measurement<br>contract U1 to U6<br>[det. script]"]
+        C0 --> C1 --> C2
+    end
+
+    DB[("Versioned repository<br>corpora A and B with manifest and sha256<br>tokenizer.json, preregistration with hash")]
+
+    subgraph RUN["Training (runtime)"]
+        R3["3. Windowing<br>windows of L tokens per document<br>EOS and padding predicted<br>[det. script]"]
+        R4{"4. Mode<br>[det. script]"}
+        R4A["4a. Diffusion masking<br>l ~ U{1..L} stratified<br>l positions replaced by MASK<br>[det. script]"]
+        R4B["4b. Autoregressive<br>causal attention mask<br>[det. script]"]
+        R5["5. Transformer network<br>same parameters in both modes<br>no time input<br>[det. script]"]
+        R6["6. Loss and optimisation<br>diffusion (1/l) summed CE, AR mean per token<br>fp32 loss, AdamW, fp16 with GradScaler<br>[det. script]"]
+        R3 --> R4
+        R4 -->|diffusion| R4A
+        R4 -->|autoregressive| R4B
+        R4A --> R5
+        R4B --> R5
+        R5 --> R6
+    end
+
+    subgraph AVAL["Evaluation and generation"]
+        R7["7. Generation<br>ancestral, random unmasking<br>float64 draws<br>[det. script]"]
+        R8["8. Evaluation<br>bpb as a ratio of sums<br>number-of-masks NELBO in fp32<br>[det. script]"]
+        G{"9. Comparison<br>CI of Δ = bpb_dif − bpb_AR<br>[det. script]"}
+        R10["10. Blind reading<br>levels N1 to N4, copy filter<br>[det. script + human]"]
+        G -->|CI below 0| V1["diffusion better<br>(conclusive)"]
+        G -->|CI above 0| V2["AR beats the bound<br>(no conclusion about diffusion)"]
+        G -->|CI contains 0| V3["inconclusive"]
+    end
+
+    subgraph GOVN["Governance"]
+        GG["Gates<br>1. formulation G0 and G1 on CPU, blocking<br>2. gradient sentinel until the end of training<br>3. Δ_min and seeds frozen with hash<br>4. 24 h GPU ceiling at 500 W<br>5. human reading only sets the roadmap"]
+    end
+
+    C2 --> DB
+    DB --> R3
+    R6 --> R8
+    R6 --> R7
+    R8 --> G
+    R7 --> R10
+    GG -. governs .-> R6
+    GG -. governs .-> G
+    AUTOR -. acceptance .-> C0
+    AUTOR -. reading .-> R10
+
+    V3 ~~~ L1
+
+    subgraph LEG["Colour key"]
+        L1["preparation"]
+        L2["execution"]
+        L3["decision or gate"]
+        L4["governance"]
+        L5["storage"]
+        L6(["human"])
+    end
+
+    classDef off fill:#d8e8f4,stroke:#1f5a7a,stroke-width:2px,color:#1a1a1a
+    classDef run fill:#e6f4d8,stroke:#4a7a1f,stroke-width:2px,color:#1a1a1a
+    classDef det fill:#f4e6d8,stroke:#a15a1f,stroke-width:2px,color:#1a1a1a
+    classDef cond fill:#f0f0f0,stroke:#888,stroke-width:1px,stroke-dasharray:5 4,color:#1a1a1a
+    classDef gov fill:#efe6f4,stroke:#5a2f7a,stroke-width:2px,color:#1a1a1a
+    classDef dbc fill:#cfe0ef,stroke:#1f5a7a,stroke-width:2px,color:#1a1a1a
+    classDef hum fill:#f7e7b4,stroke:#8a6d1f,stroke-width:2px,color:#1a1a1a
+    class C0,C1,C2,L1 off
+    class R3,R4A,R4B,R5,R6,R7,R8,L2 run
+    class R4,G,R10,L3 det
+    class V1,V2,V3 cond
+    class GG,L4 gov
+    class DB,L5 dbc
+    class AUTOR,L6 hum

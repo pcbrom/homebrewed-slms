@@ -1,0 +1,310 @@
+{
+ "m7-B-autoregressivo-e64-s200:t2": {
+  "taxa": 1e-05,
+  "cv": {
+   "1e-05": 0.6038050885227265,
+   "3e-05": 0.590585619336128,
+   "0.0001": 0.5649411570931216
+  },
+  "temperatura": 1.4273456474723976,
+  "ece_externo": 0.04908186659481682,
+  "ece_externo_calibrado": 0.0834889797863937,
+  "limiar_seletivo": 0.9470343817035805,
+  "cobertura_externo": 0.0019386106623586429,
+  "acerto_seletivo_externo": 1.0
+ },
+ "m7-B-autoregressivo-e64-s200:t3": {
+  "taxa": 1e-05,
+  "cv": {
+   "1e-05": 0.5017942583732057,
+   "3e-05": 0.49940191387559807,
+   "0.0001": 0.5011961722488039
+  },
+  "temperatura": 54.597906348386935,
+  "ece_externo": 0.04682439087815424,
+  "ece_externo_calibrado": 3.5763491055162966e-05,
+  "limiar_seletivo": Infinity,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ },
+ "m7-B-autoregressivo-e64-s201:t2": {
+  "taxa": 1e-05,
+  "cv": {
+   "1e-05": 0.5766233472635788,
+   "3e-05": 0.5650671106259568,
+   "0.0001": 0.5522545682377487
+  },
+  "temperatura": 1.3214285525771585,
+  "ece_externo": 0.07921668466343057,
+  "ece_externo_calibrado": 0.059368876378640245,
+  "limiar_seletivo": 0.9584169204067174,
+  "cobertura_externo": 0.0006462035541195477,
+  "acerto_seletivo_externo": 1.0
+ },
+ "m7-B-autoregressivo-e64-s201:t3": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.5011961722488039,
+   "3e-05": 0.5047846889952153,
+   "0.0001": 0.5
+  },
+  "temperatura": 54.59782456471182,
+  "ece_externo": 0.04805498440054399,
+  "ece_externo_calibrado": 0.00254237510986971,
+  "limiar_seletivo": Infinity,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ },
+ "m7-B-autoregressivo-e64-s202:t2": {
+  "taxa": 0.0001,
+  "cv": {
+   "1e-05": 0.5879987275463605,
+   "3e-05": 0.59537669795051,
+   "0.0001": 0.5994491955121788
+  },
+  "temperatura": 2.5728557867467035,
+  "ece_externo": 0.1020367559015462,
+  "ece_externo_calibrado": 0.03802097558204885,
+  "limiar_seletivo": 0.8486062515917919,
+  "cobertura_externo": 0.012600969305331179,
+  "acerto_seletivo_externo": 0.8974358974358975
+ },
+ "m7-B-autoregressivo-e64-s202:t3": {
+  "taxa": 1e-05,
+  "cv": {
+   "1e-05": 0.5005980861244019,
+   "3e-05": 0.5,
+   "0.0001": 0.5005980861244019
+  },
+  "temperatura": 29.27039994599992,
+  "ece_externo": 0.0666088985239906,
+  "ece_externo_calibrado": 0.0005488371044272133,
+  "limiar_seletivo": 0.505995617904477,
+  "cobertura_externo": 0.0016877637130801688,
+  "acerto_seletivo_externo": 0.5
+ },
+ "m7-B-autoregressivo-e64-s203:t2": {
+  "taxa": 1e-05,
+  "cv": {
+   "1e-05": 0.5829775415162222,
+   "3e-05": 0.5814919357443208,
+   "0.0001": 0.5657566254787849
+  },
+  "temperatura": 1.366178176777673,
+  "ece_externo": 0.07168030665648774,
+  "ece_externo_calibrado": 0.10159998691139775,
+  "limiar_seletivo": 0.9264110008505284,
+  "cobertura_externo": 0.022617124394184167,
+  "acerto_seletivo_externo": 0.8714285714285714
+ },
+ "m7-B-autoregressivo-e64-s203:t3": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.49521531100478466,
+   "3e-05": 0.5017942583732058,
+   "0.0001": 0.49940191387559807
+  },
+  "temperatura": 54.59778620832517,
+  "ece_externo": 0.020912466471708253,
+  "ece_externo_calibrado": 0.0062420907905835765,
+  "limiar_seletivo": Infinity,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ },
+ "m7-B-autoregressivo-e64-s204:t2": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.5825657703511843,
+   "3e-05": 0.6031123440921333,
+   "0.0001": 0.5836153831248102
+  },
+  "temperatura": 2.4140298673801324,
+  "ece_externo": 0.24381285774881123,
+  "ece_externo_calibrado": 0.11368794464333183,
+  "limiar_seletivo": 0.8841001070857686,
+  "cobertura_externo": 0.007431340872374798,
+  "acerto_seletivo_externo": 0.8695652173913043
+ },
+ "m7-B-autoregressivo-e64-s204:t3": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.4988038277511962,
+   "3e-05": 0.5005980861244019,
+   "0.0001": 0.5
+  },
+  "temperatura": 54.59779842505681,
+  "ece_externo": 0.14100394701655908,
+  "ece_externo_calibrado": 0.0026767849922180176,
+  "limiar_seletivo": 0.5037055260364749,
+  "cobertura_externo": 0.11265822784810127,
+  "acerto_seletivo_externo": 0.5093632958801498
+ },
+ "m7-B-difusao-e256-s300:t2": {
+  "taxa": 1e-05,
+  "cv": {
+   "1e-05": 0.590559782714008,
+   "3e-05": 0.5754962246235926,
+   "0.0001": 0.573394576893017
+  },
+  "temperatura": 0.9826531490418298,
+  "ece_externo": 0.07202861927245087,
+  "ece_externo_calibrado": 0.0741451059289048,
+  "limiar_seletivo": 0.9407191019091978,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ },
+ "m7-B-difusao-e256-s300:t3": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.5005980861244019,
+   "3e-05": 0.5011961722488039,
+   "0.0001": 0.5
+  },
+  "temperatura": 54.597936916183905,
+  "ece_externo": 0.12534672054560375,
+  "ece_externo_calibrado": 0.004445133832939541,
+  "limiar_seletivo": 0.5053431482571606,
+  "cobertura_externo": 0.0012658227848101266,
+  "acerto_seletivo_externo": 0.6666666666666666
+ },
+ "m7-B-difusao-e256-s301:t2": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.5697839089517437,
+   "3e-05": 0.5804156789541335,
+   "0.0001": 0.5701674213113378
+  },
+  "temperatura": 1.5474164602538916,
+  "ece_externo": 0.061261769219245976,
+  "ece_externo_calibrado": 0.05834039859894983,
+  "limiar_seletivo": Infinity,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ },
+ "m7-B-difusao-e256-s301:t3": {
+  "taxa": 0.0001,
+  "cv": {
+   "1e-05": 0.5,
+   "3e-05": 0.5,
+   "0.0001": 0.5029904306220095
+  },
+  "temperatura": 54.59778588578495,
+  "ece_externo": 0.13982069069826153,
+  "ece_externo_calibrado": 0.0026336312294006348,
+  "limiar_seletivo": 0.503082782672804,
+  "cobertura_externo": 0.03333333333333333,
+  "acerto_seletivo_externo": 0.5189873417721519
+ },
+ "m7-B-difusao-e256-s302:t2": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.568168312674801,
+   "3e-05": 0.5716021612334403,
+   "0.0001": 0.5480561171432448
+  },
+  "temperatura": 1.5730425728501871,
+  "ece_externo": 0.09033694194091157,
+  "ece_externo_calibrado": 0.05893568545820639,
+  "limiar_seletivo": 0.9541136468854375,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ },
+ "m7-B-difusao-e256-s302:t3": {
+  "taxa": 0.0001,
+  "cv": {
+   "1e-05": 0.4964114832535885,
+   "3e-05": 0.5017942583732058,
+   "0.0001": 0.5023923444976076
+  },
+  "temperatura": 54.59779184363323,
+  "ece_externo": 0.032156443671335126,
+  "ece_externo_calibrado": 0.005213494139884589,
+  "limiar_seletivo": 0.5026415934440933,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ },
+ "m7-B-difusao-e256-s303:t2": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.5642710197068835,
+   "3e-05": 0.5864339971192166,
+   "0.0001": 0.5670662192624936
+  },
+  "temperatura": 1.9932165243162074,
+  "ece_externo": 0.09740903321683697,
+  "ece_externo_calibrado": 0.1802584197871712,
+  "limiar_seletivo": 0.8904853665789304,
+  "cobertura_externo": 0.0012924071082390954,
+  "acerto_seletivo_externo": 0.75
+ },
+ "m7-B-difusao-e256-s303:t3": {
+  "taxa": 1e-05,
+  "cv": {
+   "1e-05": 0.5035885167464115,
+   "3e-05": 0.5029904306220097,
+   "0.0001": 0.4976076555023924
+  },
+  "temperatura": 54.59788432402952,
+  "ece_externo": 0.04176975908661689,
+  "ece_externo_calibrado": 0.009256473674049914,
+  "limiar_seletivo": Infinity,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ },
+ "m7-B-difusao-e256-s304:t2": {
+  "taxa": 0.0001,
+  "cv": {
+   "1e-05": 0.5567905102086953,
+   "3e-05": 0.5666528333085732,
+   "0.0001": 0.569034646910263
+  },
+  "temperatura": 6.470276433949768,
+  "ece_externo": 0.25379232767132837,
+  "ece_externo_calibrado": 0.04515875483560641,
+  "limiar_seletivo": 0.736589490053729,
+  "cobertura_externo": 0.0009693053311793214,
+  "acerto_seletivo_externo": 0.6666666666666666
+ },
+ "m7-B-difusao-e256-s304:t3": {
+  "taxa": 0.0001,
+  "cv": {
+   "1e-05": 0.4976076555023924,
+   "3e-05": 0.5,
+   "0.0001": 0.5029904306220095
+  },
+  "temperatura": 54.597857994417616,
+  "ece_externo": 0.058949272139665936,
+  "ece_externo_calibrado": 0.02723816693583625,
+  "limiar_seletivo": 0.5022967586079025,
+  "cobertura_externo": 0.0008438818565400844,
+  "acerto_seletivo_externo": 1.0
+ },
+ "m7-B-difusao-e256-s305:t2": {
+  "taxa": 3e-05,
+  "cv": {
+   "1e-05": 0.5560460925338622,
+   "3e-05": 0.5799998708168894,
+   "0.0001": 0.5732653937824169
+  },
+  "temperatura": 4.505512848497109,
+  "ece_externo": 0.12531727173024118,
+  "ece_externo_calibrado": 0.04977974573899547,
+  "limiar_seletivo": 0.703691330499665,
+  "cobertura_externo": 0.0006462035541195477,
+  "acerto_seletivo_externo": 0.5
+ },
+ "m7-B-difusao-e256-s305:t3": {
+  "taxa": 0.0001,
+  "cv": {
+   "1e-05": 0.4988038277511962,
+   "3e-05": 0.4976076555023924,
+   "0.0001": 0.5059808612440191
+  },
+  "temperatura": 54.59786585543695,
+  "ece_externo": 0.13132104944076214,
+  "ece_externo_calibrado": 0.0024709701538085938,
+  "limiar_seletivo": Infinity,
+  "cobertura_externo": 0.0,
+  "acerto_seletivo_externo": null
+ }
+}

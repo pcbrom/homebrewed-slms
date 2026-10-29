@@ -1,0 +1,32 @@
+{
+ "ttl-160m": {
+  "repositorio": "nicholasKluge/TeenyTinyLlama-160m",
+  "revisao": "da8648b20fa9ee37980fbfdd39bda8030834e58f",
+  "ida_e_volta": 0.578125,
+  "fp16_contra_fp32": {
+   "media_abs_nats": 0.002581427303174275,
+   "max_abs_nats": 0.029009287789355298,
+   "finitos": true
+  }
+ },
+ "tucano-160m": {
+  "repositorio": "TucanoBR/Tucano-160m",
+  "revisao": "6331cbef9933c05d8d0c8ae5ee23ed2570f06571",
+  "ida_e_volta": 0.578125,
+  "fp16_contra_fp32": {
+   "media_abs_nats": 0.0036648515648946165,
+   "max_abs_nats": 0.10954361275543789,
+   "finitos": true
+  }
+ },
+ "tucano-630m": {
+  "repositorio": "TucanoBR/Tucano-630m",
+  "revisao": "37baa750655d7ee54a542a41a0dc7ffb372135e7",
+  "ida_e_volta": 0.578125,
+  "fp16_contra_fp32": {
+   "media_abs_nats": 0.0036256386176607945,
+   "max_abs_nats": 0.13316253825834323,
+   "finitos": true
+  }
+ }
+}

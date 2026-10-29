@@ -1,0 +1,159 @@
+{
+ "humanos": {
+  "k": 7.0,
+  "taxa_lexico": 0.9624422878537131,
+  "taxa_trigramas": 0.1780141342219561
+ },
+ "16": {
+  "300": {
+   "segundos": 6.97412371635437,
+   "validas": 23,
+   "n": 32,
+   "taxa_lexico": 0.8692138198484048,
+   "taxa_trigramas": 0.08650948907319055,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.14818512891522437
+   ]
+  },
+  "301": {
+   "segundos": 7.001326084136963,
+   "validas": 23,
+   "n": 32,
+   "taxa_lexico": 0.8614895629212588,
+   "taxa_trigramas": 0.08656025673905696,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.14818512891522437
+   ]
+  },
+  "302": {
+   "segundos": 6.999666452407837,
+   "validas": 26,
+   "n": 32,
+   "taxa_lexico": 0.8652532723970784,
+   "taxa_trigramas": 0.10424081465645255,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.1322746044977541
+   ]
+  }
+ },
+ "64": {
+  "300": {
+   "segundos": 27.842530965805054,
+   "validas": 28,
+   "n": 32,
+   "taxa_lexico": 0.864295285913685,
+   "taxa_trigramas": 0.09482027355357885,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.12343611850026381
+   ]
+  },
+  "301": {
+   "segundos": 27.74959635734558,
+   "validas": 30,
+   "n": 32,
+   "taxa_lexico": 0.8818884165852521,
+   "taxa_trigramas": 0.11163218867786326,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.11570330822202778
+   ]
+  },
+  "302": {
+   "segundos": 28.11288094520569,
+   "validas": 29,
+   "n": 32,
+   "taxa_lexico": 0.8815852579229237,
+   "taxa_trigramas": 0.10105750861668149,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.11944486906950269
+   ]
+  }
+ },
+ "256": {
+  "300": {
+   "segundos": 111.18724870681763,
+   "validas": 29,
+   "n": 32,
+   "taxa_lexico": 0.8642697095515687,
+   "taxa_trigramas": 0.09596539942207506,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.11944486906950269
+   ]
+  },
+  "301": {
+   "segundos": 111.10435152053833,
+   "validas": 28,
+   "n": 32,
+   "taxa_lexico": 0.8855544201398956,
+   "taxa_trigramas": 0.12713386266657237,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.12343611850026381
+   ]
+  },
+  "302": {
+   "segundos": 112.17433595657349,
+   "validas": 31,
+   "n": 32,
+   "taxa_lexico": 0.8929349843231384,
+   "taxa_trigramas": 0.11316575348415846,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.11218874692236996
+   ]
+  }
+ },
+ "autoregressivo": {
+  "300": {
+   "segundos": 1.025679588317871,
+   "validas": 31,
+   "n": 32,
+   "taxa_lexico": 0.9461255289040447,
+   "taxa_trigramas": 0.23850048027242612,
+   "descarte_copia": 2,
+   "descarte_ic95": [
+    0.007910983461854709,
+    0.21421615716340225
+   ]
+  },
+  "301": {
+   "segundos": 0.9799149036407471,
+   "validas": 29,
+   "n": 32,
+   "taxa_lexico": 0.9556386279157139,
+   "taxa_trigramas": 0.21896830509863624,
+   "descarte_copia": 0,
+   "descarte_ic95": [
+    0.0,
+    0.11944486906950269
+   ]
+  },
+  "302": {
+   "segundos": 0.9655971527099609,
+   "validas": 28,
+   "n": 32,
+   "taxa_lexico": 0.9553070575043193,
+   "taxa_trigramas": 0.2439860903939706,
+   "descarte_copia": 1,
+   "descarte_ic95": [
+    0.0009037987556580585,
+    0.18347759754462362
+   ]
+  }
+ }
+}

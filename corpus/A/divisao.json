@@ -1,0 +1,305 @@
+{
+  "corpus": "A",
+  "regra": "Por obra, blocos contiguos de capitulos inteiros, na ordem de leitura: treino, margem, validacao, margem, teste, com o teste no fim da obra. Cada bloco de validacao e de teste e a menor sequencia de capitulos com pelo menos min_capitulos capitulos e min_bytes bytes, e o treino precisa atingir o mesmo minimo. Obra sem espaco para os dois blocos sai do teste e fica so com validacao.",
+  "parametros": {
+    "min_capitulos": 5,
+    "min_bytes": 30720,
+    "margem_capitulos": 1
+  },
+  "unidade_bytes": "bytes UTF-8 do texto NFC",
+  "sha256_limpo": "sha256 dos textos da obra unidos por duas quebras de linha",
+  "particoes": {
+    "treino": {
+      "documentos": 650,
+      "bytes": 2221372
+    },
+    "margem": {
+      "documentos": 19,
+      "bytes": 176790
+    },
+    "validacao": {
+      "documentos": 109,
+      "bytes": 539572
+    },
+    "teste": {
+      "documentos": 110,
+      "bytes": 474827
+    }
+  },
+  "grupos": {
+    "dom_casmurro": {
+      "ebook": "55752",
+      "titulo": "Dom Casmurro",
+      "regra_corte": "romano",
+      "documentos": 148,
+      "bytes": 381584,
+      "particoes": {
+        "treino": {
+          "documentos": 113,
+          "bytes": 310744
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 3755
+        },
+        "validacao": {
+          "documentos": 16,
+          "bytes": 31949
+        },
+        "teste": {
+          "documentos": 17,
+          "bytes": 35136
+        }
+      },
+      "no_teste": true,
+      "nomes": 78
+    },
+    "braz_cubas": {
+      "ebook": "54829",
+      "titulo": "Memorias posthumas de Braz Cubas",
+      "regra_corte": "capitulo",
+      "documentos": 160,
+      "bytes": 361967,
+      "particoes": {
+        "treino": {
+          "documentos": 116,
+          "bytes": 289236
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 9883
+        },
+        "validacao": {
+          "documentos": 22,
+          "bytes": 31394
+        },
+        "teste": {
+          "documentos": 20,
+          "bytes": 31454
+        }
+      },
+      "no_teste": true,
+      "nomes": 100
+    },
+    "quincas_borba": {
+      "ebook": "55682",
+      "titulo": "Quincas Borba",
+      "regra_corte": "capitulo",
+      "documentos": 201,
+      "bytes": 457244,
+      "particoes": {
+        "treino": {
+          "documentos": 164,
+          "bytes": 386166
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 7065
+        },
+        "validacao": {
+          "documentos": 13,
+          "bytes": 30814
+        },
+        "teste": {
+          "documentos": 22,
+          "bytes": 33199
+        }
+      },
+      "no_teste": true,
+      "nomes": 97
+    },
+    "papeis_avulsos": {
+      "ebook": "57001",
+      "titulo": "Papeis avulsos",
+      "regra_corte": "conto",
+      "documentos": 12,
+      "bytes": 324375,
+      "particoes": {
+        "treino": {
+          "documentos": 6,
+          "bytes": 213986
+        },
+        "margem": {
+          "documentos": 1,
+          "bytes": 21423
+        },
+        "validacao": {
+          "documentos": 5,
+          "bytes": 88966
+        },
+        "teste": {
+          "documentos": 0,
+          "bytes": 0
+        }
+      },
+      "no_teste": false,
+      "nomes": 76
+    },
+    "historias_sem_data": {
+      "ebook": "33056",
+      "titulo": "Historias sem data",
+      "regra_corte": "conto",
+      "documentos": 18,
+      "bytes": 301120,
+      "particoes": {
+        "treino": {
+          "documentos": 6,
+          "bytes": 93352
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 45319
+        },
+        "validacao": {
+          "documentos": 5,
+          "bytes": 84750
+        },
+        "teste": {
+          "documentos": 5,
+          "bytes": 77699
+        }
+      },
+      "no_teste": true,
+      "nomes": 48
+    },
+    "mao_e_luva": {
+      "ebook": "53101",
+      "titulo": "A mao e a luva",
+      "regra_corte": "romano",
+      "documentos": 19,
+      "bytes": 205097,
+      "particoes": {
+        "treino": {
+          "documentos": 7,
+          "bytes": 72443
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 19662
+        },
+        "validacao": {
+          "documentos": 5,
+          "bytes": 59953
+        },
+        "teste": {
+          "documentos": 5,
+          "bytes": 53039
+        }
+      },
+      "no_teste": true,
+      "nomes": 16
+    },
+    "helena": {
+      "ebook": "67162",
+      "titulo": "Helena",
+      "regra_corte": "capitulo",
+      "documentos": 28,
+      "bytes": 341566,
+      "particoes": {
+        "treino": {
+          "documentos": 16,
+          "bytes": 194861
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 19688
+        },
+        "validacao": {
+          "documentos": 5,
+          "bytes": 58441
+        },
+        "teste": {
+          "documentos": 5,
+          "bytes": 68576
+        }
+      },
+      "no_teste": true,
+      "nomes": 27
+    },
+    "esau_e_jacob": {
+      "ebook": "56737",
+      "titulo": "Esau e Jacob",
+      "regra_corte": "capitulo",
+      "documentos": 120,
+      "bytes": 415673,
+      "particoes": {
+        "treino": {
+          "documentos": 96,
+          "bytes": 348796
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 4128
+        },
+        "validacao": {
+          "documentos": 10,
+          "bytes": 31205
+        },
+        "teste": {
+          "documentos": 12,
+          "bytes": 31544
+        }
+      },
+      "no_teste": true,
+      "nomes": 91
+    },
+    "memorial_de_ayres": {
+      "ebook": "55797",
+      "titulo": "Memorial de Ayres",
+      "regra_corte": "data",
+      "documentos": 165,
+      "bytes": 287887,
+      "particoes": {
+        "treino": {
+          "documentos": 121,
+          "bytes": 222789
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 2669
+        },
+        "validacao": {
+          "documentos": 23,
+          "bytes": 31000
+        },
+        "teste": {
+          "documentos": 19,
+          "bytes": 31429
+        }
+      },
+      "no_teste": true,
+      "nomes": 65
+    },
+    "yaya_garcia": {
+      "ebook": "67780",
+      "titulo": "Yaya Garcia",
+      "regra_corte": "romano",
+      "documentos": 17,
+      "bytes": 336048,
+      "particoes": {
+        "treino": {
+          "documentos": 5,
+          "bytes": 88999
+        },
+        "margem": {
+          "documentos": 2,
+          "bytes": 43198
+        },
+        "validacao": {
+          "documentos": 5,
+          "bytes": 91100
+        },
+        "teste": {
+          "documentos": 5,
+          "bytes": 112751
+        }
+      },
+      "no_teste": true,
+      "nomes": 25
+    }
+  },
+  "obras_fora_do_teste": [
+    "papeis_avulsos"
+  ],
+  "sha256_documentos": "364aa78f417a13fd49a71a380cdff9d86ffee8c3ef3a159237fe50befcc43f77"
+}

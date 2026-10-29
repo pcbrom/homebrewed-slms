@@ -1,0 +1,129 @@
+{
+ "B": {
+  "leis": 441,
+  "leis_com_aspas_desbalanceadas": 52,
+  "nivel_lei": {
+   "art1_repete_a_alteracao": {
+    "alteradora": 0.2711864406779661,
+    "substantiva": 0.004878048780487805
+   },
+   "bytes_mediano_alteradora": 750,
+   "bytes_mediano_substantiva": 4369,
+   "acuracia_balanceada_so_comprimento": 0.8032348077718066
+  },
+  "itens": 1945,
+  "inseridos": 510,
+  "itens_acima_de_max_tokens": 13,
+  "grupos": 225,
+  "bytes_mediano": {
+   "inserido": 247,
+   "proprio": 244
+  },
+  "acuracia_balanceada_so_comprimento": 0.5193140670902507,
+  "pistas": {
+   "deste Código": {
+    "inserido": 0.00980392156862745,
+    "proprio": 0.0
+   },
+   "desta Lei": {
+    "inserido": 0.20980392156862746,
+    "proprio": 0.2662020905923345
+   },
+   "nesta Lei": {
+    "inserido": 0.03529411764705882,
+    "proprio": 0.06341463414634146
+   },
+   "regulamento": {
+    "inserido": 0.03725490196078431,
+    "proprio": 0.05226480836236934
+   },
+   "Poder Executivo": {
+    "inserido": 0.027450980392156862,
+    "proprio": 0.04808362369337979
+   },
+   "Lei nº": {
+    "inserido": 0.11372549019607843,
+    "proprio": 0.17421602787456447
+   },
+   "§": {
+    "inserido": 0.06470588235294118,
+    "proprio": 0.0627177700348432
+   }
+  },
+  "avaliacao_sem_sobreposicao_13": {
+   "teste": {
+    "antes": 74,
+    "depois": 35,
+    "inseridos_depois": 15,
+    "grupos_com_inserido_depois": 4
+   },
+   "validacao": {
+    "antes": 86,
+    "depois": 41,
+    "inseridos_depois": 3,
+    "grupos_com_inserido_depois": 2
+   }
+  }
+ },
+ "B_externo": {
+  "leis": 300,
+  "leis_com_aspas_desbalanceadas": 8,
+  "nivel_lei": {
+   "art1_repete_a_alteracao": {
+    "alteradora": 0.33548387096774196,
+    "substantiva": 0.027586206896551724
+   },
+   "bytes_mediano_alteradora": 685,
+   "bytes_mediano_substantiva": 3237,
+   "acuracia_balanceada_so_comprimento": 0.8121245828698553
+  },
+  "itens": 1494,
+  "inseridos": 369,
+  "itens_acima_de_max_tokens": 10,
+  "grupos": 184,
+  "bytes_mediano": {
+   "inserido": 241,
+   "proprio": 235
+  },
+  "acuracia_balanceada_so_comprimento": 0.5283360433604336,
+  "pistas": {
+   "deste Código": {
+    "inserido": 0.0027100271002710027,
+    "proprio": 0.0
+   },
+   "desta Lei": {
+    "inserido": 0.17886178861788618,
+    "proprio": 0.208
+   },
+   "nesta Lei": {
+    "inserido": 0.018970189701897018,
+    "proprio": 0.07022222222222223
+   },
+   "regulamento": {
+    "inserido": 0.04878048780487805,
+    "proprio": 0.04888888888888889
+   },
+   "Poder Executivo": {
+    "inserido": 0.04065040650406504,
+    "proprio": 0.08
+   },
+   "Lei nº": {
+    "inserido": 0.07859078590785908,
+    "proprio": 0.09777777777777778
+   },
+   "§": {
+    "inserido": 0.037940379403794036,
+    "proprio": 0.04088888888888889
+   }
+  },
+  "avaliacao_sem_sobreposicao_13": {
+   "externo": {
+    "antes": 1494,
+    "depois": 760,
+    "inseridos_depois": 155,
+    "grupos_com_inserido_depois": 42
+   }
+  }
+ },
+ "tfidf_cv_agrupada_treino_B": 0.5735899069381797
+}

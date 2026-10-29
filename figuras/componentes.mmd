@@ -1,0 +1,54 @@
+---
+config:
+  layout: elk
+---
+flowchart LR
+    subgraph OFF["Preparação"]
+        CFG["config.py<br>configuração validada<br>caixa 0"]
+        DAD["dados.py<br>adaptadores A e B, limpeza, divisão<br>caixa 1"]
+        TOK["tokenizador.py<br>contrato, BPE didático, biblioteca<br>caixa 2"]
+    end
+
+    subgraph RUN["Treino"]
+        JAN["janelas.py<br>janelamento e preenchimento<br>caixa 3"]
+        COR["mascaramento.py<br>máscara por número l<br>caixa 4"]
+        MOD["modelo.py<br>Transformer, máscara causal ou bidirecional<br>caixa 5"]
+        PER["perda.py<br>CE autoregressiva, NELBO por l<br>caixa 6"]
+        TRE["treino.py<br>laço, AdamW, fp16, GradScaler, sentinela<br>caixa 6"]
+    end
+
+    subgraph AVAL["Avaliação"]
+        GER["geracao.py<br>amostragem ancestral em float64<br>caixa 7"]
+        AVA["avaliacao.py<br>bpb, NELBO com K amostras<br>caixa 8"]
+        EST["estatistica.py<br>bootstrap, t pareado, TOST, Clopper-Pearson<br>caixa 9"]
+        LEI["leitura.py<br>N1 por léxico, filtro de cópia, lotes cegos<br>caixa 10"]
+    end
+
+    REG[("registro.py<br>pré-registro com hash<br>resultados em JSON")]
+
+    CFG --> DAD --> TOK --> JAN
+    JAN --> COR --> PER
+    JAN --> MOD
+    MOD --> PER --> TRE
+    TRE --> AVA --> EST
+    TRE --> GER --> LEI
+    CFG -. governa .-> REG
+    EST --> REG
+    LEI --> REG
+
+    LEI ~~~ L1
+    subgraph LEG["Legenda das cores"]
+        L1["preparação"]
+        L2["execução"]
+        L3["estatística e leitura"]
+        L4["registro"]
+    end
+
+    classDef off fill:#d8e8f4,stroke:#1f5a7a,stroke-width:2px,color:#1a1a1a
+    classDef run fill:#e6f4d8,stroke:#4a7a1f,stroke-width:2px,color:#1a1a1a
+    classDef det fill:#f4e6d8,stroke:#a15a1f,stroke-width:2px,color:#1a1a1a
+    classDef dbc fill:#cfe0ef,stroke:#1f5a7a,stroke-width:2px,color:#1a1a1a
+    class CFG,DAD,TOK,L1 off
+    class JAN,COR,MOD,PER,TRE,GER,AVA,L2 run
+    class EST,LEI,L3 det
+    class REG,L4 dbc

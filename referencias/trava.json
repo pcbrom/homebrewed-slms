@@ -1,0 +1,1526 @@
+{
+  "kaplan2020scaling": {
+    "titulo": "Scaling Laws for Neural Language Models",
+    "autores": [
+      "Jared Kaplan",
+      "Sam McCandlish",
+      "Tom Henighan",
+      "Tom B. Brown",
+      "Benjamin Chess",
+      "Rewon Child",
+      "Scott Gray",
+      "Alec Radford",
+      "Jeffrey Wu",
+      "Dario Amodei"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "a41bd7877fd1a6bcbba096b2619618bd2f90e02488f2365644903eb2f7c6a494",
+    "ano": 2020,
+    "versao": "v1"
+  },
+  "hoffmann2022chinchilla": {
+    "titulo": "Training Compute-Optimal Large Language Models",
+    "autores": [
+      "Jordan Hoffmann",
+      "Sebastian Borgeaud",
+      "Arthur Mensch",
+      "Elena Buchatskaya",
+      "Trevor Cai",
+      "Eliza Rutherford",
+      "Diego de Las Casas",
+      "Lisa Anne Hendricks",
+      "Johannes Welbl",
+      "Aidan Clark",
+      "Tom Hennigan",
+      "Eric Noland",
+      "Katie Millican",
+      "George van den Driessche",
+      "Bogdan Damoc",
+      "Aurelia Guy",
+      "Simon Osindero",
+      "Karen Simonyan",
+      "Erich Elsen",
+      "Jack W. Rae",
+      "Oriol Vinyals",
+      "Laurent Sifre"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "3fd3632a8ef48171bd25282990221d49535d75356192f068b3b2ebe08f2aedd4",
+    "ano": 2022,
+    "versao": "v1"
+  },
+  "chowdhery2022palm": {
+    "titulo": "PaLM: Scaling Language Modeling with Pathways",
+    "autores": [
+      "Aakanksha Chowdhery",
+      "Sharan Narang",
+      "Jacob Devlin",
+      "Maarten Bosma",
+      "Gaurav Mishra",
+      "Adam Roberts",
+      "Paul Barham",
+      "Hyung Won Chung",
+      "Charles Sutton",
+      "Sebastian Gehrmann",
+      "Parker Schuh",
+      "Kensen Shi",
+      "Sasha Tsvyashchenko",
+      "Joshua Maynez",
+      "Abhishek Rao",
+      "Parker Barnes",
+      "Yi Tay",
+      "Noam Shazeer",
+      "Vinodkumar Prabhakaran",
+      "Emily Reif",
+      "Nan Du",
+      "Ben Hutchinson",
+      "Reiner Pope",
+      "James Bradbury",
+      "Jacob Austin",
+      "Michael Isard",
+      "Guy Gur-Ari",
+      "Pengcheng Yin",
+      "Toju Duke",
+      "Anselm Levskaya",
+      "Sanjay Ghemawat",
+      "Sunipa Dev",
+      "Henryk Michalewski",
+      "Xavier Garcia",
+      "Vedant Misra",
+      "Kevin Robinson",
+      "Liam Fedus",
+      "Denny Zhou",
+      "Daphne Ippolito",
+      "David Luan",
+      "Hyeontaek Lim",
+      "Barret Zoph",
+      "Alexander Spiridonov",
+      "Ryan Sepassi",
+      "David Dohan",
+      "Shivani Agrawal",
+      "Mark Omernick",
+      "Andrew M. Dai",
+      "Thanumalayan Sankaranarayana Pillai",
+      "Marie Pellat",
+      "Aitor Lewkowycz",
+      "Erica Moreira",
+      "Rewon Child",
+      "Oleksandr Polozov",
+      "Katherine Lee",
+      "Zongwei Zhou",
+      "Xuezhi Wang",
+      "Brennan Saeta",
+      "Mark Diaz",
+      "Orhan Firat",
+      "Michele Catasta",
+      "Jason Wei",
+      "Kathy Meier-Hellstern",
+      "Douglas Eck",
+      "Jeff Dean",
+      "Slav Petrov",
+      "Noah Fiedel"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "1e88f1f3027cd1abecb1713c1c08a89137c7730582549ec7ca78ca329f3f975d",
+    "ano": 2022,
+    "versao": "v5"
+  },
+  "rajbhandari2019zero": {
+    "titulo": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+    "autores": [
+      "Samyam Rajbhandari",
+      "Jeff Rasley",
+      "Olatunji Ruwase",
+      "Yuxiong He"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "c531734c7d9ee647fda9b4f0e1a6abd6d58ad34e862bc945451b09032be3167e",
+    "ano": 2019,
+    "versao": "v3"
+  },
+  "nvidia2019t4": {
+    "baixado_em": "2026-10-22",
+    "sha256": "57f6b54378a88ba488dc32b4fc61f5ee7d757f131ae00fe575a635a6fe02daec",
+    "licenca": ""
+  },
+  "austin2021d3pm": {
+    "titulo": "Structured Denoising Diffusion Models in Discrete State-Spaces",
+    "autores": [
+      "Jacob Austin",
+      "Daniel D. Johnson",
+      "Jonathan Ho",
+      "Daniel Tarlow",
+      "Rianne van den Berg"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "80406c2c520bac1e202013aca713f0ed7d90d85ea5057165361f02ef4727d14b",
+    "ano": 2021,
+    "versao": "v3"
+  },
+  "lou2023sedd": {
+    "titulo": "Discrete Diffusion Modeling by Estimating the Ratios of the Data Distribution",
+    "autores": [
+      "Aaron Lou",
+      "Chenlin Meng",
+      "Stefano Ermon"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "1f3a135a52346270ef4b0872d52f17954af7ea0fa53d0a0b31a9183599ec976e",
+    "ano": 2023,
+    "versao": "v3"
+  },
+  "sahoo2024mdlm": {
+    "titulo": "Simple and Effective Masked Diffusion Language Models",
+    "autores": [
+      "Subham Sekhar Sahoo",
+      "Marianne Arriola",
+      "Yair Schiff",
+      "Aaron Gokaslan",
+      "Edgar Marroquin",
+      "Justin T Chiu",
+      "Alexander Rush",
+      "Volodymyr Kuleshov"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "d3f6e01211777db2145d55fb51826eff0f9c1bfe315b142540973f35b626be35",
+    "ano": 2024,
+    "versao": "v2"
+  },
+  "shi2024md4": {
+    "titulo": "Simplified and Generalized Masked Diffusion for Discrete Data",
+    "autores": [
+      "Jiaxin Shi",
+      "Kehang Han",
+      "Zhe Wang",
+      "Arnaud Doucet",
+      "Michalis K. Titsias"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "0f189ad10105962d056f0d841effec76e7e3d2bc993f3242d047ac29b3e21a06",
+    "ano": 2024,
+    "versao": "v4"
+  },
+  "ou2024radd": {
+    "titulo": "Your Absorbing Discrete Diffusion Secretly Models the Conditional Distributions of Clean Data",
+    "autores": [
+      "Jingyang Ou",
+      "Shen Nie",
+      "Kaiwen Xue",
+      "Fengqi Zhu",
+      "Jiacheng Sun",
+      "Zhenguo Li",
+      "Chongxuan Li"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "cb57a2826955f5ed65f30f80d545768ac1c0d237547dcf78effa2486a99aeef6",
+    "ano": 2024,
+    "versao": "v4"
+  },
+  "nie2025llada": {
+    "titulo": "Large Language Diffusion Models",
+    "autores": [
+      "Shen Nie",
+      "Fengqi Zhu",
+      "Zebin You",
+      "Xiaolu Zhang",
+      "Jingyang Ou",
+      "Jun Hu",
+      "Jun Zhou",
+      "Yankai Lin",
+      "Ji-Rong Wen",
+      "Chongxuan Li"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "18942f14544d696bef711acd43c84017e51b8428b15edc74130761218e66f73b",
+    "ano": 2025,
+    "versao": "v3"
+  },
+  "arriola2025bd3lm": {
+    "titulo": "Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models",
+    "autores": [
+      "Marianne Arriola",
+      "Aaron Gokaslan",
+      "Justin T. Chiu",
+      "Zhihan Yang",
+      "Zhixuan Qi",
+      "Jiaqi Han",
+      "Subham Sekhar Sahoo",
+      "Volodymyr Kuleshov"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "d57ae21f556a9c1d5d5a95b2067d3232933be2d421b484bea7cc2b39b980ce92",
+    "ano": 2025,
+    "versao": "v3"
+  },
+  "zheng2024timeagnostic": {
+    "titulo": "Masked Diffusion Models are Secretly Time-Agnostic Masked Models and Exploit Inaccurate Categorical Sampling",
+    "autores": [
+      "Kaiwen Zheng",
+      "Yongxin Chen",
+      "Hanzi Mao",
+      "Ming-Yu Liu",
+      "Jun Zhu",
+      "Qinsheng Zhang"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "78d85991f8f87c7d45bf230af24240c7f83ae348aa03eba83a7589967b27ccc5",
+    "ano": 2024,
+    "versao": "v6"
+  },
+  "nie2024scaling": {
+    "titulo": "Scaling up Masked Diffusion Models on Text",
+    "autores": [
+      "Shen Nie",
+      "Fengqi Zhu",
+      "Chao Du",
+      "Tianyu Pang",
+      "Qian Liu",
+      "Guangtao Zeng",
+      "Min Lin",
+      "Chongxuan Li"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "e2a531920c0897c42b2bf0e2cd6d773786a0fb45cadc5ee551c459aefe69a126",
+    "ano": 2024,
+    "versao": "v3"
+  },
+  "prabhudesai2025data": {
+    "titulo": "Diffusion Beats Autoregressive in Data-Constrained Settings",
+    "autores": [
+      "Mihir Prabhudesai",
+      "Mengning Wu",
+      "Amir Zadeh",
+      "Katerina Fragkiadaki",
+      "Deepak Pathak"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "7a54a3a273492198852e673865871ffc633d62ea64bb21ad64c0901e4a4e7073",
+    "ano": 2025,
+    "versao": "v7"
+  },
+  "ni2025superdata": {
+    "titulo": "Diffusion Language Models are Super Data Learners",
+    "autores": [
+      "Jinjie Ni",
+      "Qian Liu",
+      "Longxu Dou",
+      "Chao Du",
+      "Zili Wang",
+      "Hang Yan",
+      "Tianyu Pang",
+      "Michael Qizhe Shieh"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "74a4fa59e157d925efb7ca481fa858a75984ad2016916c091be6bcf2e4d38e7f",
+    "ano": 2025,
+    "versao": "v1"
+  },
+  "wu2025fastdllm": {
+    "titulo": "Fast-dLLM: Training-free Acceleration of Diffusion LLM by Enabling KV Cache and Parallel Decoding",
+    "autores": [
+      "Chengyue Wu",
+      "Hao Zhang",
+      "Shuchen Xue",
+      "Zhijian Liu",
+      "Shizhe Diao",
+      "Ligeng Zhu",
+      "Ping Luo",
+      "Song Han",
+      "Enze Xie"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "8dcf7152cbfb042bcd00cd74dea56fdb324a8cfe655e9182f06fa2e97e269398",
+    "ano": 2025,
+    "versao": "v3"
+  },
+  "kingma2021vdm": {
+    "titulo": "Variational Diffusion Models",
+    "autores": [
+      "Diederik P. Kingma",
+      "Tim Salimans",
+      "Ben Poole",
+      "Jonathan Ho"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "86ae796b67367231863ee502fbc54fcd803d57ebff1636bb4fa4d71d12bb0632",
+    "ano": 2021,
+    "versao": "v6"
+  },
+  "zouhar2023formal": {
+    "titulo": "A Formal Perspective on Byte-Pair Encoding",
+    "autores": [
+      "Vil\\'em Zouhar",
+      "Clara Meister",
+      "Juan Luis Gastaldi",
+      "Li Du",
+      "Tim Vieira",
+      "Mrinmaya Sachan",
+      "Ryan Cotterell"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "20cc0de0d455eac9a9d40138ab74d7bcb3f4d33654a0300cd342dc577981f6d7",
+    "ano": 2023,
+    "versao": "v3"
+  },
+  "kozma2024bpe": {
+    "titulo": "Theoretical Analysis of Byte-Pair Encoding",
+    "autores": [
+      "L\\'aszl\\'o Kozma",
+      "Johannes Voderholzer"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "0001d4e3931ebcb19540e77b2f1314a5d2707ae9f4bc156be950d955f732115f",
+    "ano": 2024,
+    "versao": "v1"
+  },
+  "whittington2024npc": {
+    "titulo": "Tokenisation is NP-Complete",
+    "autores": [
+      "Philip Whittington",
+      "Gregor Bachmann",
+      "Tiago Pimentel"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "88fd2ead4c6fbad3ea47e91ac0a322335681f7e0357352ec218fe55d6390725f",
+    "ano": 2024,
+    "versao": "v1"
+  },
+  "bostrom2020bpe": {
+    "titulo": "Byte Pair Encoding is Suboptimal for Language Model Pretraining",
+    "autores": [
+      "Kaj Bostrom",
+      "Greg Durrett"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "e49dd1cb028c75cad9eefe9be39a582fa3c80db62bf7b86b8712d15413f331a6",
+    "ano": 2020,
+    "versao": "v2"
+  },
+  "song2020wordpiece": {
+    "titulo": "Fast WordPiece Tokenization",
+    "autores": [
+      "Xinying Song",
+      "Alex Salcianu",
+      "Yang Song",
+      "Dave Dopson",
+      "Denny Zhou"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "3fc066d554c2d5ad8e234e83dda2e0a88b3c0130c3ebb7f3ba57b4e52229a5b1",
+    "ano": 2020,
+    "versao": "v3"
+  },
+  "gao2020pile": {
+    "titulo": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+    "autores": [
+      "Leo Gao",
+      "Stella Biderman",
+      "Sid Black",
+      "Laurence Golding",
+      "Travis Hoppe",
+      "Charles Foster",
+      "Jason Phang",
+      "Horace He",
+      "Anish Thite",
+      "Noa Nabeshima",
+      "Shawn Presser",
+      "Connor Leahy"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "f75f972e587cd9dc1ebdc69d11bab0c966fe75a3b0a9b7314abfd7d53cef2f5f",
+    "ano": 2020,
+    "versao": "v1"
+  },
+  "rust2020tokenizer": {
+    "titulo": "How Good is Your Tokenizer? On the Monolingual Performance of Multilingual Language Models",
+    "autores": [
+      "Phillip Rust",
+      "Jonas Pfeiffer",
+      "Ivan Vuli\\'c",
+      "Sebastian Ruder",
+      "Iryna Gurevych"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "e5c09b7ef60ac8e4d7dd08a3cc120767709888f09511b590638684d3fe7935db",
+    "ano": 2020,
+    "versao": "v2"
+  },
+  "schmidt2024compression": {
+    "titulo": "Tokenization Is More Than Compression",
+    "autores": [
+      "Craig W. Schmidt",
+      "Varshini Reddy",
+      "Haoran Zhang",
+      "Alec Alameddine",
+      "Omri Uzan",
+      "Yuval Pinter",
+      "Chris Tanner"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "45ab15dad9cc9fbe39d097e98759d114230446323de1db97f4f4b5d9bfdead02",
+    "ano": 2024,
+    "versao": "v2"
+  },
+  "cognetta2024counter": {
+    "titulo": "Two Counterexamples to Tokenization and the Noiseless Channel",
+    "autores": [
+      "Marco Cognetta",
+      "Vil\\'em Zouhar",
+      "Sangwhan Moon",
+      "Naoaki Okazaki"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "8b76a1a9e6a41d0789386c7633c21cac04342d1218c2efce7295927d3226dd69",
+    "ano": 2024,
+    "versao": "v2"
+  },
+  "ali2023tokenizer": {
+    "titulo": "Tokenizer Choice For LLM Training: Negligible or Crucial?",
+    "autores": [
+      "Mehdi Ali",
+      "Michael Fromm",
+      "Klaudia Thellmann",
+      "Richard Rutmann",
+      "Max L\\\"ubbering",
+      "Johannes Leveling",
+      "Katrin Klug",
+      "Jan Ebert",
+      "Niclas Doll",
+      "Jasper Schulze Buschhoff",
+      "Charvi Jain",
+      "Alexander Arno Weber",
+      "Lena Jurkschat",
+      "Hammam Abdelwahab",
+      "Chelsea John",
+      "Pedro Ortiz Suarez",
+      "Malte Ostendorff",
+      "Samuel Weinbach",
+      "Rafet Sifa",
+      "Stefan Kesselheim",
+      "Nicolas Flores-Herr"
+    ],
+    "licenca": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "1ebcd0f4d551be8225e5cb466055c3f4010174ece763298f4943fc1b823459e9",
+    "ano": 2023,
+    "versao": "v4"
+  },
+  "goldman2024unpacking": {
+    "titulo": "Unpacking Tokenization: Evaluating Text Compression and its Correlation with Model Performance",
+    "autores": [
+      "Omer Goldman",
+      "Avi Caciularu",
+      "Matan Eyal",
+      "Kris Cao",
+      "Idan Szpektor",
+      "Reut Tsarfaty"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by-sa/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "73ff1bfef6d3830673005b2ca17f5bae93bb2825aed69149b8aa9385aa6f2045",
+    "ano": 2024,
+    "versao": "v2"
+  },
+  "tao2024vocab": {
+    "titulo": "Scaling Laws with Vocabulary: Larger Models Deserve Larger Vocabularies",
+    "autores": [
+      "Chaofan Tao",
+      "Qian Liu",
+      "Longxu Dou",
+      "Niklas Muennighoff",
+      "Zhongwei Wan",
+      "Ping Luo",
+      "Min Lin",
+      "Ngai Wong"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "f6ab4b65efb387f6fc4872a7b76d05886b997537198ebda1e97dc2865cd12f75",
+    "ano": 2024,
+    "versao": "v3"
+  },
+  "press2016tying": {
+    "titulo": "Using the Output Embedding to Improve Language Models",
+    "autores": [
+      "Ofir Press",
+      "Lior Wolf"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "8e7e90ff0e4a7e88bd867868bde9c7c1eec0a52f1160805992af6c31acd09310",
+    "ano": 2016,
+    "versao": "v3"
+  },
+  "inan2016tying": {
+    "titulo": "Tying Word Vectors and Word Classifiers: A Loss Framework for Language Modeling",
+    "autores": [
+      "Hakan Inan",
+      "Khashayar Khosravi",
+      "Richard Socher"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "7b87b808fccc6b6175764a5dd2e18aab540e08d03cff837b7cfbfa53310414ce",
+    "ano": 2016,
+    "versao": "v3"
+  },
+  "liu2024mobilellm": {
+    "titulo": "MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases",
+    "autores": [
+      "Zechun Liu",
+      "Changsheng Zhao",
+      "Forrest Iandola",
+      "Chen Lai",
+      "Yuandong Tian",
+      "Igor Fedorov",
+      "Yunyang Xiong",
+      "Ernie Chang",
+      "Yangyang Shi",
+      "Raghuraman Krishnamoorthi",
+      "Liangzhen Lai",
+      "Vikas Chandra"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "0c78318505ec21b8b9a822e3bbbea92226216ea32470d8e902a11deb0a0c8fab",
+    "ano": 2024,
+    "versao": "v2"
+  },
+  "correa2024teenytiny": {
+    "titulo": "TeenyTinyLlama: open-source tiny language models trained in Brazilian Portuguese",
+    "autores": [
+      "Nicholas Kluge Corr\\^ea",
+      "Sophia Falk",
+      "Shiza Fatimah",
+      "Aniket Sen",
+      "Nythamar de Oliveira"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "b54fcb7a52e78404cecd33104f99ac8338b3216fca8b891fd98bd75afc9b805a",
+    "ano": 2024,
+    "versao": "v3"
+  },
+  "correa2024tucano": {
+    "titulo": "Tucano: Advancing Neural Text Generation for Portuguese",
+    "autores": [
+      "Nicholas Kluge Corr\\^ea",
+      "Aniket Sen",
+      "Sophia Falk",
+      "Shiza Fatimah"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "eb337ea368e9c8d46e45bc468870e6ba31f3f774e09cc0277ae92513b1204122",
+    "ano": 2024,
+    "versao": "v1"
+  },
+  "land2024magikarp": {
+    "titulo": "Fishing for Magikarp: Automatically Detecting Under-trained Tokens in Large Language Models",
+    "autores": [
+      "Sander Land",
+      "Max Bartolo"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by-sa/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "7c88df71d4c601fccaac28f328b4d3d560510deac7c6786e25213ac1fb196cf5",
+    "ano": 2024,
+    "versao": "v2"
+  },
+  "altintas2025toksuite": {
+    "titulo": "TokSuite: Measuring the Impact of Tokenizer Choice on Language Model Behavior",
+    "autores": [
+      "G\\\"ul Sena Alt{\\i}nta\\c{s}",
+      "Malikeh Ehghaghi",
+      "Brian Lester",
+      "Fengyuan Liu",
+      "Wanru Zhao",
+      "Marco Ciccone",
+      "Colin Raffel"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "fbb556e5d06ae238f5c9ba1079d9740d3d397b372196f1d69ea6e1b17e962e3b",
+    "ano": 2025,
+    "versao": "v2"
+  },
+  "meister2026tokeval": {
+    "titulo": "TokEval: A Tokenizer Evaluation Suite",
+    "autores": [
+      "Clara Meister"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "dedfb2f3754f10c7b762bb2194c5647b3b5ecc93e75554b78c747efa9682162f",
+    "ano": 2026,
+    "versao": "v3"
+  },
+  "dao2023flash2": {
+    "titulo": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+    "autores": [
+      "Tri Dao"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "4aa8935dfacaf6ae8c68f772ca92f730154a0dd0e1bceeb59c7bc56c512d5868",
+    "ano": 2023,
+    "versao": "v1"
+  },
+  "pearce2024reconciling": {
+    "titulo": "Reconciling Kaplan and Chinchilla Scaling Laws",
+    "autores": [
+      "Tim Pearce",
+      "Jinyeop Song"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "4248cba4be108bc054baa02c92f842964597750659def6947433c92fa6d8d955",
+    "ano": 2024,
+    "versao": "v3"
+  },
+  "porian2024resolving": {
+    "titulo": "Resolving Discrepancies in Compute-Optimal Scaling of Language Models",
+    "autores": [
+      "Tomer Porian",
+      "Mitchell Wortsman",
+      "Jenia Jitsev",
+      "Ludwig Schmidt",
+      "Yair Carmon"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "d47e3792ae67a30f4b53ada4d89d22c36185afafedeceaeefecee1c9d4520ac0",
+    "ano": 2024,
+    "versao": "v4"
+  },
+  "sellam2021multiberts": {
+    "titulo": "The MultiBERTs: BERT Reproductions for Robustness Analysis",
+    "autores": [
+      "Thibault Sellam",
+      "Steve Yadlowsky",
+      "Jason Wei",
+      "Naomi Saphra",
+      "Alexander D'Amour",
+      "Tal Linzen",
+      "Jasmijn Bastings",
+      "Iulia Turc",
+      "Jacob Eisenstein",
+      "Dipanjan Das",
+      "Ian Tenney",
+      "Ellie Pavlick"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "25b7b5febb4f19fbc967dc0290140397f38ee83db4ae2d63bf389d6a8c42d44e",
+    "ano": 2021,
+    "versao": "v2"
+  },
+  "madaan2024variance": {
+    "titulo": "Quantifying Variance in Evaluation Benchmarks",
+    "autores": [
+      "Lovish Madaan",
+      "Aaditya K. Singh",
+      "Rylan Schaeffer",
+      "Andrew Poulton",
+      "Sanmi Koyejo",
+      "Pontus Stenetorp",
+      "Sharan Narang",
+      "Dieuwke Hupkes"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "c27743bbd107d848e5588ba59c09085aee2ce437783de9135dd6095681ddf13c",
+    "ano": 2024,
+    "versao": "v1"
+  },
+  "vanderwal2025polypythias": {
+    "titulo": "PolyPythias: Stability and Outliers across Fifty Language Model Pre-Training Runs",
+    "autores": [
+      "Oskar van der Wal",
+      "Pietro Lesci",
+      "Max Muller-Eberstein",
+      "Naomi Saphra",
+      "Hailey Schoelkopf",
+      "Willem Zuidema",
+      "Stella Biderman"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "2eed8d025aaee904fe70e230c580f45cf5c2deae9cbe225c298922e96984caea",
+    "ano": 2025,
+    "versao": "v2"
+  },
+  "magnusson2025datadecide": {
+    "titulo": "DataDecide: How to Predict Best Pretraining Data with Small Experiments",
+    "autores": [
+      "Ian Magnusson",
+      "Nguyen Tai",
+      "Ben Bogin",
+      "David Heineman",
+      "Jena D. Hwang",
+      "Luca Soldaini",
+      "Akshita Bhagia",
+      "Jiacheng Liu",
+      "Dirk Groeneveld",
+      "Oyvind Tafjord",
+      "Noah A. Smith",
+      "Pang Wei Koh",
+      "Jesse Dodge"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "5d810e659f231c9f839896f03742a1a905469c1497251e73c8f8ab1cc430371a",
+    "ano": 2025,
+    "versao": "v2"
+  },
+  "mccoy2021raven": {
+    "titulo": "How much do language models copy from their training data? Evaluating linguistic novelty in text generation using RAVEN",
+    "autores": [
+      "R. Thomas McCoy",
+      "Paul Smolensky",
+      "Tal Linzen",
+      "Jianfeng Gao",
+      "Asli Celikyilmaz"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "df13c71f54294625362cac21431198d81713b73e094e1e7c27c094e6951b9e16",
+    "ano": 2021,
+    "versao": "v1"
+  },
+  "carlini2022memorization": {
+    "titulo": "Quantifying Memorization Across Neural Language Models",
+    "autores": [
+      "Nicholas Carlini",
+      "Daphne Ippolito",
+      "Matthew Jagielski",
+      "Katherine Lee",
+      "Florian Tramer",
+      "Chiyuan Zhang"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "0576532d261e96053ab5d654542f466c80c123c7768c4a082bcaf93d837fff5e",
+    "ano": 2022,
+    "versao": "v3"
+  },
+  "eldan2023tinystories": {
+    "titulo": "TinyStories: How Small Can Language Models Be and Still Speak Coherent English?",
+    "autores": [
+      "Ronen Eldan",
+      "Yuanzhi Li"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "e9d2d82534b4ccb7163559f00e68556988c49192a1433f860481544bc7dc2445",
+    "ano": 2023,
+    "versao": "v2"
+  },
+  "micikevicius2017mixed": {
+    "titulo": "Mixed Precision Training",
+    "autores": [
+      "Paulius Micikevicius",
+      "Sharan Narang",
+      "Jonah Alben",
+      "Gregory Diamos",
+      "Erich Elsen",
+      "David Garcia",
+      "Boris Ginsburg",
+      "Michael Houston",
+      "Oleksii Kuchaiev",
+      "Ganesh Venkatesh",
+      "Hao Wu"
+    ],
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "3bbff2f757abdcfe4c5a4cee338f7b7d888110b9013ec4a934e334016f527c78",
+    "ano": 2017,
+    "versao": "v3"
+  },
+  "sennrich2016bpe": {
+    "titulo": "Neural Machine Translation of Rare Words with Subword Units",
+    "autores": [
+      "Rico Sennrich",
+      "Barry Haddow",
+      "Alexandra Birch"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "ebf5b38456ca47ca5e8dc194e9df50ba6dda5fa5a841c8b6de18741774ecd9ce",
+    "ano": 2015,
+    "versao": "v5"
+  },
+  "kudo2018subword": {
+    "titulo": "Subword Regularization: Improving Neural Network Translation Models with Multiple Subword Candidates",
+    "autores": [
+      "Taku Kudo"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "865dc7461d2e3980c29270ad903637c660e1ee2146d93d23cdef17fedb4db633",
+    "ano": 2018,
+    "versao": "v1"
+  },
+  "kudo2018sentencepiece": {
+    "titulo": "SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing",
+    "autores": [
+      "Taku Kudo",
+      "John Richardson"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "cf056aa0380bfe6b483e46b21585cf9e90fb40485ace1d8793f0f1ebad7c9924",
+    "ano": 2018,
+    "versao": "v1"
+  },
+  "zouhar2023noiseless": {
+    "titulo": "Tokenization and the Noiseless Channel",
+    "autores": [
+      "Vil\\'em Zouhar",
+      "Clara Meister",
+      "Juan Luis Gastaldi",
+      "Li Du",
+      "Mrinmaya Sachan",
+      "Ryan Cotterell"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "ee95b493f56966b052f4edc3a4e8f6fe6373defc927de23ed69b6f6c4b5c16fa",
+    "ano": 2023,
+    "versao": "v1"
+  },
+  "li2016diversity": {
+    "titulo": "A Diversity-Promoting Objective Function for Neural Conversation Models",
+    "autores": [
+      "Jiwei Li",
+      "Michel Galley",
+      "Chris Brockett",
+      "Jianfeng Gao",
+      "Bill Dolan"
+    ],
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-22",
+    "sha256": "af17acc315d3d5e3ed417c04b420ab826d967ee3ca561a929140295dfcfcc570",
+    "ano": 2015,
+    "versao": "v3"
+  },
+  "radford2019gpt2": {
+    "baixado_em": "2026-10-22",
+    "sha256": "d9d852e2894556e73f53cb22b7c605a9643d6f0b19bf604b429ed6192fa24f4e",
+    "licenca": ""
+  },
+  "koehn2004significance": {
+    "baixado_em": "2026-10-22",
+    "sha256": "0beb050a10efefcf26bca47777d2e68566355da967d21721a9b3da9d586433db",
+    "licenca": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+  },
+  "dror2018hitchhiker": {
+    "baixado_em": "2026-10-22",
+    "sha256": "e3b6e07cf7e404443e4b516db9b2a72c5d24a38285a9a6691ed2e3b01b02235b",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/"
+  },
+  "krippendorff2011alpha": {
+    "baixado_em": "2026-10-22",
+    "sha256": "65efee3df57d5aafae69939ccfe8b4a4419ae4ef49772847bd648135385272c8",
+    "licenca": ""
+  },
+  "openai2023gpt4": {
+    "titulo": "GPT-4 Technical Report",
+    "autores": [
+      "OpenAI",
+      "Josh Achiam",
+      "Steven Adler",
+      "Sandhini Agarwal",
+      "Lama Ahmad",
+      "Ilge Akkaya",
+      "Florencia Leoni Aleman",
+      "Diogo Almeida",
+      "Janko Altenschmidt",
+      "Sam Altman",
+      "Shyamal Anadkat",
+      "Red Avila",
+      "Igor Babuschkin",
+      "Suchir Balaji",
+      "Valerie Balcom",
+      "Paul Baltescu",
+      "Haiming Bao",
+      "Mohammad Bavarian",
+      "Jeff Belgum",
+      "Irwan Bello",
+      "Jake Berdine",
+      "Gabriel Bernadett-Shapiro",
+      "Christopher Berner",
+      "Lenny Bogdonoff",
+      "Oleg Boiko",
+      "Madelaine Boyd",
+      "Anna-Luisa Brakman",
+      "Greg Brockman",
+      "Tim Brooks",
+      "Miles Brundage",
+      "Kevin Button",
+      "Trevor Cai",
+      "Rosie Campbell",
+      "Andrew Cann",
+      "Brittany Carey",
+      "Chelsea Carlson",
+      "Rory Carmichael",
+      "Brooke Chan",
+      "Che Chang",
+      "Fotis Chantzis",
+      "Derek Chen",
+      "Sully Chen",
+      "Ruby Chen",
+      "Jason Chen",
+      "Mark Chen",
+      "Ben Chess",
+      "Chester Cho",
+      "Casey Chu",
+      "Hyung Won Chung",
+      "Dave Cummings",
+      "Jeremiah Currier",
+      "Yunxing Dai",
+      "Cory Decareaux",
+      "Thomas Degry",
+      "Noah Deutsch",
+      "Damien Deville",
+      "Arka Dhar",
+      "David Dohan",
+      "Steve Dowling",
+      "Sheila Dunning",
+      "Adrien Ecoffet",
+      "Atty Eleti",
+      "Tyna Eloundou",
+      "David Farhi",
+      "Liam Fedus",
+      "Niko Felix",
+      "Sim\\'on Posada Fishman",
+      "Juston Forte",
+      "Isabella Fulford",
+      "Leo Gao",
+      "Elie Georges",
+      "Christian Gibson",
+      "Vik Goel",
+      "Tarun Gogineni",
+      "Gabriel Goh",
+      "Rapha Gontijo-Lopes",
+      "Jonathan Gordon",
+      "Morgan Grafstein",
+      "Scott Gray",
+      "Ryan Greene",
+      "Joshua Gross",
+      "Shixiang Shane Gu",
+      "Yufei Guo",
+      "Chris Hallacy",
+      "Jesse Han",
+      "Jeff Harris",
+      "Yuchen He",
+      "Mike Heaton",
+      "Johannes Heidecke",
+      "Chris Hesse",
+      "Alan Hickey",
+      "Wade Hickey",
+      "Peter Hoeschele",
+      "Brandon Houghton",
+      "Kenny Hsu",
+      "Shengli Hu",
+      "Xin Hu",
+      "Joost Huizinga",
+      "Shantanu Jain",
+      "Shawn Jain",
+      "Joanne Jang",
+      "Angela Jiang",
+      "Roger Jiang",
+      "Haozhun Jin",
+      "Denny Jin",
+      "Shino Jomoto",
+      "Billie Jonn",
+      "Heewoo Jun",
+      "Tomer Kaftan",
+      "{\\L}ukasz Kaiser",
+      "Ali Kamali",
+      "Ingmar Kanitscheider",
+      "Nitish Shirish Keskar",
+      "Tabarak Khan",
+      "Logan Kilpatrick",
+      "Jong Wook Kim",
+      "Christina Kim",
+      "Yongjik Kim",
+      "Jan Hendrik Kirchner",
+      "Jamie Kiros",
+      "Matt Knight",
+      "Daniel Kokotajlo",
+      "{\\L}ukasz Kondraciuk",
+      "Andrew Kondrich",
+      "Aris Konstantinidis",
+      "Kyle Kosic",
+      "Gretchen Krueger",
+      "Vishal Kuo",
+      "Michael Lampe",
+      "Ikai Lan",
+      "Teddy Lee",
+      "Jan Leike",
+      "Jade Leung",
+      "Daniel Levy",
+      "Chak Ming Li",
+      "Rachel Lim",
+      "Molly Lin",
+      "Stephanie Lin",
+      "Mateusz Litwin",
+      "Theresa Lopez",
+      "Ryan Lowe",
+      "Patricia Lue",
+      "Anna Makanju",
+      "Kim Malfacini",
+      "Sam Manning",
+      "Todor Markov",
+      "Yaniv Markovski",
+      "Bianca Martin",
+      "Katie Mayer",
+      "Andrew Mayne",
+      "Bob McGrew",
+      "Scott Mayer McKinney",
+      "Christine McLeavey",
+      "Paul McMillan",
+      "Jake McNeil",
+      "David Medina",
+      "Aalok Mehta",
+      "Jacob Menick",
+      "Luke Metz",
+      "Andrey Mishchenko",
+      "Pamela Mishkin",
+      "Vinnie Monaco",
+      "Evan Morikawa",
+      "Daniel Mossing",
+      "Tong Mu",
+      "Mira Murati",
+      "Oleg Murk",
+      "David M\\'ely",
+      "Ashvin Nair",
+      "Reiichiro Nakano",
+      "Rajeev Nayak",
+      "Arvind Neelakantan",
+      "Richard Ngo",
+      "Hyeonwoo Noh",
+      "Long Ouyang",
+      "Cullen O'Keefe",
+      "Jakub Pachocki",
+      "Alex Paino",
+      "Joe Palermo",
+      "Ashley Pantuliano",
+      "Giambattista Parascandolo",
+      "Joel Parish",
+      "Emy Parparita",
+      "Alex Passos",
+      "Mikhail Pavlov",
+      "Andrew Peng",
+      "Adam Perelman",
+      "Filipe de Avila Belbute Peres",
+      "Michael Petrov",
+      "Henrique Ponde de Oliveira Pinto",
+      "Michael (Rai) Pokorny",
+      "Michelle Pokrass",
+      "Vitchyr H. Pong",
+      "Tolly Powell",
+      "Alethea Power",
+      "Boris Power",
+      "Elizabeth Proehl",
+      "Raul Puri",
+      "Alec Radford",
+      "Jack Rae",
+      "Aditya Ramesh",
+      "Cameron Raymond",
+      "Francis Real",
+      "Kendra Rimbach",
+      "Carl Ross",
+      "Bob Rotsted",
+      "Henri Roussez",
+      "Nick Ryder",
+      "Mario Saltarelli",
+      "Ted Sanders",
+      "Shibani Santurkar",
+      "Girish Sastry",
+      "Heather Schmidt",
+      "David Schnurr",
+      "John Schulman",
+      "Daniel Selsam",
+      "Kyla Sheppard",
+      "Toki Sherbakov",
+      "Jessica Shieh",
+      "Sarah Shoker",
+      "Pranav Shyam",
+      "Szymon Sidor",
+      "Eric Sigler",
+      "Maddie Simens",
+      "Jordan Sitkin",
+      "Katarina Slama",
+      "Ian Sohl",
+      "Benjamin Sokolowsky",
+      "Yang Song",
+      "Natalie Staudacher",
+      "Felipe Petroski Such",
+      "Natalie Summers",
+      "Ilya Sutskever",
+      "Jie Tang",
+      "Nikolas Tezak",
+      "Madeleine B. Thompson",
+      "Phil Tillet",
+      "Amin Tootoonchian",
+      "Elizabeth Tseng",
+      "Preston Tuggle",
+      "Nick Turley",
+      "Jerry Tworek",
+      "Juan Felipe Cer\\'on Uribe",
+      "Andrea Vallone",
+      "Arun Vijayvergiya",
+      "Chelsea Voss",
+      "Carroll Wainwright",
+      "Justin Jay Wang",
+      "Alvin Wang",
+      "Ben Wang",
+      "Jonathan Ward",
+      "Jason Wei",
+      "CJ Weinmann",
+      "Akila Welihinda",
+      "Peter Welinder",
+      "Jiayi Weng",
+      "Lilian Weng",
+      "Matt Wiethoff",
+      "Dave Willner",
+      "Clemens Winter",
+      "Samuel Wolrich",
+      "Hannah Wong",
+      "Lauren Workman",
+      "Sherwin Wu",
+      "Jeff Wu",
+      "Michael Wu",
+      "Kai Xiao",
+      "Tao Xu",
+      "Sarah Yoo",
+      "Kevin Yu",
+      "Qiming Yuan",
+      "Wojciech Zaremba",
+      "Rowan Zellers",
+      "Chong Zhang",
+      "Marvin Zhang",
+      "Shengjia Zhao",
+      "Tianhao Zheng",
+      "Juntang Zhuang",
+      "William Zhuk",
+      "Barret Zoph"
+    ],
+    "ano": 2023,
+    "versao": "v6",
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-26",
+    "sha256": "c33a66dadca2388d7b172d6293b00dc32b71110c6f38fafe0d41112e61be7774"
+  },
+  "tian2023just": {
+    "titulo": "Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback",
+    "autores": [
+      "Katherine Tian",
+      "Eric Mitchell",
+      "Allan Zhou",
+      "Archit Sharma",
+      "Rafael Rafailov",
+      "Huaxiu Yao",
+      "Chelsea Finn",
+      "Christopher D. Manning"
+    ],
+    "ano": 2023,
+    "versao": "v2",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-26",
+    "sha256": "dd4c8e43690ed8ce1a566d9cc1df01b558749379e4339156113ba93906562633"
+  },
+  "zhao2025d1": {
+    "titulo": "d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning",
+    "autores": [
+      "Siyan Zhao",
+      "Devaansh Gupta",
+      "Qinqing Zheng",
+      "Aditya Grover"
+    ],
+    "ano": 2025,
+    "versao": "v2",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-26",
+    "sha256": "060e55fb445eb060482b61957354401a6a0c1c1942bc09fd9e2a168081eb2e3d"
+  },
+  "zhu2025llada15": {
+    "titulo": "LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models",
+    "autores": [
+      "Fengqi Zhu",
+      "Rongzhen Wang",
+      "Shen Nie",
+      "Xiaolu Zhang",
+      "Chunwei Wu",
+      "Jun Hu",
+      "Jun Zhou",
+      "Jianfei Chen",
+      "Yankai Lin",
+      "Ji-Rong Wen",
+      "Chongxuan Li"
+    ],
+    "ano": 2025,
+    "versao": "v2",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-26",
+    "sha256": "4ec09b450c8560ce7757c00024c929daa2bb6bc73cd401ea161a21ab3b9aa359"
+  },
+  "rafailov2023dpo": {
+    "titulo": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "autores": [
+      "Rafael Rafailov",
+      "Archit Sharma",
+      "Eric Mitchell",
+      "Stefano Ermon",
+      "Christopher D. Manning",
+      "Chelsea Finn"
+    ],
+    "ano": 2023,
+    "versao": "v3",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-26",
+    "sha256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a"
+  },
+  "di2024slim": {
+    "titulo": "SLIM-RAFT: A Novel Fine-Tuning Approach to Improve Cross-Linguistic Performance for Mercosur Common Nomenclature",
+    "autores": [
+      "Vin\\'icius Di Oliveira",
+      "Yuri Fa\\c{c}anha Bezerra",
+      "Li Weigang",
+      "Pedro Carvalho Brom",
+      "Victor Rafael R. Celestino"
+    ],
+    "ano": 2024,
+    "versao": "v1",
+    "licenca": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "baixado_em": "2026-10-27",
+    "sha256": "c54aa42119b723ff2b86079d0220f32a18002098002663e00dde93eeb8519219"
+  },
+  "di2025immba": {
+    "baixado_em": "2026-10-27",
+    "sha256": "303a8f0bdd7736e5d32f79063ef25e109c82f9362ca81ee5ece9757558fe7826",
+    "licenca": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "brom2026trace": {
+    "baixado_em": "2026-10-27",
+    "sha256": "0f5201e0315140de9d22643d6cf63bbd8d79e37732cfd2f1b0ddc877e673e355",
+    "licenca": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "weigang2025paradox": {
+    "titulo": "The Paradox of Poetic Intent in Back-Translation: Evaluating the Quality of Large Language Models in Chinese Translation",
+    "autores": [
+      "Li Weigang",
+      "Pedro Carvalho Brom"
+    ],
+    "ano": 2025,
+    "versao": "v2",
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-27",
+    "sha256": "a986dfc84607701cb53097d233ac31a16665e742ad48eb109ae8acd3c902625b"
+  },
+  "karpathy2022nanogpt": {
+    "licenca": "https://opensource.org/license/mit"
+  },
+  "rush2018annotated": {
+    "baixado_em": "2026-10-29",
+    "sha256": "9dfbabc447482981670536c520e07c6645654fa5e1b353f25d06dba54450b817",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/"
+  },
+  "chen1996smoothing": {
+    "baixado_em": "2026-10-29",
+    "sha256": "8aa439d0b93d1dcd5cd7efc694613275cee236f3421aa16e7af021e95cc2c6fb",
+    "licenca": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+  },
+  "garcia2024robertalexpt": {
+    "baixado_em": "2026-10-29",
+    "sha256": "4ce4494232111f956a40bff460e3ca2a1b38ffce9e65d4ecb3f0379e78155cb5",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/"
+  },
+  "warstadt2025babylm": {
+    "titulo": "Findings of the BabyLM Challenge: Sample-Efficient Pretraining on Developmentally Plausible Corpora",
+    "autores": [
+      "Alex Warstadt",
+      "Aaron Mueller",
+      "Leshem Choshen",
+      "Ethan Wilcox",
+      "Chengxu Zhuang",
+      "Juan Ciro",
+      "Rafael Mosquera",
+      "Bhargavi Paranjape",
+      "Adina Williams",
+      "Tal Linzen",
+      "Ryan Cotterell"
+    ],
+    "ano": 2025,
+    "versao": "v1",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "930a97b593a8cf166e3efcb90d4d500afcfc9e79224932f100f865be387d526c"
+  },
+  "hu2024babylm2": {
+    "titulo": "Findings of the Second BabyLM Challenge: Sample-Efficient Pretraining on Developmentally Plausible Corpora",
+    "autores": [
+      "Michael Y. Hu",
+      "Aaron Mueller",
+      "Candace Ross",
+      "Adina Williams",
+      "Tal Linzen",
+      "Chengxu Zhuang",
+      "Ryan Cotterell",
+      "Leshem Choshen",
+      "Alex Warstadt",
+      "Ethan Gotlieb Wilcox"
+    ],
+    "ano": 2024,
+    "versao": "v1",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "eddd6fb715141821a89f293355182fa677c116076b21ddf429a11602da7a8a10"
+  },
+  "geiping2022cramming": {
+    "titulo": "Cramming: Training a Language Model on a Single GPU in One Day",
+    "autores": [
+      "Jonas Geiping",
+      "Tom Goldstein"
+    ],
+    "ano": 2022,
+    "versao": "v1",
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "7a71e4312f8fad7bbd37f3e50433f105d6e201826f030ffcc1fbc948963d40bb"
+  },
+  "muennighoff2023scaling": {
+    "titulo": "Scaling Data-Constrained Language Models",
+    "autores": [
+      "Niklas Muennighoff",
+      "Alexander M. Rush",
+      "Boaz Barak",
+      "Teven Le Scao",
+      "Aleksandra Piktus",
+      "Nouamane Tazi",
+      "Sampo Pyysalo",
+      "Thomas Wolf",
+      "Colin Raffel"
+    ],
+    "ano": 2023,
+    "versao": "v5",
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "4935b8dc51e0f4183bc7e66d87cbf5e0a776f6d97b44e992ff9c675b8ea5f3ec"
+  },
+  "xue2023repeat": {
+    "titulo": "To Repeat or Not To Repeat: Insights from Scaling LLM under Token-Crisis",
+    "autores": [
+      "Fuzhao Xue",
+      "Yao Fu",
+      "Wangchunshu Zhou",
+      "Zangwei Zheng",
+      "Yang You"
+    ],
+    "ano": 2023,
+    "versao": "v2",
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "58df41abfc6b1dd1968517b7a5245be44168c78a6e778d4d3b70d3f43edec8ca"
+  },
+  "liu2024infinigram": {
+    "titulo": "Infini-gram: Scaling Unbounded n-gram Language Models to a Trillion Tokens",
+    "autores": [
+      "Jiacheng Liu",
+      "Sewon Min",
+      "Luke Zettlemoyer",
+      "Yejin Choi",
+      "Hannaneh Hajishirzi"
+    ],
+    "ano": 2024,
+    "versao": "v4",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "08ff79121c688a3112a9378be4fca9671942621d023ac350ec90ab97e0865ed3"
+  },
+  "guo2017calibration": {
+    "titulo": "On Calibration of Modern Neural Networks",
+    "autores": [
+      "Chuan Guo",
+      "Geoff Pleiss",
+      "Yu Sun",
+      "Kilian Q. Weinberger"
+    ],
+    "ano": 2017,
+    "versao": "v2",
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "cb654a65acb785ed4387d6c2db1301d065075dddc2d363676836a2f2a14bc50d"
+  },
+  "holtzman2021surface": {
+    "titulo": "Surface Form Competition: Why the Highest Probability Answer Isn't Always Right",
+    "autores": [
+      "Ari Holtzman",
+      "Peter West",
+      "Vered Shwartz",
+      "Yejin Choi",
+      "Luke Zettlemoyer"
+    ],
+    "ano": 2021,
+    "versao": "v9",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "810c26ceec851aff7b478bab82f09aaf09bd592650f1931869ecaac325974566"
+  },
+  "vanmiltenburg2021prereg": {
+    "titulo": "Preregistering NLP Research",
+    "autores": [
+      "Emiel van Miltenburg",
+      "Chris van der Lee",
+      "Emiel Krahmer"
+    ],
+    "ano": 2021,
+    "versao": "v2",
+    "licenca": "http://creativecommons.org/licenses/by/4.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "40504f04d21a3c54c901517ea64c3227790be67ad2740f34366046ab00991125"
+  },
+  "dodge2019show": {
+    "titulo": "Show Your Work: Improved Reporting of Experimental Results",
+    "autores": [
+      "Jesse Dodge",
+      "Suchin Gururangan",
+      "Dallas Card",
+      "Roy Schwartz",
+      "Noah A. Smith"
+    ],
+    "ano": 2019,
+    "versao": "v1",
+    "licenca": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "baixado_em": "2026-10-29",
+    "sha256": "5cac75c527c93689e95509c01ae68721ac96ea5ec1f41aad7a5cd6b330326ce7"
+  }
+}

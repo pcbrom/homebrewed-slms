@@ -1,0 +1,17 @@
+.claude/
+CLAUDE.md
+dados_brutos/
+ESTADO_GLOBAL.md
+.ipynb_checkpoints/
+privado/
+*.pt
+__pycache__/
+referencias/pdf_local/
+runs/*/pesos.pt
+.venv*/
+.venv/
+
+
+# acompanhamento local de tarefas, fora do repositorio publico
+TODO.md
+scripts/rebuild_estado.py

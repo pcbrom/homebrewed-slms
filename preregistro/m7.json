@@ -1,0 +1,48 @@
+{
+  "cobertura_bootstrap_piloto": {
+    "R": 10000,
+    "aprovada": false,
+    "cobertura": 0.918,
+    "n_nulos": 1000
+  },
+  "delta_min": 0.09068214244282155,
+  "escolha": {
+    "autoregressivo": {
+      "dropout": 0.2,
+      "lr": 0.0003
+    },
+    "difusao": {
+      "dropout": 0.1,
+      "lr": 0.001
+    }
+  },
+  "inferencia": "teste de aleatorizacao sobre as sementes, afirmacao restrita ao conjunto de avaliacao",
+  "leitura": "Delta = bpb_dif - bpb_AR na validacao; abaixo de zero: difusao melhor (conclusivo); acima: AR supera o limite da difusao (sem conclusao sobre a difusao); contem zero: inconclusivo",
+  "numero_sementes": {
+    "n": 3,
+    "resolvivel": true,
+    "sigma_sup": 0.015410582656167498,
+    "teto": 30
+  },
+  "ponto_confirmatorio": 256,
+  "pontos_descritivos": [
+    1,
+    4,
+    16,
+    64
+  ],
+  "precisao": "fp16 com GradScaler, atencao efficient",
+  "sementes_confirmatorias": [
+    300,
+    301,
+    302
+  ],
+  "sementes_descritivas": [
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "sentinela": "ativa ate o fim no ponto confirmatorio (precisao G4)"
+}

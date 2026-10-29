@@ -1,0 +1,157 @@
+{
+ "max_tokens": 254,
+ "filtro_k": 13,
+ "tarefas": {
+  "t1": {
+   "treino": {
+    "antes": 476,
+    "depois": 476,
+    "grupos": 94,
+    "por_classe": {
+     "numero": 181,
+     "remissao": 295
+    }
+   },
+   "validacao": {
+    "antes": 11,
+    "depois": 2,
+    "grupos": 2,
+    "por_classe": {
+     "remissao": 2
+    }
+   },
+   "teste": {
+    "antes": 10,
+    "depois": 1,
+    "grupos": 1,
+    "por_classe": {
+     "remissao": 1
+    }
+   },
+   "externo": {
+    "antes": 1062,
+    "depois": 337,
+    "grupos": 130,
+    "por_classe": {
+     "remissao": 308,
+     "numero": 29
+    }
+   }
+  },
+  "t2": {
+   "treino": {
+    "antes": 1777,
+    "depois": 1777,
+    "grupos": 204,
+    "por_classe": {
+     "0": 1301,
+     "1": 476
+    }
+   },
+   "validacao": {
+    "antes": 85,
+    "depois": 40,
+    "grupos": 9,
+    "por_classe": {
+     "0": 37,
+     "1": 3
+    }
+   },
+   "teste": {
+    "antes": 73,
+    "depois": 35,
+    "grupos": 7,
+    "por_classe": {
+     "1": 15,
+     "0": 20
+    }
+   },
+   "externo": {
+    "antes": 5128,
+    "depois": 3095,
+    "grupos": 643,
+    "por_classe": {
+     "0": 2782,
+     "1": 313
+    }
+   }
+  },
+  "t3": {
+   "treino": {
+    "antes": 836,
+    "depois": 836,
+    "grupos": 147,
+    "por_classe": {
+     "remissao": 324,
+     "termo": 224,
+     "embaralhamento": 171,
+     "numero": 117
+    }
+   },
+   "validacao": {
+    "antes": 36,
+    "depois": 9,
+    "grupos": 5,
+    "por_classe": {
+     "remissao": 7,
+     "embaralhamento": 2
+    }
+   },
+   "teste": {
+    "antes": 22,
+    "depois": 4,
+    "grupos": 4,
+    "por_classe": {
+     "termo": 1,
+     "embaralhamento": 2,
+     "remissao": 1
+    }
+   },
+   "externo": {
+    "antes": 2570,
+    "depois": 1185,
+    "grupos": 469,
+    "por_classe": {
+     "termo": 398,
+     "remissao": 526,
+     "embaralhamento": 244,
+     "numero": 17
+    }
+   }
+  },
+  "t4": {
+   "treino": {
+    "antes": 1203,
+    "depois": 1203,
+    "grupos": 186,
+    "por_classe": {
+     "": 1203
+    }
+   },
+   "validacao": {
+    "antes": 61,
+    "depois": 24,
+    "grupos": 7,
+    "por_classe": {
+     "": 24
+    }
+   },
+   "teste": {
+    "antes": 40,
+    "depois": 20,
+    "grupos": 6,
+    "por_classe": {
+     "": 20
+    }
+   },
+   "externo": {
+    "antes": 3739,
+    "depois": 2251,
+    "grupos": 615,
+    "por_classe": {
+     "": 2251
+    }
+   }
+  }
+ }
+}

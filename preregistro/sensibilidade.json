@@ -1,0 +1,72 @@
+{
+  "L": "orcamento em epocas, iguais tokens de treino; o lote de 64 janelas muda os tokens por passo e o numero de passos",
+  "V": "BPE byte-level da biblioteca treinado no treino com V fixo, sem a regra de escolha de V",
+  "amostras_T_gen": {
+    "n": 32,
+    "palavras": 60
+  },
+  "corpus": "A",
+  "criterio_de_orcamento": "sem corrida: zero passos pulados nos 104 runs do M7, contagem por passo aplicado e por passo nominal coincidem",
+  "epocas": 256,
+  "escolha": {
+    "autoregressivo": {
+      "dropout": 0.2,
+      "lr": 0.0003
+    },
+    "difusao": {
+      "dropout": 0.1,
+      "lr": 0.001
+    }
+  },
+  "fatores_com_treino": {
+    "L": [
+      128,
+      512
+    ],
+    "V": [
+      2048,
+      8192
+    ],
+    "precisao": [
+      "fp32"
+    ]
+  },
+  "fatores_so_avaliacao": {
+    "K": [
+      1,
+      4,
+      16
+    ],
+    "T_gen": [
+      16,
+      64,
+      256
+    ]
+  },
+  "leitura": "descritiva; nenhum teste e nenhuma alteracao do criterio confirmatorio da decisao de orcamento",
+  "linha_de_base": "corridas m7-<modo>-e256-s300 a s302, pareadas por semente",
+  "metricas": {
+    "K": "bpb da difusao e Delta por K, media e desvio entre 3 sementes de avaliacao",
+    "L_V_precisao": "bpb de validacao por modo e Delta = bpb_dif - bpb_AR por semente, media e IC de 95% por t com 2 graus de liberdade",
+    "T_gen": "por T_gen: fracao de amostras com 60 palavras, taxa de lexico contra a humana, trigramas atestados, descarte por copia com k do M9"
+  },
+  "padrao": {
+    "K": 1,
+    "L": 256,
+    "T_gen": 256,
+    "V": 4096,
+    "precisao": "fp16"
+  },
+  "precisao": "fp16 com GradScaler, atencao efficient, exceto no fator precisao",
+  "sementes": [
+    300,
+    301,
+    302
+  ],
+  "sementes_avaliacao_K": [
+    0,
+    1,
+    2
+  ],
+  "um_fator_por_vez": true
+}

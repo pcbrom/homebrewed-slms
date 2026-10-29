@@ -1,0 +1,56 @@
+{
+  "corpus_hash": "364aa78f417a13fd49a71a380cdff9d86ffee8c3ef3a159237fe50befcc43f77",
+  "delta_min": "1/4 de (bpb_AR com 4 epocas - bpb_AR com 16 epocas), na configuracao AR escolhida, media de 2 sementes",
+  "fixos": {
+    "L": 256,
+    "aquecimento_frac": 0.02,
+    "atencao": "efficient",
+    "lote": 64,
+    "lr_min_frac": 0.1,
+    "precisao": "fp16",
+    "rede": "6x384",
+    "weight_decay": 0.1
+  },
+  "grade": {
+    "dropout": [
+      0.0,
+      0.1,
+      0.2
+    ],
+    "epocas": [
+      16,
+      256
+    ],
+    "lr": [
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "modos": [
+      "autoregressivo",
+      "difusao"
+    ],
+    "sementes": [
+      0,
+      1
+    ]
+  },
+  "metrica": "bpb de validacao, razao de somas; difusao pela NELBO com K=1 amostra por janela",
+  "piloto": {
+    "epocas": 256,
+    "sementes": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109
+    ]
+  },
+  "selecao": "por modo, a configuracao de menor media de bpb entre as 2 sementes no ponto de 256 epocas; sigma_hat = raiz da media, sobre as 9 configuracoes, da variancia entre as 2 sementes, por modo e ponto; se as duas melhores diferirem menos que sigma_hat, vence a de maior dropout e, empatando, a de menor lr",
+  "tokenizador_sha256": "6930554efc8122701ece5b7506c1f1f56dd314a38970536c56cfa8744d0951b6"
+}

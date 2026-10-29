@@ -1,0 +1,58 @@
+{
+ "B": {
+  "itens": 906,
+  "por_familia": {
+   "remissao": 352,
+   "termo": 242,
+   "embaralhamento": 187,
+   "numero": 125
+  },
+  "grupos": 162,
+  "por_particao": {
+   "treino": 843,
+   "validacao": 39,
+   "teste": 24
+  },
+  "avaliacao_sem_sobreposicao_13": {
+   "antes": 63,
+   "depois": 15,
+   "por_familia": {
+    "remissao": 8,
+    "embaralhamento": 4,
+    "termo": 3
+   },
+   "grupos": 9
+  }
+ },
+ "B_externo_atos": {
+  "itens": 2570,
+  "por_familia": {
+   "remissao": 1111,
+   "embaralhamento": 632,
+   "termo": 744,
+   "numero": 83
+  },
+  "grupos": 592,
+  "por_particao": {
+   "externo": 2570
+  },
+  "avaliacao_sem_sobreposicao_13": {
+   "antes": 2570,
+   "depois": 1185,
+   "por_familia": {
+    "termo": 398,
+    "remissao": 526,
+    "embaralhamento": 244,
+    "numero": 17
+   },
+   "grupos": 469
+  }
+ },
+ "tfidf_texto_unico_cv_agrupada_treino_B": 0.507177033492823,
+ "tfidf_por_familia": {
+  "embaralhamento": 0.49707602339181284,
+  "numero": 0.4444444444444444,
+  "remissao": 0.5385802469135803,
+  "termo": 0.5022321428571428
+ }
+}

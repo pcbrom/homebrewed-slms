@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Se este material for útil, por favor cite-o e marque o repositório com uma estrela."
+type: software
+title: "Homebrewed SLMs: modelos de linguagem pequenos feitos em casa, do zero, com difusão mascarada e autorregressivo"
+authors:
+  - family-names: "Brom"
+    given-names: "Pedro Carvalho"
+repository-code: "https://github.com/pcbrom/homebrewed-slms"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - small language model
+  - masked diffusion
+  - autoregressive language model
+  - tokenization
+  - education
+  - Portuguese
+  - evaluation protocol
+preferred-citation:
+  type: article
+  title: "Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese"
+  authors:
+    - family-names: "Brom"
+      given-names: "Pedro Carvalho"
+      orcid: "https://orcid.org/0000-0002-1288-7695"
+  year: 2026
+  status: preprint
+  url: "https://github.com/pcbrom/homebrewed-slms"

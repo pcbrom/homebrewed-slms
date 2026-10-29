@@ -1,0 +1,20 @@
+{
+  "implementacao": "biblioteca",
+  "vocab_size": 2048,
+  "regex": "'s|'t|'re|'ve|'m|'ll|'d| ?\\p{L}+| ?\\p{N}+| ?[^\\s\\p{L}\\p{N}]+|\\s+(?!\\S)|\\s+",
+  "versao_biblioteca": "0.23.3",
+  "sha256_treino": "0dec520893cc2fe61c3aa1d60df3ce680e8f500f89a039aaf38fdee682184497",
+  "fracao_ausente_retido": 0.008948545861297539,
+  "bytes_retido": 539572,
+  "medidas_regra_V": {
+    "2048": 0.008948545861297539
+  },
+  "limiar_regra_V": 1.0,
+  "didatico": {
+    "bytes_amostra": 440082,
+    "segundos_treino": 27.2,
+    "fusoes_iguais": true,
+    "ids_iguais_no_retido": true
+  },
+  "sha256_tokenizer_json": "1e4d969333c1d395de11c46179bb77c5cc4ab988e03b1447f79bdbf2ff5ce78c"
+}

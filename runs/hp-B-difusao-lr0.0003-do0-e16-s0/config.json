@@ -1,0 +1,39 @@
+{
+  "modo": "difusao",
+  "vocab_size": 1024,
+  "L": 256,
+  "n_layer": 6,
+  "d": 384,
+  "n_head": 6,
+  "dropout": 0.0,
+  "lote": 64,
+  "epocas": 16.0,
+  "lr": 0.0003,
+  "lr_min_frac": 0.1,
+  "aquecimento_frac": 0.02,
+  "weight_decay": 0.1,
+  "betas": [
+    0.9,
+    0.95
+  ],
+  "clip": 1.0,
+  "precisao": "fp16",
+  "atencao": "efficient",
+  "semente": 0,
+  "papel": "hp",
+  "corpus": "B",
+  "corpus_hash": "c51d3d40ca60bfeb318408e4bba0732a87d87b97da2a44d30d0b68943086ec71",
+  "tokenizador_hash": "cecc78394f3f2018604a53d01c6b8ab3f482b63d280d6c5105d1c2a2f95247cd",
+  "registro_cada": 50,
+  "sentinela_cada": 500,
+  "run_id": "hp-B-difusao-lr0.0003-do0-e16-s0",
+  "extra": {},
+  "maquina": {
+    "python": "3.12.3",
+    "torch": "2.10.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "driver": "595.99.02",
+    "teto_potencia": "500.00 W"
+  }
+}

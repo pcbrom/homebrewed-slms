@@ -1,0 +1,15 @@
+{
+  "antes_de_qualquer_corrida_confirmatoria": true,
+  "aprovada_por": "autor",
+  "data": "2026-10-27",
+  "motivo": "a cobertura do bootstrap no piloto ficou abaixo de 0,93, e o pre-registro passa a inferencia ao teste de aleatorizacao por troca de sinal sobre as sementes; com 3 sementes ha 8 trocas e o menor p bilateral e 0,25, entao o teste nao rejeitaria a 0,05 com nenhum efeito",
+  "regra": "n = maior entre o da formula de poder e o menor n com 2 * 2^-n < 0,05, isto e, 6",
+  "sementes_confirmatorias": [
+    300,
+    301,
+    302,
+    303,
+    304,
+    305
+  ]
+}

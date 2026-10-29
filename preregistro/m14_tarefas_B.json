@@ -1,0 +1,97 @@
+{
+  "checkpoints": {
+    "preregistro_m7": "m7_B",
+    "regra": "por modo, o ponto do m7_B (descritivos e confirmatorio) com menor media de bits por byte na validacao, com todas as sementes desse ponto; a medida de cada semente entra na media"
+  },
+  "conjunto_de_medida": "B_externo",
+  "construcao": "scripts/construir_tarefas.py, filtro de 13 tokens no item inteiro, todos os itens sem cota",
+  "corpus": "B",
+  "estatistica": {
+    "intervalo": "bootstrap selvagem por grupo, R = 10.000, 95%",
+    "leitura": "o modelo supera o piso na tarefa quando a hipotese do sinal e rejeitada por Holm a favor dele",
+    "multiplicidade": "Holm a 0,05 dentro de cada trilha",
+    "principal": "media macro por grupo",
+    "sensibilidade": "analise refeita sem o maior grupo; correlacao intragrupo relatada como descricao",
+    "teste": "por grupo, D_g = metrica do modelo - metrica do piso (em T4, bits por byte do piso - do modelo); teste do sinal bilateral sobre os grupos com D_g diferente de zero",
+    "unidade": "grupo de leis"
+  },
+  "itens_sha256": {
+    "t1": "218bb4ebf16a184269fb6b58637922d810badc0008fa0d05df4c314a6ff83e52",
+    "t2": "645ba57569761aaa4d452b181e96e437907465f2459cf0e816ef3b18cfe2bc78",
+    "t3": "07e85a0eda906853ed7971b6ae70cb69aae0e6c4e841b63cef7ace9a60faee70",
+    "t4": "420d1d3384d4516b29ecef6c7d89488c6929378718d54a02af58443265709be3"
+  },
+  "trilha_decisor": {
+    "ajuste": "itens de treino do corpus; T3 julga cada texto sozinho, original ou adulterado",
+    "calibracao": "temperatura por validacao cruzada agrupada no treino; ECE em 15 faixas antes e depois",
+    "confirmatorias": [
+      "T2 autoregressivo",
+      "T2 difusao",
+      "T3 autoregressivo",
+      "T3 difusao"
+    ],
+    "encoder": "checkpoints da regra acima, media dos estados da ultima camada, cabeca linear, modo de difusao sem mascara",
+    "metrica": "acuracia balanceada em T2 e acuracia em T3, como na trilha gerativa",
+    "otimizacao": "ajuste fino completo, AdamW, 3 epocas, lote 16, taxa escolhida em {1e-5, 3e-5, 1e-4} por validacao cruzada agrupada em 5 dobras no treino; o mesmo protocolo para o Laya",
+    "piso": "TF-IDF de 1 e 2 gramas com regressao logistica balanceada, C escolhido na mesma validacao cruzada",
+    "regua_publica": {
+      "laya": {
+        "checkpoint": "multilingual/",
+        "encoder": "mmBERT-base, 322M",
+        "repositorio": "convaiinnovations/laya",
+        "revisao": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851"
+      },
+      "leitura": "intervalo, sem aprovacao nem reprovacao",
+      "secundaria": "Laya sem ajuste, e Laya com a janela inteira dele em T3"
+    },
+    "resposta_seletiva": "cobertura com 95% de acerto, limiar de confianca escolhido na validacao cruzada do treino"
+  },
+  "trilha_gerativa": {
+    "T1": {
+      "autoregressivo": "log-verossimilhanca exata do artigo preenchido com cada opcao, maior vence",
+      "difusao": "condicional exata numa passada quando a lacuna tem um token, estimador condicional do LLaDA com 128 amostras e as mesmas mascaras para as opcoes nos trechos",
+      "leitura": "descritiva, com intervalo",
+      "metrica": "acuracia, media macro por grupo"
+    },
+    "T2": {
+      "difusao": "o mesmo contraste pela condicional da difusao com o caput mascarado",
+      "escore": "log p(caput | prefixo de insercao) - log p(caput | prefixo de artigo proprio)",
+      "limiar": "um por modelo, o que maximiza a acuracia balanceada nos itens de treino, aplicado sem mudanca ao conjunto externo",
+      "metrica": "acuracia balanceada; por grupo, soma dos acertos com peso 1/(2 n_classe) do conjunto",
+      "prefixo_insercao": "passa a vigorar com a seguinte redação:\n\n“Art. 1º ",
+      "prefixo_proprio": "Art. 1º "
+    },
+    "T3": {
+      "autoregressivo": "acerta quando a log-verossimilhanca do original passa a do adulterado",
+      "difusao": "NELBO com as mesmas mascaras nas duas versoes, posicoes diferentes mascaradas",
+      "metrica": "acuracia sobre os pares, media macro por grupo"
+    },
+    "T4": {
+      "difusao": "limite superior pela NELBO da continuacao com o prefixo visivel, leitura assimetrica",
+      "geracao_descritiva": "chrF e ROUGE-L sobre geracao no comprimento real; juiz semantico so depois do portao do M9",
+      "linhas_de_base_descritivas": [
+        "copia da continuacao do caput de treino de maior prefixo comum"
+      ],
+      "metrica": "bits por byte da continuacao real dado o prefixo, por grupo pela soma de nats sobre a soma de bytes"
+    },
+    "ajuste": "nenhum, pontuacao por verossimilhanca",
+    "confirmatorias": [
+      "T2 autoregressivo",
+      "T2 difusao",
+      "T3 autoregressivo",
+      "T3 difusao",
+      "T4 autoregressivo",
+      "T4 difusao"
+    ],
+    "piso": "n-grama Kneser-Ney do corpus, ordem escolhida na validacao (resultados/ngrama_<corpus>.json), pontuado pela mesma regra",
+    "reguas_publicas": {
+      "conferencia": "logits em fp16 contra fp32 numa amostra, tokenizador por ida e volta",
+      "leitura": "intervalo, sem aprovacao nem reprovacao",
+      "modelos": [
+        "TeenyTinyLlama 160M",
+        "Tucano 160M",
+        "Tucano 630M"
+      ]
+    }
+  }
+}

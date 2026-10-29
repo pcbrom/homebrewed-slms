@@ -1,0 +1,737 @@
+[
+ {
+  "chave": "kaplan2020scaling",
+  "arxiv": "2001.08361",
+  "citado_em": [
+   "docs/DIMENSIONAMENTO.md",
+   "docs/pesquisa_protocolo.md",
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "hoffmann2022chinchilla",
+  "arxiv": "2203.15556",
+  "citado_em": [
+   "docs/DIMENSIONAMENTO.md",
+   "docs/pesquisa_protocolo.md",
+   "docs/decisao_orcamento.md"
+  ]
+ },
+ {
+  "chave": "chowdhery2022palm",
+  "arxiv": "2204.02311",
+  "citado_em": [
+   "docs/DIMENSIONAMENTO.md",
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "rajbhandari2019zero",
+  "arxiv": "1910.02054",
+  "citado_em": [
+   "docs/DIMENSIONAMENTO.md"
+  ]
+ },
+ {
+  "chave": "nvidia2019t4",
+  "url_pdf": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/tesla-t4/t4-tensor-core-datasheet-951643.pdf",
+  "titulo": "NVIDIA T4 Tensor Core GPU: datasheet",
+  "autores": [
+   "NVIDIA"
+  ],
+  "ano": 2019,
+  "veiculo": "Documentação técnica do fabricante",
+  "versao": "951643",
+  "licenca": "",
+  "citado_em": [
+   "docs/DIMENSIONAMENTO.md",
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "austin2021d3pm",
+  "arxiv": "2107.03006",
+  "citado_em": [
+   "docs/pesquisa_difusao.md"
+  ]
+ },
+ {
+  "chave": "lou2023sedd",
+  "arxiv": "2310.16834",
+  "citado_em": [
+   "docs/pesquisa_difusao.md",
+   "docs/pesquisa_protocolo.md",
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "sahoo2024mdlm",
+  "arxiv": "2406.07524",
+  "citado_em": [
+   "docs/pesquisa_difusao.md",
+   "docs/pesquisa_protocolo.md",
+   "docs/decisao_formulacao.md"
+  ]
+ },
+ {
+  "chave": "shi2024md4",
+  "arxiv": "2406.04329",
+  "citado_em": [
+   "docs/pesquisa_difusao.md"
+  ]
+ },
+ {
+  "chave": "ou2024radd",
+  "arxiv": "2406.03736",
+  "citado_em": [
+   "docs/pesquisa_difusao.md",
+   "docs/pesquisa_protocolo.md",
+   "docs/decisao_precisao.md",
+   "docs/decisao_formulacao.md"
+  ]
+ },
+ {
+  "chave": "nie2025llada",
+  "arxiv": "2502.09992",
+  "citado_em": [
+   "docs/pesquisa_difusao.md",
+   "docs/decisao_precisao.md",
+   "docs/decisao_formulacao.md"
+  ]
+ },
+ {
+  "chave": "arriola2025bd3lm",
+  "arxiv": "2503.09573",
+  "citado_em": [
+   "docs/pesquisa_difusao.md"
+  ]
+ },
+ {
+  "chave": "zheng2024timeagnostic",
+  "arxiv": "2409.02908",
+  "citado_em": [
+   "docs/pesquisa_difusao.md",
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "nie2024scaling",
+  "arxiv": "2410.18514",
+  "citado_em": [
+   "docs/pesquisa_difusao.md",
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "prabhudesai2025data",
+  "arxiv": "2507.15857",
+  "citado_em": [
+   "docs/pesquisa_difusao.md",
+   "docs/pesquisa_protocolo.md",
+   "docs/decisao_orcamento.md"
+  ]
+ },
+ {
+  "chave": "ni2025superdata",
+  "arxiv": "2511.03276",
+  "citado_em": [
+   "docs/pesquisa_difusao.md"
+  ]
+ },
+ {
+  "chave": "wu2025fastdllm",
+  "arxiv": "2505.22618",
+  "citado_em": [
+   "docs/pesquisa_difusao.md"
+  ]
+ },
+ {
+  "chave": "kingma2021vdm",
+  "arxiv": "2107.00630",
+  "citado_em": [
+   "docs/pesquisa_difusao.md"
+  ]
+ },
+ {
+  "chave": "zouhar2023formal",
+  "arxiv": "2306.16837",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ],
+  "ano_rotulo": "2023b"
+ },
+ {
+  "chave": "kozma2024bpe",
+  "arxiv": "2411.08671",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "whittington2024npc",
+  "arxiv": "2412.15210",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "bostrom2020bpe",
+  "arxiv": "2004.03720",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "song2020wordpiece",
+  "arxiv": "2012.15524",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "gao2020pile",
+  "arxiv": "2101.00027",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md",
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "rust2020tokenizer",
+  "arxiv": "2012.15613",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "schmidt2024compression",
+  "arxiv": "2402.18376",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md",
+   "docs/decisao_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "cognetta2024counter",
+  "arxiv": "2402.14614",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "ali2023tokenizer",
+  "arxiv": "2310.08754",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "goldman2024unpacking",
+  "arxiv": "2403.06265",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "tao2024vocab",
+  "arxiv": "2407.13623",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md",
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "press2016tying",
+  "arxiv": "1608.05859",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md",
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "inan2016tying",
+  "arxiv": "1611.01462",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "liu2024mobilellm",
+  "arxiv": "2402.14905",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "correa2024teenytiny",
+  "arxiv": "2401.16640",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ],
+  "ano_rotulo": "2024a"
+ },
+ {
+  "chave": "correa2024tucano",
+  "arxiv": "2411.07854",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ],
+  "ano_rotulo": "2024b"
+ },
+ {
+  "chave": "land2024magikarp",
+  "arxiv": "2405.05417",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md",
+   "docs/decisao_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "altintas2025toksuite",
+  "arxiv": "2512.20757",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "meister2026tokeval",
+  "arxiv": "2608.18062",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "dao2023flash2",
+  "arxiv": "2307.08691",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "pearce2024reconciling",
+  "arxiv": "2406.12907",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "porian2024resolving",
+  "arxiv": "2406.19146",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "sellam2021multiberts",
+  "arxiv": "2106.16163",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "madaan2024variance",
+  "arxiv": "2406.10229",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "vanderwal2025polypythias",
+  "arxiv": "2503.09543",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "magnusson2025datadecide",
+  "arxiv": "2504.11393",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "mccoy2021raven",
+  "arxiv": "2111.09509",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "carlini2022memorization",
+  "arxiv": "2202.07646",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "eldan2023tinystories",
+  "arxiv": "2305.07759",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md",
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "micikevicius2017mixed",
+  "arxiv": "1710.03740",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "sennrich2016bpe",
+  "arxiv": "1508.07909",
+  "url_pdf": "https://aclanthology.org/P16-1162.pdf",
+  "versao": "ACL P16-1162",
+  "licenca": "http://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ],
+  "ano": 2016,
+  "veiculo": "ACL Anthology, P16-1162"
+ },
+ {
+  "chave": "kudo2018subword",
+  "arxiv": "1804.10959",
+  "url_pdf": "https://aclanthology.org/P18-1007.pdf",
+  "versao": "ACL P18-1007",
+  "licenca": "http://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ],
+  "ano": 2018,
+  "veiculo": "ACL Anthology, P18-1007"
+ },
+ {
+  "chave": "kudo2018sentencepiece",
+  "arxiv": "1808.06226",
+  "url_pdf": "https://aclanthology.org/D18-2012.pdf",
+  "versao": "ACL D18-2012",
+  "licenca": "http://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ],
+  "ano": 2018,
+  "veiculo": "ACL Anthology, D18-2012"
+ },
+ {
+  "chave": "zouhar2023noiseless",
+  "arxiv": "2306.16842",
+  "url_pdf": "https://aclanthology.org/2023.acl-long.284.pdf",
+  "versao": "ACL 2023.acl-long.284",
+  "licenca": "http://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md"
+  ],
+  "ano": 2023,
+  "ano_rotulo": "2023a",
+  "veiculo": "ACL Anthology, 2023.acl-long.284"
+ },
+ {
+  "chave": "li2016diversity",
+  "arxiv": "1510.03055",
+  "url_pdf": "https://aclanthology.org/N16-1014.pdf",
+  "versao": "ACL N16-1014",
+  "licenca": "http://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ],
+  "ano": 2016,
+  "veiculo": "ACL Anthology, N16-1014"
+ },
+ {
+  "chave": "radford2019gpt2",
+  "url_pdf": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+  "titulo": "Language Models are Unsupervised Multitask Learners",
+  "autores": [
+   "Alec Radford",
+   "Jeffrey Wu",
+   "Rewon Child",
+   "David Luan",
+   "Dario Amodei",
+   "Ilya Sutskever"
+  ],
+  "ano": 2019,
+  "veiculo": "OpenAI, relatório técnico",
+  "versao": "2019",
+  "licenca": "",
+  "citado_em": [
+   "docs/pesquisa_tokenizador.md",
+   "docs/decisao_tokenizador.md"
+  ]
+ },
+ {
+  "chave": "koehn2004significance",
+  "url_pdf": "https://aclanthology.org/W04-3250.pdf",
+  "titulo": "Statistical Significance Tests for Machine Translation Evaluation",
+  "autores": [
+   "Philipp Koehn"
+  ],
+  "ano": 2004,
+  "veiculo": "Proceedings of EMNLP 2004",
+  "versao": "ACL W04-3250",
+  "licenca": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "dror2018hitchhiker",
+  "url_pdf": "https://aclanthology.org/P18-1128.pdf",
+  "titulo": "The Hitchhiker's Guide to Testing Statistical Significance in Natural Language Processing",
+  "autores": [
+   "Rotem Dror",
+   "Gili Baumer",
+   "Segev Shlomov",
+   "Roi Reichart"
+  ],
+  "ano": 2018,
+  "veiculo": "Proceedings of ACL 2018",
+  "versao": "ACL P18-1128",
+  "licenca": "http://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "docs/pesquisa_protocolo.md"
+  ]
+ },
+ {
+  "chave": "krippendorff2011alpha",
+  "url_pdf": "https://www.asc.upenn.edu/sites/default/files/2021-03/Computing%20Krippendorff%27s%20Alpha-Reliability.pdf",
+  "titulo": "Computing Krippendorff's Alpha-Reliability",
+  "autores": [
+   "Klaus Krippendorff"
+  ],
+  "ano": 2011,
+  "veiculo": "Annenberg School for Communication, University of Pennsylvania",
+  "versao": "2011",
+  "licenca": "",
+  "citado_em": [
+   "docs/SPEC.md"
+  ]
+ },
+ {
+  "chave": "openai2023gpt4",
+  "arxiv": "2303.08774",
+  "citado_em": [
+   "docs/PROBLEMA.md"
+  ]
+ },
+ {
+  "chave": "tian2023just",
+  "arxiv": "2305.14975",
+  "citado_em": [
+   "docs/PROBLEMA.md"
+  ]
+ },
+ {
+  "chave": "zhao2025d1",
+  "arxiv": "2504.12216",
+  "citado_em": [
+   "docs/PROBLEMA.md"
+  ]
+ },
+ {
+  "chave": "zhu2025llada15",
+  "arxiv": "2505.19223",
+  "citado_em": [
+   "docs/PROBLEMA.md"
+  ]
+ },
+ {
+  "chave": "rafailov2023dpo",
+  "arxiv": "2305.18290",
+  "citado_em": [
+   "docs/PROBLEMA.md"
+  ]
+ },
+ {
+  "chave": "di2024slim",
+  "arxiv": "2408.03936",
+  "veiculo": "Proceedings of the 20th International Conference on Web Information Systems and Technologies (WEBIST 2024), SCITEPRESS",
+  "url_pdf": "https://arxiv.org/pdf/2408.03936v1",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "di2025immba",
+  "url_pdf": "https://www.scitepress.org/Papers/2025/138194/138194.pdf",
+  "titulo": "IMMBA: Integrated Mixed Models with Bootstrap Analysis - A Statistical Framework for Robust LLM Evaluation",
+  "autores": [
+   "Vinícius Di Oliveira",
+   "Pedro Carvalho Brom",
+   "Li Weigang"
+  ],
+  "ano": 2025,
+  "veiculo": "Proceedings of the 21st International Conference on Web Information Systems and Technologies (WEBIST 2025), SCITEPRESS, p. 92-102, doi:10.5220/0013819400003985",
+  "versao": "2025",
+  "licenca": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "brom2026trace",
+  "url_pdf": "https://journals-sol.sbc.org.br/index.php/jbcs/article/download/6343/3981",
+  "titulo": "Trait and Consistency Evaluation: Measuring Behavioral Stability and the Adversarial Compensation Effect",
+  "autores": [
+   "Pedro Carvalho Brom",
+   "Vinícius Di Oliveira",
+   "Li Weigang"
+  ],
+  "ano": 2026,
+  "veiculo": "Journal of the Brazilian Computer Society, v. 32, n. 1, doi:10.5753/jbcs.2026.6343",
+  "versao": "2026",
+  "licenca": "https://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "weigang2025paradox",
+  "arxiv": "2504.16286",
+  "veiculo": "Frontiers of Information Technology & Electronic Engineering, doi:10.1631/FITEE.2500298",
+  "url_pdf": "https://arxiv.org/pdf/2504.16286",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "karpathy2022nanogpt",
+  "software": true,
+  "url_pdf": "https://github.com/karpathy/nanoGPT",
+  "titulo": "nanoGPT",
+  "autores": [
+   "Andrej Karpathy"
+  ],
+  "ano": 2022,
+  "veiculo": "Software repository, MIT licence, commit 3adf61e",
+  "versao": "3adf61e",
+  "licenca": "https://opensource.org/license/mit",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "rush2018annotated",
+  "url_pdf": "https://aclanthology.org/W18-2509.pdf",
+  "titulo": "The Annotated Transformer",
+  "autores": [
+   "Alexander Rush"
+  ],
+  "ano": 2018,
+  "veiculo": "Proceedings of Workshop for NLP Open Source Software (NLP-OSS), doi:10.18653/v1/W18-2509",
+  "versao": "ACL W18-2509",
+  "licenca": "http://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "chen1996smoothing",
+  "url_pdf": "https://aclanthology.org/P96-1041.pdf",
+  "titulo": "An Empirical Study of Smoothing Techniques for Language Modeling",
+  "autores": [
+   "Stanley F. Chen",
+   "Joshua Goodman"
+  ],
+  "ano": 1996,
+  "veiculo": "Proceedings of ACL 1996, doi:10.3115/981863.981904",
+  "versao": "ACL P96-1041",
+  "licenca": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "garcia2024robertalexpt",
+  "url_pdf": "https://aclanthology.org/2024.propor-1.38.pdf",
+  "titulo": "RoBERTaLexPT: A Legal RoBERTa Model pretrained with deduplication for Portuguese",
+  "autores": [
+   "Eduardo Garcia",
+   "Nadia Silva",
+   "Felipe Siqueira",
+   "Juliana Gomes",
+   "Hidelberg O. Albuquerque",
+   "Ellen Souza",
+   "Eliomar Lima",
+   "André de Carvalho"
+  ],
+  "ano": 2024,
+  "veiculo": "Proceedings of PROPOR 2024, Vol. 1",
+  "versao": "ACL 2024.propor-1.38",
+  "licenca": "http://creativecommons.org/licenses/by/4.0/",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "warstadt2025babylm",
+  "arxiv": "2504.08165",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "hu2024babylm2",
+  "arxiv": "2412.05149",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "geiping2022cramming",
+  "arxiv": "2212.14034",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "muennighoff2023scaling",
+  "arxiv": "2305.16264",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "xue2023repeat",
+  "arxiv": "2305.13230",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "liu2024infinigram",
+  "arxiv": "2401.17377",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "guo2017calibration",
+  "arxiv": "1706.04599",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "holtzman2021surface",
+  "arxiv": "2104.08315",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "vanmiltenburg2021prereg",
+  "arxiv": "2103.06944",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ },
+ {
+  "chave": "dodge2019show",
+  "arxiv": "1909.03004",
+  "citado_em": [
+   "artigo (M12)"
+  ]
+ }
+]

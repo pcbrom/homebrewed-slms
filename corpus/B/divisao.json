@@ -1,0 +1,2923 @@
+{
+  "corpus": "B",
+  "regra": "Cada lei entra no grupo da primeira lei citada na ementa, e leis com Jaccard de 5-gramas de palavras (minusculas, digitos trocados por 0) de pelo menos 0,8 entram no mesmo grupo, por uniao-busca. O representante do grupo e o menor identificador entre os membros e as leis citadas. A particao do grupo e sha256(grupo) modulo 100: 0 a 89 treino, 90 a 94 validacao, 95 a 99 teste. Sem margem.",
+  "parametros": {
+    "anos": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "tipo_senado": "LEI-n",
+    "classes_mantidas": [
+      "substantiva",
+      "alteradora"
+    ],
+    "minhash_permutacoes": 128,
+    "minhash_bandas": 32,
+    "shingle_palavras": 5,
+    "limiar_jaccard": 0.8
+  },
+  "listas_senado": {
+    "2019": {
+      "documentos": 185,
+      "tipos": {
+        "LEI-n": 185
+      }
+    },
+    "2020": {
+      "documentos": 143,
+      "tipos": {
+        "LEI-n": 143
+      }
+    },
+    "2021": {
+      "documentos": 172,
+      "tipos": {
+        "LEI-n": 172
+      }
+    },
+    "2022": {
+      "documentos": 228,
+      "tipos": {
+        "LEI-n": 228
+      }
+    }
+  },
+  "classes_na_lista": {
+    "credito": 168,
+    "orcamento": 22,
+    "homenagem": 94,
+    "alteradora": 241,
+    "substantiva": 203
+  },
+  "leis_na_lista": 728,
+  "paginas": {
+    "tentadas": 444,
+    "baixadas": 444,
+    "fracao_baixadas": 1.0,
+    "validas": 441,
+    "excluidas": 3,
+    "fracao_validas": 0.9932432432432432,
+    "motivos_exclusao": {
+      "sem texto vigente: lei integralmente revogada na pagina compilada": 3
+    }
+  },
+  "classes_no_corpus": {
+    "alteradora": 240,
+    "substantiva": 201
+  },
+  "bytes_total": 4760718,
+  "bytes_citados_blockquote": 1882995,
+  "fracao_citada": 0.39552752336937413,
+  "pares_quase_copia": [
+    {
+      "a": "lei-14160",
+      "b": "lei-14458",
+      "jaccard": 0.8109
+    }
+  ],
+  "maior_grupo": {
+    "grupo": "lei-14133",
+    "documentos": 1,
+    "bytes": 274989,
+    "fracao_bytes": 0.05776208546694007
+  },
+  "particoes": {
+    "treino": {
+      "documentos": 401,
+      "bytes": 4312670,
+      "grupos": 269
+    },
+    "validacao": {
+      "documentos": 21,
+      "bytes": 173567,
+      "grupos": 16
+    },
+    "teste": {
+      "documentos": 19,
+      "bytes": 274481,
+      "grupos": 12
+    }
+  },
+  "grupos": {
+    "dec-95744": {
+      "particao": "treino",
+      "balde": 25,
+      "documentos": 1,
+      "bytes": 3134,
+      "leis": [
+        "lei-14453"
+      ]
+    },
+    "del-1876": {
+      "particao": "treino",
+      "balde": 49,
+      "documentos": 1,
+      "bytes": 18151,
+      "leis": [
+        "lei-13813"
+      ]
+    },
+    "del-2848": {
+      "particao": "treino",
+      "balde": 38,
+      "documentos": 7,
+      "bytes": 58522,
+      "leis": [
+        "lei-13968",
+        "lei-14110",
+        "lei-14132",
+        "lei-14155",
+        "lei-14197",
+        "lei-14344",
+        "lei-14478"
+      ]
+    },
+    "del-3365": {
+      "particao": "treino",
+      "balde": 37,
+      "documentos": 2,
+      "bytes": 76245,
+      "leis": [
+        "lei-13867",
+        "lei-14273"
+      ]
+    },
+    "del-5452": {
+      "particao": "treino",
+      "balde": 14,
+      "documentos": 4,
+      "bytes": 81696,
+      "leis": [
+        "lei-13876",
+        "lei-14331",
+        "lei-14438",
+        "lei-14457"
+      ]
+    },
+    "del-667": {
+      "particao": "treino",
+      "balde": 20,
+      "documentos": 1,
+      "bytes": 1858,
+      "leis": [
+        "lei-13967"
+      ]
+    },
+    "dlg-6": {
+      "particao": "treino",
+      "balde": 37,
+      "documentos": 11,
+      "bytes": 118737,
+      "leis": [
+        "lei-14017",
+        "lei-14020",
+        "lei-14036",
+        "lei-14040",
+        "lei-14041",
+        "lei-14057",
+        "lei-14058",
+        "lei-14065",
+        "lei-14073",
+        "lei-14150",
+        "lei-14218"
+      ]
+    },
+    "lcp-173": {
+      "particao": "treino",
+      "balde": 64,
+      "documentos": 1,
+      "bytes": 1443,
+      "leis": [
+        "lei-14314"
+      ]
+    },
+    "lcp-26": {
+      "particao": "treino",
+      "balde": 22,
+      "documentos": 1,
+      "bytes": 35432,
+      "leis": [
+        "lei-13932"
+      ]
+    },
+    "lcp-79": {
+      "particao": "treino",
+      "balde": 78,
+      "documentos": 1,
+      "bytes": 1097,
+      "leis": [
+        "lei-14346"
+      ]
+    },
+    "lcp-80": {
+      "particao": "treino",
+      "balde": 67,
+      "documentos": 1,
+      "bytes": 1638,
+      "leis": [
+        "lei-14319"
+      ]
+    },
+    "lcp-89": {
+      "particao": "treino",
+      "balde": 37,
+      "documentos": 1,
+      "bytes": 4115,
+      "leis": [
+        "lei-14369"
+      ]
+    },
+    "lei-10048": {
+      "particao": "treino",
+      "balde": 50,
+      "documentos": 1,
+      "bytes": 1121,
+      "leis": [
+        "lei-14364"
+      ]
+    },
+    "lei-10098": {
+      "particao": "teste",
+      "balde": 99,
+      "documentos": 2,
+      "bytes": 3132,
+      "leis": [
+        "lei-13825",
+        "lei-13835"
+      ]
+    },
+    "lei-10233": {
+      "particao": "treino",
+      "balde": 86,
+      "documentos": 2,
+      "bytes": 4539,
+      "leis": [
+        "lei-14298",
+        "lei-14465"
+      ]
+    },
+    "lei-10257": {
+      "particao": "treino",
+      "balde": 41,
+      "documentos": 1,
+      "bytes": 1314,
+      "leis": [
+        "lei-14489"
+      ]
+    },
+    "lei-10260": {
+      "particao": "validacao",
+      "balde": 93,
+      "documentos": 2,
+      "bytes": 43339,
+      "leis": [
+        "lei-14024",
+        "lei-14375"
+      ]
+    },
+    "lei-10332": {
+      "particao": "treino",
+      "balde": 13,
+      "documentos": 1,
+      "bytes": 1299,
+      "leis": [
+        "lei-13930"
+      ]
+    },
+    "lei-10336": {
+      "particao": "treino",
+      "balde": 7,
+      "documentos": 1,
+      "bytes": 24309,
+      "leis": [
+        "lei-14237"
+      ]
+    },
+    "lei-10406": {
+      "particao": "teste",
+      "balde": 95,
+      "documentos": 7,
+      "bytes": 146113,
+      "leis": [
+        "lei-13792",
+        "lei-13811",
+        "lei-13874",
+        "lei-14195",
+        "lei-14309",
+        "lei-14405",
+        "lei-14451"
+      ]
+    },
+    "lei-10438": {
+      "particao": "treino",
+      "balde": 5,
+      "documentos": 2,
+      "bytes": 17833,
+      "leis": [
+        "lei-14146",
+        "lei-14299"
+      ]
+    },
+    "lei-10447": {
+      "particao": "treino",
+      "balde": 17,
+      "documentos": 1,
+      "bytes": 877,
+      "leis": [
+        "lei-14387"
+      ]
+    },
+    "lei-10480": {
+      "particao": "treino",
+      "balde": 12,
+      "documentos": 1,
+      "bytes": 2301,
+      "leis": [
+        "lei-13841"
+      ]
+    },
+    "lei-10671": {
+      "particao": "treino",
+      "balde": 2,
+      "documentos": 1,
+      "bytes": 2268,
+      "leis": [
+        "lei-13912"
+      ]
+    },
+    "lei-10741": {
+      "particao": "treino",
+      "balde": 31,
+      "documentos": 1,
+      "bytes": 27869,
+      "leis": [
+        "lei-14423"
+      ]
+    },
+    "lei-10753": {
+      "particao": "treino",
+      "balde": 0,
+      "documentos": 1,
+      "bytes": 1151,
+      "leis": [
+        "lei-13905"
+      ]
+    },
+    "lei-10778": {
+      "particao": "treino",
+      "balde": 45,
+      "documentos": 1,
+      "bytes": 1202,
+      "leis": [
+        "lei-13931"
+      ]
+    },
+    "lei-10820": {
+      "particao": "treino",
+      "balde": 48,
+      "documentos": 2,
+      "bytes": 14589,
+      "leis": [
+        "lei-14431",
+        "lei-14509"
+      ]
+    },
+    "lei-10826": {
+      "particao": "teste",
+      "balde": 96,
+      "documentos": 1,
+      "bytes": 885,
+      "leis": [
+        "lei-13870"
+      ]
+    },
+    "lei-10848": {
+      "particao": "treino",
+      "balde": 89,
+      "documentos": 1,
+      "bytes": 42958,
+      "leis": [
+        "lei-14300"
+      ]
+    },
+    "lei-10931": {
+      "particao": "treino",
+      "balde": 79,
+      "documentos": 1,
+      "bytes": 5748,
+      "leis": [
+        "lei-13970"
+      ]
+    },
+    "lei-11096": {
+      "particao": "treino",
+      "balde": 20,
+      "documentos": 1,
+      "bytes": 18652,
+      "leis": [
+        "lei-14350"
+      ]
+    },
+    "lei-11101": {
+      "particao": "treino",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 119823,
+      "leis": [
+        "lei-14112"
+      ]
+    },
+    "lei-11107": {
+      "particao": "treino",
+      "balde": 54,
+      "documentos": 2,
+      "bytes": 2090,
+      "leis": [
+        "lei-13821",
+        "lei-13822"
+      ]
+    },
+    "lei-11196": {
+      "particao": "treino",
+      "balde": 69,
+      "documentos": 1,
+      "bytes": 7297,
+      "leis": [
+        "lei-14374"
+      ]
+    },
+    "lei-11279": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 1,
+      "bytes": 5868,
+      "leis": [
+        "lei-14296"
+      ]
+    },
+    "lei-11340": {
+      "particao": "treino",
+      "balde": 38,
+      "documentos": 8,
+      "bytes": 17617,
+      "leis": [
+        "lei-13827",
+        "lei-13836",
+        "lei-13880",
+        "lei-13882",
+        "lei-13894",
+        "lei-13984",
+        "lei-14188",
+        "lei-14310"
+      ]
+    },
+    "lei-11343": {
+      "particao": "treino",
+      "balde": 53,
+      "documentos": 2,
+      "bytes": 30953,
+      "leis": [
+        "lei-13840",
+        "lei-14322"
+      ]
+    },
+    "lei-11346": {
+      "particao": "validacao",
+      "balde": 93,
+      "documentos": 2,
+      "bytes": 5596,
+      "leis": [
+        "lei-13839",
+        "lei-14214"
+      ]
+    },
+    "lei-11371": {
+      "particao": "treino",
+      "balde": 66,
+      "documentos": 2,
+      "bytes": 30552,
+      "leis": [
+        "lei-14002",
+        "lei-14355"
+      ]
+    },
+    "lei-11416": {
+      "particao": "treino",
+      "balde": 7,
+      "documentos": 1,
+      "bytes": 2243,
+      "leis": [
+        "lei-14456"
+      ]
+    },
+    "lei-11438": {
+      "particao": "treino",
+      "balde": 40,
+      "documentos": 1,
+      "bytes": 4725,
+      "leis": [
+        "lei-14439"
+      ]
+    },
+    "lei-11442": {
+      "particao": "treino",
+      "balde": 12,
+      "documentos": 1,
+      "bytes": 34549,
+      "leis": [
+        "lei-14206"
+      ]
+    },
+    "lei-11484": {
+      "particao": "treino",
+      "balde": 53,
+      "documentos": 2,
+      "bytes": 60172,
+      "leis": [
+        "lei-13969",
+        "lei-14302"
+      ]
+    },
+    "lei-11494": {
+      "particao": "treino",
+      "balde": 55,
+      "documentos": 3,
+      "bytes": 105111,
+      "leis": [
+        "lei-14113",
+        "lei-14276",
+        "lei-14325"
+      ]
+    },
+    "lei-11508": {
+      "particao": "treino",
+      "balde": 8,
+      "documentos": 1,
+      "bytes": 25534,
+      "leis": [
+        "lei-14184"
+      ]
+    },
+    "lei-11526": {
+      "particao": "treino",
+      "balde": 80,
+      "documentos": 1,
+      "bytes": 17523,
+      "leis": [
+        "lei-14204"
+      ]
+    },
+    "lei-11664": {
+      "particao": "treino",
+      "balde": 66,
+      "documentos": 2,
+      "bytes": 4053,
+      "leis": [
+        "lei-13980",
+        "lei-14335"
+      ]
+    },
+    "lei-11697": {
+      "particao": "teste",
+      "balde": 95,
+      "documentos": 1,
+      "bytes": 3109,
+      "leis": [
+        "lei-13850"
+      ]
+    },
+    "lei-11771": {
+      "particao": "treino",
+      "balde": 54,
+      "documentos": 1,
+      "bytes": 11335,
+      "leis": [
+        "lei-14476"
+      ]
+    },
+    "lei-11775": {
+      "particao": "treino",
+      "balde": 68,
+      "documentos": 1,
+      "bytes": 950,
+      "leis": [
+        "lei-13864"
+      ]
+    },
+    "lei-11798": {
+      "particao": "treino",
+      "balde": 19,
+      "documentos": 1,
+      "bytes": 12478,
+      "leis": [
+        "lei-14226"
+      ]
+    },
+    "lei-11903": {
+      "particao": "treino",
+      "balde": 46,
+      "documentos": 1,
+      "bytes": 3138,
+      "leis": [
+        "lei-14338"
+      ]
+    },
+    "lei-11945": {
+      "particao": "treino",
+      "balde": 28,
+      "documentos": 1,
+      "bytes": 1389,
+      "leis": [
+        "lei-14060"
+      ]
+    },
+    "lei-11947": {
+      "particao": "treino",
+      "balde": 88,
+      "documentos": 1,
+      "bytes": 1350,
+      "leis": [
+        "lei-13987"
+      ]
+    },
+    "lei-11977": {
+      "particao": "treino",
+      "balde": 85,
+      "documentos": 1,
+      "bytes": 9684,
+      "leis": [
+        "lei-14462"
+      ]
+    },
+    "lei-12087": {
+      "particao": "treino",
+      "balde": 23,
+      "documentos": 1,
+      "bytes": 50977,
+      "leis": [
+        "lei-14042"
+      ]
+    },
+    "lei-12212": {
+      "particao": "treino",
+      "balde": 88,
+      "documentos": 1,
+      "bytes": 1069,
+      "leis": [
+        "lei-14203"
+      ]
+    },
+    "lei-12213": {
+      "particao": "treino",
+      "balde": 49,
+      "documentos": 1,
+      "bytes": 2973,
+      "leis": [
+        "lei-13797"
+      ]
+    },
+    "lei-12232": {
+      "particao": "validacao",
+      "balde": 92,
+      "documentos": 1,
+      "bytes": 4365,
+      "leis": [
+        "lei-14356"
+      ]
+    },
+    "lei-12270": {
+      "particao": "validacao",
+      "balde": 93,
+      "documentos": 1,
+      "bytes": 5326,
+      "leis": [
+        "lei-14353"
+      ]
+    },
+    "lei-12276": {
+      "particao": "treino",
+      "balde": 7,
+      "documentos": 1,
+      "bytes": 5446,
+      "leis": [
+        "lei-13885"
+      ]
+    },
+    "lei-12302": {
+      "particao": "teste",
+      "balde": 95,
+      "documentos": 1,
+      "bytes": 915,
+      "leis": [
+        "lei-13863"
+      ]
+    },
+    "lei-12318": {
+      "particao": "treino",
+      "balde": 44,
+      "documentos": 1,
+      "bytes": 3662,
+      "leis": [
+        "lei-14340"
+      ]
+    },
+    "lei-12334": {
+      "particao": "treino",
+      "balde": 69,
+      "documentos": 1,
+      "bytes": 34686,
+      "leis": [
+        "lei-14066"
+      ]
+    },
+    "lei-12343": {
+      "particao": "treino",
+      "balde": 23,
+      "documentos": 2,
+      "bytes": 2794,
+      "leis": [
+        "lei-14156",
+        "lei-14468"
+      ]
+    },
+    "lei-12458": {
+      "particao": "treino",
+      "balde": 88,
+      "documentos": 1,
+      "bytes": 893,
+      "leis": [
+        "lei-13933"
+      ]
+    },
+    "lei-12485": {
+      "particao": "treino",
+      "balde": 17,
+      "documentos": 1,
+      "bytes": 1127,
+      "leis": [
+        "lei-13828"
+      ]
+    },
+    "lei-12512": {
+      "particao": "validacao",
+      "balde": 91,
+      "documentos": 1,
+      "bytes": 976,
+      "leis": [
+        "lei-13789"
+      ]
+    },
+    "lei-12513": {
+      "particao": "treino",
+      "balde": 34,
+      "documentos": 1,
+      "bytes": 1727,
+      "leis": [
+        "lei-14417"
+      ]
+    },
+    "lei-12527": {
+      "particao": "treino",
+      "balde": 53,
+      "documentos": 1,
+      "bytes": 1550,
+      "leis": [
+        "lei-14345"
+      ]
+    },
+    "lei-12529": {
+      "particao": "treino",
+      "balde": 73,
+      "documentos": 1,
+      "bytes": 2861,
+      "leis": [
+        "lei-14470"
+      ]
+    },
+    "lei-12546": {
+      "particao": "treino",
+      "balde": 78,
+      "documentos": 1,
+      "bytes": 2816,
+      "leis": [
+        "lei-14288"
+      ]
+    },
+    "lei-12587": {
+      "particao": "treino",
+      "balde": 82,
+      "documentos": 1,
+      "bytes": 2653,
+      "leis": [
+        "lei-14000"
+      ]
+    },
+    "lei-12598": {
+      "particao": "treino",
+      "balde": 23,
+      "documentos": 1,
+      "bytes": 3581,
+      "leis": [
+        "lei-14459"
+      ]
+    },
+    "lei-12618": {
+      "particao": "treino",
+      "balde": 22,
+      "documentos": 2,
+      "bytes": 9891,
+      "leis": [
+        "lei-13809",
+        "lei-14463"
+      ]
+    },
+    "lei-12651": {
+      "particao": "treino",
+      "balde": 55,
+      "documentos": 3,
+      "bytes": 8350,
+      "leis": [
+        "lei-13887",
+        "lei-14285",
+        "lei-14406"
+      ]
+    },
+    "lei-12712": {
+      "particao": "treino",
+      "balde": 54,
+      "documentos": 1,
+      "bytes": 15710,
+      "leis": [
+        "lei-14227"
+      ]
+    },
+    "lei-12715": {
+      "particao": "treino",
+      "balde": 3,
+      "documentos": 1,
+      "bytes": 3401,
+      "leis": [
+        "lei-14108"
+      ]
+    },
+    "lei-12732": {
+      "particao": "treino",
+      "balde": 50,
+      "documentos": 1,
+      "bytes": 1033,
+      "leis": [
+        "lei-13896"
+      ]
+    },
+    "lei-12764": {
+      "particao": "treino",
+      "balde": 3,
+      "documentos": 1,
+      "bytes": 4580,
+      "leis": [
+        "lei-13977"
+      ]
+    },
+    "lei-12865": {
+      "particao": "treino",
+      "balde": 43,
+      "documentos": 2,
+      "bytes": 12875,
+      "leis": [
+        "lei-14031",
+        "lei-14185"
+      ]
+    },
+    "lei-13049": {
+      "particao": "treino",
+      "balde": 21,
+      "documentos": 1,
+      "bytes": 1080,
+      "leis": [
+        "lei-14221"
+      ]
+    },
+    "lei-13105": {
+      "particao": "treino",
+      "balde": 25,
+      "documentos": 1,
+      "bytes": 9991,
+      "leis": [
+        "lei-14341"
+      ]
+    },
+    "lei-13116": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 1,
+      "bytes": 2169,
+      "leis": [
+        "lei-14424"
+      ]
+    },
+    "lei-13146": {
+      "particao": "treino",
+      "balde": 87,
+      "documentos": 2,
+      "bytes": 2064,
+      "leis": [
+        "lei-14009",
+        "lei-14159"
+      ]
+    },
+    "lei-13155": {
+      "particao": "treino",
+      "balde": 74,
+      "documentos": 1,
+      "bytes": 4481,
+      "leis": [
+        "lei-14117"
+      ]
+    },
+    "lei-13170": {
+      "particao": "validacao",
+      "balde": 92,
+      "documentos": 1,
+      "bytes": 20854,
+      "leis": [
+        "lei-13810"
+      ]
+    },
+    "lei-13178": {
+      "particao": "treino",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 1469,
+      "leis": [
+        "lei-14177"
+      ]
+    },
+    "lei-13328": {
+      "particao": "treino",
+      "balde": 40,
+      "documentos": 1,
+      "bytes": 1429,
+      "leis": [
+        "lei-13915"
+      ]
+    },
+    "lei-13334": {
+      "particao": "treino",
+      "balde": 15,
+      "documentos": 4,
+      "bytes": 39805,
+      "leis": [
+        "lei-13844",
+        "lei-13901",
+        "lei-14074",
+        "lei-14261"
+      ]
+    },
+    "lei-13340": {
+      "particao": "treino",
+      "balde": 35,
+      "documentos": 2,
+      "bytes": 18003,
+      "leis": [
+        "lei-14048",
+        "lei-14275"
+      ]
+    },
+    "lei-13364": {
+      "particao": "treino",
+      "balde": 3,
+      "documentos": 1,
+      "bytes": 4141,
+      "leis": [
+        "lei-13873"
+      ]
+    },
+    "lei-13460": {
+      "particao": "treino",
+      "balde": 53,
+      "documentos": 1,
+      "bytes": 2211,
+      "leis": [
+        "lei-14015"
+      ]
+    },
+    "lei-13464": {
+      "particao": "treino",
+      "balde": 27,
+      "documentos": 1,
+      "bytes": 37666,
+      "leis": [
+        "lei-13988"
+      ]
+    },
+    "lei-13475": {
+      "particao": "treino",
+      "balde": 34,
+      "documentos": 1,
+      "bytes": 1108,
+      "leis": [
+        "lei-14163"
+      ]
+    },
+    "lei-13594": {
+      "particao": "treino",
+      "balde": 11,
+      "documentos": 1,
+      "bytes": 2687,
+      "leis": [
+        "lei-14044"
+      ]
+    },
+    "lei-13636": {
+      "particao": "treino",
+      "balde": 44,
+      "documentos": 5,
+      "bytes": 68590,
+      "leis": [
+        "lei-13999",
+        "lei-14045",
+        "lei-14161",
+        "lei-14257",
+        "lei-14348"
+      ]
+    },
+    "lei-13650": {
+      "particao": "validacao",
+      "balde": 94,
+      "documentos": 1,
+      "bytes": 2416,
+      "leis": [
+        "lei-14123"
+      ]
+    },
+    "lei-13675": {
+      "particao": "treino",
+      "balde": 43,
+      "documentos": 1,
+      "bytes": 1096,
+      "leis": [
+        "lei-14330"
+      ]
+    },
+    "lei-13703": {
+      "particao": "treino",
+      "balde": 87,
+      "documentos": 1,
+      "bytes": 1299,
+      "leis": [
+        "lei-14445"
+      ]
+    },
+    "lei-13709": {
+      "particao": "treino",
+      "balde": 79,
+      "documentos": 2,
+      "bytes": 25938,
+      "leis": [
+        "lei-13853",
+        "lei-14460"
+      ]
+    },
+    "lei-13756": {
+      "particao": "treino",
+      "balde": 75,
+      "documentos": 4,
+      "bytes": 39821,
+      "leis": [
+        "lei-14148",
+        "lei-14294",
+        "lei-14316",
+        "lei-14455"
+      ]
+    },
+    "lei-13791": {
+      "particao": "treino",
+      "balde": 70,
+      "documentos": 1,
+      "bytes": 4232,
+      "leis": [
+        "lei-13791"
+      ]
+    },
+    "lei-13793": {
+      "particao": "treino",
+      "balde": 72,
+      "documentos": 5,
+      "bytes": 30059,
+      "leis": [
+        "lei-13793",
+        "lei-13875",
+        "lei-14039",
+        "lei-14365",
+        "lei-14508"
+      ]
+    },
+    "lei-13794": {
+      "particao": "treino",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 2424,
+      "leis": [
+        "lei-13794"
+      ]
+    },
+    "lei-13796": {
+      "particao": "treino",
+      "balde": 22,
+      "documentos": 7,
+      "bytes": 15226,
+      "leis": [
+        "lei-13796",
+        "lei-13803",
+        "lei-13826",
+        "lei-14164",
+        "lei-14191",
+        "lei-14333",
+        "lei-14407"
+      ]
+    },
+    "lei-13798": {
+      "particao": "treino",
+      "balde": 87,
+      "documentos": 5,
+      "bytes": 18353,
+      "leis": [
+        "lei-13798",
+        "lei-13812",
+        "lei-13824",
+        "lei-13845",
+        "lei-14154"
+      ]
+    },
+    "lei-13799": {
+      "particao": "treino",
+      "balde": 38,
+      "documentos": 1,
+      "bytes": 3156,
+      "leis": [
+        "lei-13799"
+      ]
+    },
+    "lei-13800": {
+      "particao": "treino",
+      "balde": 48,
+      "documentos": 1,
+      "bytes": 37805,
+      "leis": [
+        "lei-13800"
+      ]
+    },
+    "lei-13801": {
+      "particao": "treino",
+      "balde": 22,
+      "documentos": 1,
+      "bytes": 1105,
+      "leis": [
+        "lei-13801"
+      ]
+    },
+    "lei-13804": {
+      "particao": "treino",
+      "balde": 58,
+      "documentos": 5,
+      "bytes": 42491,
+      "leis": [
+        "lei-13804",
+        "lei-13855",
+        "lei-14071",
+        "lei-14157",
+        "lei-14304"
+      ]
+    },
+    "lei-13805": {
+      "particao": "treino",
+      "balde": 62,
+      "documentos": 1,
+      "bytes": 1990,
+      "leis": [
+        "lei-13805"
+      ]
+    },
+    "lei-13806": {
+      "particao": "treino",
+      "balde": 20,
+      "documentos": 1,
+      "bytes": 1859,
+      "leis": [
+        "lei-13806"
+      ]
+    },
+    "lei-13808": {
+      "particao": "validacao",
+      "balde": 92,
+      "documentos": 1,
+      "bytes": 1253,
+      "leis": [
+        "lei-13858"
+      ]
+    },
+    "lei-13814": {
+      "particao": "treino",
+      "balde": 0,
+      "documentos": 1,
+      "bytes": 4100,
+      "leis": [
+        "lei-13814"
+      ]
+    },
+    "lei-13818": {
+      "particao": "treino",
+      "balde": 50,
+      "documentos": 2,
+      "bytes": 47614,
+      "leis": [
+        "lei-13818",
+        "lei-14430"
+      ]
+    },
+    "lei-13819": {
+      "particao": "treino",
+      "balde": 70,
+      "documentos": 3,
+      "bytes": 17541,
+      "leis": [
+        "lei-13819",
+        "lei-14307",
+        "lei-14454"
+      ]
+    },
+    "lei-13820": {
+      "particao": "treino",
+      "balde": 14,
+      "documentos": 1,
+      "bytes": 9893,
+      "leis": [
+        "lei-13820"
+      ]
+    },
+    "lei-13823": {
+      "particao": "treino",
+      "balde": 15,
+      "documentos": 1,
+      "bytes": 1520,
+      "leis": [
+        "lei-13823"
+      ]
+    },
+    "lei-13830": {
+      "particao": "treino",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 2724,
+      "leis": [
+        "lei-13830"
+      ]
+    },
+    "lei-13831": {
+      "particao": "treino",
+      "balde": 56,
+      "documentos": 5,
+      "bytes": 50524,
+      "leis": [
+        "lei-13831",
+        "lei-13877",
+        "lei-14063",
+        "lei-14208",
+        "lei-14291"
+      ]
+    },
+    "lei-13832": {
+      "particao": "treino",
+      "balde": 80,
+      "documentos": 2,
+      "bytes": 19785,
+      "leis": [
+        "lei-13832",
+        "lei-14118"
+      ]
+    },
+    "lei-13833": {
+      "particao": "treino",
+      "balde": 25,
+      "documentos": 1,
+      "bytes": 5943,
+      "leis": [
+        "lei-13833"
+      ]
+    },
+    "lei-13834": {
+      "particao": "treino",
+      "balde": 88,
+      "documentos": 3,
+      "bytes": 11730,
+      "leis": [
+        "lei-13834",
+        "lei-14192",
+        "lei-14211"
+      ]
+    },
+    "lei-13838": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 4,
+      "bytes": 113297,
+      "leis": [
+        "lei-13838",
+        "lei-13846",
+        "lei-13865",
+        "lei-14011"
+      ]
+    },
+    "lei-13842": {
+      "particao": "treino",
+      "balde": 54,
+      "documentos": 3,
+      "bytes": 16406,
+      "leis": [
+        "lei-13842",
+        "lei-14034",
+        "lei-14174"
+      ]
+    },
+    "lei-13847": {
+      "particao": "treino",
+      "balde": 76,
+      "documentos": 3,
+      "bytes": 14773,
+      "leis": [
+        "lei-13847",
+        "lei-14131",
+        "lei-14441"
+      ]
+    },
+    "lei-13848": {
+      "particao": "treino",
+      "balde": 57,
+      "documentos": 3,
+      "bytes": 72711,
+      "leis": [
+        "lei-13848",
+        "lei-14052",
+        "lei-14385"
+      ]
+    },
+    "lei-13854": {
+      "particao": "treino",
+      "balde": 64,
+      "documentos": 1,
+      "bytes": 3857,
+      "leis": [
+        "lei-13854"
+      ]
+    },
+    "lei-13856": {
+      "particao": "treino",
+      "balde": 56,
+      "documentos": 1,
+      "bytes": 6157,
+      "leis": [
+        "lei-13856"
+      ]
+    },
+    "lei-13860": {
+      "particao": "treino",
+      "balde": 84,
+      "documentos": 1,
+      "bytes": 5193,
+      "leis": [
+        "lei-13860"
+      ]
+    },
+    "lei-13861": {
+      "particao": "treino",
+      "balde": 10,
+      "documentos": 1,
+      "bytes": 863,
+      "leis": [
+        "lei-13861"
+      ]
+    },
+    "lei-13862": {
+      "particao": "treino",
+      "balde": 34,
+      "documentos": 1,
+      "bytes": 1610,
+      "leis": [
+        "lei-13862"
+      ]
+    },
+    "lei-13866": {
+      "particao": "treino",
+      "balde": 38,
+      "documentos": 1,
+      "bytes": 812,
+      "leis": [
+        "lei-13866"
+      ]
+    },
+    "lei-13868": {
+      "particao": "treino",
+      "balde": 12,
+      "documentos": 1,
+      "bytes": 1982,
+      "leis": [
+        "lei-13868"
+      ]
+    },
+    "lei-13869": {
+      "particao": "treino",
+      "balde": 21,
+      "documentos": 2,
+      "bytes": 20609,
+      "leis": [
+        "lei-13869",
+        "lei-14321"
+      ]
+    },
+    "lei-13872": {
+      "particao": "treino",
+      "balde": 74,
+      "documentos": 1,
+      "bytes": 2434,
+      "leis": [
+        "lei-13872"
+      ]
+    },
+    "lei-13878": {
+      "particao": "treino",
+      "balde": 57,
+      "documentos": 1,
+      "bytes": 1446,
+      "leis": [
+        "lei-13878"
+      ]
+    },
+    "lei-13879": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 2,
+      "bytes": 18811,
+      "leis": [
+        "lei-13879",
+        "lei-14109"
+      ]
+    },
+    "lei-13881": {
+      "particao": "treino",
+      "balde": 55,
+      "documentos": 2,
+      "bytes": 93475,
+      "leis": [
+        "lei-13881",
+        "lei-13986"
+      ]
+    },
+    "lei-13884": {
+      "particao": "teste",
+      "balde": 96,
+      "documentos": 1,
+      "bytes": 1581,
+      "leis": [
+        "lei-13884"
+      ]
+    },
+    "lei-13886": {
+      "particao": "treino",
+      "balde": 17,
+      "documentos": 1,
+      "bytes": 18454,
+      "leis": [
+        "lei-13886"
+      ]
+    },
+    "lei-13895": {
+      "particao": "treino",
+      "balde": 70,
+      "documentos": 1,
+      "bytes": 2220,
+      "leis": [
+        "lei-13895"
+      ]
+    },
+    "lei-13902": {
+      "particao": "treino",
+      "balde": 74,
+      "documentos": 1,
+      "bytes": 1149,
+      "leis": [
+        "lei-13902"
+      ]
+    },
+    "lei-13903": {
+      "particao": "treino",
+      "balde": 81,
+      "documentos": 1,
+      "bytes": 20455,
+      "leis": [
+        "lei-13903"
+      ]
+    },
+    "lei-13913": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 1,
+      "bytes": 2080,
+      "leis": [
+        "lei-13913"
+      ]
+    },
+    "lei-13921": {
+      "particao": "validacao",
+      "balde": 94,
+      "documentos": 1,
+      "bytes": 1367,
+      "leis": [
+        "lei-13921"
+      ]
+    },
+    "lei-13934": {
+      "particao": "treino",
+      "balde": 40,
+      "documentos": 1,
+      "bytes": 6288,
+      "leis": [
+        "lei-13934"
+      ]
+    },
+    "lei-13935": {
+      "particao": "treino",
+      "balde": 36,
+      "documentos": 1,
+      "bytes": 1336,
+      "leis": [
+        "lei-13935"
+      ]
+    },
+    "lei-13954": {
+      "particao": "treino",
+      "balde": 3,
+      "documentos": 1,
+      "bytes": 68537,
+      "leis": [
+        "lei-13954"
+      ]
+    },
+    "lei-13958": {
+      "particao": "teste",
+      "balde": 96,
+      "documentos": 1,
+      "bytes": 28311,
+      "leis": [
+        "lei-13958"
+      ]
+    },
+    "lei-13959": {
+      "particao": "treino",
+      "balde": 23,
+      "documentos": 1,
+      "bytes": 2862,
+      "leis": [
+        "lei-13959"
+      ]
+    },
+    "lei-13964": {
+      "particao": "treino",
+      "balde": 19,
+      "documentos": 1,
+      "bytes": 79916,
+      "leis": [
+        "lei-13964"
+      ]
+    },
+    "lei-13966": {
+      "particao": "treino",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 11542,
+      "leis": [
+        "lei-13966"
+      ]
+    },
+    "lei-13974": {
+      "particao": "treino",
+      "balde": 61,
+      "documentos": 1,
+      "bytes": 8261,
+      "leis": [
+        "lei-13974"
+      ]
+    },
+    "lei-13975": {
+      "particao": "treino",
+      "balde": 79,
+      "documentos": 1,
+      "bytes": 921,
+      "leis": [
+        "lei-13975"
+      ]
+    },
+    "lei-13976": {
+      "particao": "treino",
+      "balde": 55,
+      "documentos": 1,
+      "bytes": 1146,
+      "leis": [
+        "lei-13976"
+      ]
+    },
+    "lei-13978": {
+      "particao": "validacao",
+      "balde": 91,
+      "documentos": 1,
+      "bytes": 895,
+      "leis": [
+        "lei-14083"
+      ]
+    },
+    "lei-13979": {
+      "particao": "treino",
+      "balde": 72,
+      "documentos": 7,
+      "bytes": 69092,
+      "leis": [
+        "lei-13979",
+        "lei-14006",
+        "lei-14019",
+        "lei-14022",
+        "lei-14023",
+        "lei-14028",
+        "lei-14035"
+      ]
+    },
+    "lei-13981": {
+      "particao": "treino",
+      "balde": 29,
+      "documentos": 8,
+      "bytes": 49638,
+      "leis": [
+        "lei-13981",
+        "lei-13982",
+        "lei-13998",
+        "lei-14075",
+        "lei-14171",
+        "lei-14176",
+        "lei-14284",
+        "lei-14342"
+      ]
+    },
+    "lei-13985": {
+      "particao": "treino",
+      "balde": 67,
+      "documentos": 1,
+      "bytes": 3003,
+      "leis": [
+        "lei-13985"
+      ]
+    },
+    "lei-13989": {
+      "particao": "treino",
+      "balde": 72,
+      "documentos": 1,
+      "bytes": 1916,
+      "leis": [
+        "lei-13989"
+      ]
+    },
+    "lei-13992": {
+      "particao": "validacao",
+      "balde": 93,
+      "documentos": 4,
+      "bytes": 7285,
+      "leis": [
+        "lei-13992",
+        "lei-14061",
+        "lei-14189",
+        "lei-14400"
+      ]
+    },
+    "lei-13993": {
+      "particao": "treino",
+      "balde": 9,
+      "documentos": 1,
+      "bytes": 1478,
+      "leis": [
+        "lei-13993"
+      ]
+    },
+    "lei-13994": {
+      "particao": "treino",
+      "balde": 39,
+      "documentos": 1,
+      "bytes": 1378,
+      "leis": [
+        "lei-13994"
+      ]
+    },
+    "lei-13995": {
+      "particao": "treino",
+      "balde": 29,
+      "documentos": 1,
+      "bytes": 3869,
+      "leis": [
+        "lei-13995"
+      ]
+    },
+    "lei-13996": {
+      "particao": "treino",
+      "balde": 18,
+      "documentos": 3,
+      "bytes": 42307,
+      "leis": [
+        "lei-13996",
+        "lei-14059",
+        "lei-14515"
+      ]
+    },
+    "lei-13997": {
+      "particao": "treino",
+      "balde": 69,
+      "documentos": 1,
+      "bytes": 1586,
+      "leis": [
+        "lei-13997"
+      ]
+    },
+    "lei-14003": {
+      "particao": "treino",
+      "balde": 88,
+      "documentos": 1,
+      "bytes": 2195,
+      "leis": [
+        "lei-14003"
+      ]
+    },
+    "lei-14004": {
+      "particao": "treino",
+      "balde": 57,
+      "documentos": 1,
+      "bytes": 3618,
+      "leis": [
+        "lei-14004"
+      ]
+    },
+    "lei-14007": {
+      "particao": "treino",
+      "balde": 62,
+      "documentos": 1,
+      "bytes": 2643,
+      "leis": [
+        "lei-14007"
+      ]
+    },
+    "lei-14010": {
+      "particao": "treino",
+      "balde": 77,
+      "documentos": 1,
+      "bytes": 7568,
+      "leis": [
+        "lei-14010"
+      ]
+    },
+    "lei-14013": {
+      "particao": "treino",
+      "balde": 54,
+      "documentos": 1,
+      "bytes": 1331,
+      "leis": [
+        "lei-14013"
+      ]
+    },
+    "lei-14018": {
+      "particao": "treino",
+      "balde": 59,
+      "documentos": 1,
+      "bytes": 2341,
+      "leis": [
+        "lei-14018"
+      ]
+    },
+    "lei-14021": {
+      "particao": "treino",
+      "balde": 31,
+      "documentos": 4,
+      "bytes": 28546,
+      "leis": [
+        "lei-14021",
+        "lei-14141",
+        "lei-14313",
+        "lei-14510"
+      ]
+    },
+    "lei-14025": {
+      "particao": "treino",
+      "balde": 2,
+      "documentos": 1,
+      "bytes": 920,
+      "leis": [
+        "lei-14025"
+      ]
+    },
+    "lei-14026": {
+      "particao": "treino",
+      "balde": 12,
+      "documentos": 1,
+      "bytes": 89195,
+      "leis": [
+        "lei-14026"
+      ]
+    },
+    "lei-14027": {
+      "particao": "treino",
+      "balde": 0,
+      "documentos": 1,
+      "bytes": 7455,
+      "leis": [
+        "lei-14027"
+      ]
+    },
+    "lei-14029": {
+      "particao": "treino",
+      "balde": 29,
+      "documentos": 1,
+      "bytes": 4929,
+      "leis": [
+        "lei-14029"
+      ]
+    },
+    "lei-14030": {
+      "particao": "treino",
+      "balde": 51,
+      "documentos": 1,
+      "bytes": 7708,
+      "leis": [
+        "lei-14030"
+      ]
+    },
+    "lei-14038": {
+      "particao": "treino",
+      "balde": 12,
+      "documentos": 1,
+      "bytes": 3102,
+      "leis": [
+        "lei-14038"
+      ]
+    },
+    "lei-14043": {
+      "particao": "treino",
+      "balde": 1,
+      "documentos": 2,
+      "bytes": 20309,
+      "leis": [
+        "lei-14043",
+        "lei-14115"
+      ]
+    },
+    "lei-14046": {
+      "particao": "treino",
+      "balde": 45,
+      "documentos": 3,
+      "bytes": 13527,
+      "leis": [
+        "lei-14046",
+        "lei-14186",
+        "lei-14390"
+      ]
+    },
+    "lei-14047": {
+      "particao": "treino",
+      "balde": 35,
+      "documentos": 1,
+      "bytes": 18825,
+      "leis": [
+        "lei-14047"
+      ]
+    },
+    "lei-14053": {
+      "particao": "treino",
+      "balde": 76,
+      "documentos": 1,
+      "bytes": 1790,
+      "leis": [
+        "lei-14053"
+      ]
+    },
+    "lei-14064": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 1,
+      "bytes": 1010,
+      "leis": [
+        "lei-14064"
+      ]
+    },
+    "lei-14069": {
+      "particao": "treino",
+      "balde": 45,
+      "documentos": 1,
+      "bytes": 1903,
+      "leis": [
+        "lei-14069"
+      ]
+    },
+    "lei-14070": {
+      "particao": "treino",
+      "balde": 63,
+      "documentos": 1,
+      "bytes": 1803,
+      "leis": [
+        "lei-14070"
+      ]
+    },
+    "lei-14072": {
+      "particao": "treino",
+      "balde": 3,
+      "documentos": 1,
+      "bytes": 1369,
+      "leis": [
+        "lei-14072"
+      ]
+    },
+    "lei-14076": {
+      "particao": "treino",
+      "balde": 55,
+      "documentos": 1,
+      "bytes": 2251,
+      "leis": [
+        "lei-14076"
+      ]
+    },
+    "lei-14106": {
+      "particao": "treino",
+      "balde": 18,
+      "documentos": 1,
+      "bytes": 1644,
+      "leis": [
+        "lei-14106"
+      ]
+    },
+    "lei-14119": {
+      "particao": "treino",
+      "balde": 49,
+      "documentos": 3,
+      "bytes": 33128,
+      "leis": [
+        "lei-14119",
+        "lei-14199",
+        "lei-14360"
+      ]
+    },
+    "lei-14120": {
+      "particao": "treino",
+      "balde": 26,
+      "documentos": 1,
+      "bytes": 29665,
+      "leis": [
+        "lei-14120"
+      ]
+    },
+    "lei-14121": {
+      "particao": "treino",
+      "balde": 61,
+      "documentos": 1,
+      "bytes": 4496,
+      "leis": [
+        "lei-14121"
+      ]
+    },
+    "lei-14124": {
+      "particao": "treino",
+      "balde": 19,
+      "documentos": 3,
+      "bytes": 27401,
+      "leis": [
+        "lei-14124",
+        "lei-14190",
+        "lei-14259"
+      ]
+    },
+    "lei-14125": {
+      "particao": "treino",
+      "balde": 77,
+      "documentos": 1,
+      "bytes": 981,
+      "leis": [
+        "lei-14466"
+      ]
+    },
+    "lei-14126": {
+      "particao": "treino",
+      "balde": 61,
+      "documentos": 1,
+      "bytes": 802,
+      "leis": [
+        "lei-14126"
+      ]
+    },
+    "lei-14128": {
+      "particao": "treino",
+      "balde": 4,
+      "documentos": 1,
+      "bytes": 9458,
+      "leis": [
+        "lei-14128"
+      ]
+    },
+    "lei-14129": {
+      "particao": "treino",
+      "balde": 86,
+      "documentos": 1,
+      "bytes": 46233,
+      "leis": [
+        "lei-14129"
+      ]
+    },
+    "lei-14130": {
+      "particao": "treino",
+      "balde": 17,
+      "documentos": 1,
+      "bytes": 6914,
+      "leis": [
+        "lei-14130"
+      ]
+    },
+    "lei-14133": {
+      "particao": "treino",
+      "balde": 57,
+      "documentos": 1,
+      "bytes": 274989,
+      "leis": [
+        "lei-14133"
+      ]
+    },
+    "lei-14134": {
+      "particao": "treino",
+      "balde": 8,
+      "documentos": 4,
+      "bytes": 86578,
+      "leis": [
+        "lei-14134",
+        "lei-14292",
+        "lei-14367",
+        "lei-14440"
+      ]
+    },
+    "lei-14138": {
+      "particao": "teste",
+      "balde": 96,
+      "documentos": 1,
+      "bytes": 1197,
+      "leis": [
+        "lei-14138"
+      ]
+    },
+    "lei-14144": {
+      "particao": "treino",
+      "balde": 37,
+      "documentos": 2,
+      "bytes": 4414,
+      "leis": [
+        "lei-14178",
+        "lei-14213"
+      ]
+    },
+    "lei-14145": {
+      "particao": "treino",
+      "balde": 2,
+      "documentos": 1,
+      "bytes": 2293,
+      "leis": [
+        "lei-14145"
+      ]
+    },
+    "lei-14147": {
+      "particao": "treino",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 1238,
+      "leis": [
+        "lei-14147"
+      ]
+    },
+    "lei-14149": {
+      "particao": "treino",
+      "balde": 65,
+      "documentos": 1,
+      "bytes": 2238,
+      "leis": [
+        "lei-14149"
+      ]
+    },
+    "lei-14151": {
+      "particao": "treino",
+      "balde": 65,
+      "documentos": 2,
+      "bytes": 6909,
+      "leis": [
+        "lei-14151",
+        "lei-14311"
+      ]
+    },
+    "lei-14152": {
+      "particao": "treino",
+      "balde": 27,
+      "documentos": 1,
+      "bytes": 1710,
+      "leis": [
+        "lei-14152"
+      ]
+    },
+    "lei-14158": {
+      "particao": "treino",
+      "balde": 31,
+      "documentos": 1,
+      "bytes": 1109,
+      "leis": [
+        "lei-14158"
+      ]
+    },
+    "lei-14160": {
+      "particao": "treino",
+      "balde": 26,
+      "documentos": 2,
+      "bytes": 5869,
+      "leis": [
+        "lei-14160",
+        "lei-14458"
+      ]
+    },
+    "lei-14162": {
+      "particao": "treino",
+      "balde": 39,
+      "documentos": 1,
+      "bytes": 2866,
+      "leis": [
+        "lei-14162"
+      ]
+    },
+    "lei-14165": {
+      "particao": "treino",
+      "balde": 21,
+      "documentos": 1,
+      "bytes": 16703,
+      "leis": [
+        "lei-14165"
+      ]
+    },
+    "lei-14166": {
+      "particao": "treino",
+      "balde": 58,
+      "documentos": 1,
+      "bytes": 30341,
+      "leis": [
+        "lei-14166"
+      ]
+    },
+    "lei-14172": {
+      "particao": "treino",
+      "balde": 37,
+      "documentos": 1,
+      "bytes": 8931,
+      "leis": [
+        "lei-14172"
+      ]
+    },
+    "lei-14173": {
+      "particao": "treino",
+      "balde": 66,
+      "documentos": 1,
+      "bytes": 8111,
+      "leis": [
+        "lei-14173"
+      ]
+    },
+    "lei-14179": {
+      "particao": "validacao",
+      "balde": 94,
+      "documentos": 1,
+      "bytes": 3526,
+      "leis": [
+        "lei-14179"
+      ]
+    },
+    "lei-14180": {
+      "particao": "treino",
+      "balde": 63,
+      "documentos": 1,
+      "bytes": 6733,
+      "leis": [
+        "lei-14180"
+      ]
+    },
+    "lei-14181": {
+      "particao": "treino",
+      "balde": 25,
+      "documentos": 1,
+      "bytes": 17464,
+      "leis": [
+        "lei-14181"
+      ]
+    },
+    "lei-14182": {
+      "particao": "treino",
+      "balde": 53,
+      "documentos": 1,
+      "bytes": 49104,
+      "leis": [
+        "lei-14182"
+      ]
+    },
+    "lei-14183": {
+      "particao": "treino",
+      "balde": 23,
+      "documentos": 2,
+      "bytes": 10963,
+      "leis": [
+        "lei-14183",
+        "lei-14446"
+      ]
+    },
+    "lei-14187": {
+      "particao": "treino",
+      "balde": 60,
+      "documentos": 1,
+      "bytes": 3231,
+      "leis": [
+        "lei-14187"
+      ]
+    },
+    "lei-14193": {
+      "particao": "treino",
+      "balde": 0,
+      "documentos": 2,
+      "bytes": 40642,
+      "leis": [
+        "lei-14193",
+        "lei-14205"
+      ]
+    },
+    "lei-14196": {
+      "particao": "treino",
+      "balde": 83,
+      "documentos": 1,
+      "bytes": 2541,
+      "leis": [
+        "lei-14196"
+      ]
+    },
+    "lei-14198": {
+      "particao": "treino",
+      "balde": 45,
+      "documentos": 1,
+      "bytes": 2050,
+      "leis": [
+        "lei-14198"
+      ]
+    },
+    "lei-14200": {
+      "particao": "treino",
+      "balde": 34,
+      "documentos": 1,
+      "bytes": 7955,
+      "leis": [
+        "lei-14200"
+      ]
+    },
+    "lei-14210": {
+      "particao": "treino",
+      "balde": 51,
+      "documentos": 1,
+      "bytes": 4469,
+      "leis": [
+        "lei-14210"
+      ]
+    },
+    "lei-14215": {
+      "particao": "treino",
+      "balde": 44,
+      "documentos": 1,
+      "bytes": 8568,
+      "leis": [
+        "lei-14215"
+      ]
+    },
+    "lei-14216": {
+      "particao": "treino",
+      "balde": 18,
+      "documentos": 1,
+      "bytes": 8170,
+      "leis": [
+        "lei-14216"
+      ]
+    },
+    "lei-14217": {
+      "particao": "treino",
+      "balde": 0,
+      "documentos": 1,
+      "bytes": 16049,
+      "leis": [
+        "lei-14217"
+      ]
+    },
+    "lei-14222": {
+      "particao": "treino",
+      "balde": 50,
+      "documentos": 2,
+      "bytes": 58845,
+      "leis": [
+        "lei-14222",
+        "lei-14514"
+      ]
+    },
+    "lei-14228": {
+      "particao": "treino",
+      "balde": 89,
+      "documentos": 1,
+      "bytes": 1929,
+      "leis": [
+        "lei-14228"
+      ]
+    },
+    "lei-14229": {
+      "particao": "treino",
+      "balde": 50,
+      "documentos": 1,
+      "bytes": 12491,
+      "leis": [
+        "lei-14229"
+      ]
+    },
+    "lei-14230": {
+      "particao": "teste",
+      "balde": 99,
+      "documentos": 1,
+      "bytes": 42209,
+      "leis": [
+        "lei-14230"
+      ]
+    },
+    "lei-14231": {
+      "particao": "treino",
+      "balde": 71,
+      "documentos": 1,
+      "bytes": 927,
+      "leis": [
+        "lei-14231"
+      ]
+    },
+    "lei-14232": {
+      "particao": "treino",
+      "balde": 40,
+      "documentos": 1,
+      "bytes": 5794,
+      "leis": [
+        "lei-14232"
+      ]
+    },
+    "lei-14234": {
+      "particao": "treino",
+      "balde": 9,
+      "documentos": 1,
+      "bytes": 1168,
+      "leis": [
+        "lei-14234"
+      ]
+    },
+    "lei-14238": {
+      "particao": "validacao",
+      "balde": 92,
+      "documentos": 1,
+      "bytes": 11691,
+      "leis": [
+        "lei-14238"
+      ]
+    },
+    "lei-14245": {
+      "particao": "treino",
+      "balde": 69,
+      "documentos": 1,
+      "bytes": 3480,
+      "leis": [
+        "lei-14245"
+      ]
+    },
+    "lei-14248": {
+      "particao": "treino",
+      "balde": 48,
+      "documentos": 1,
+      "bytes": 2085,
+      "leis": [
+        "lei-14248"
+      ]
+    },
+    "lei-14250": {
+      "particao": "validacao",
+      "balde": 90,
+      "documentos": 1,
+      "bytes": 9932,
+      "leis": [
+        "lei-14250"
+      ]
+    },
+    "lei-14253": {
+      "particao": "treino",
+      "balde": 25,
+      "documentos": 1,
+      "bytes": 2819,
+      "leis": [
+        "lei-14253"
+      ]
+    },
+    "lei-14254": {
+      "particao": "treino",
+      "balde": 81,
+      "documentos": 1,
+      "bytes": 3016,
+      "leis": [
+        "lei-14254"
+      ]
+    },
+    "lei-14258": {
+      "particao": "treino",
+      "balde": 62,
+      "documentos": 1,
+      "bytes": 745,
+      "leis": [
+        "lei-14258"
+      ]
+    },
+    "lei-14260": {
+      "particao": "treino",
+      "balde": 6,
+      "documentos": 1,
+      "bytes": 6149,
+      "leis": [
+        "lei-14260"
+      ]
+    },
+    "lei-14282": {
+      "particao": "treino",
+      "balde": 64,
+      "documentos": 1,
+      "bytes": 8012,
+      "leis": [
+        "lei-14282"
+      ]
+    },
+    "lei-14286": {
+      "particao": "treino",
+      "balde": 21,
+      "documentos": 1,
+      "bytes": 28401,
+      "leis": [
+        "lei-14286"
+      ]
+    },
+    "lei-14287": {
+      "particao": "treino",
+      "balde": 36,
+      "documentos": 1,
+      "bytes": 2895,
+      "leis": [
+        "lei-14287"
+      ]
+    },
+    "lei-14289": {
+      "particao": "treino",
+      "balde": 1,
+      "documentos": 1,
+      "bytes": 5818,
+      "leis": [
+        "lei-14289"
+      ]
+    },
+    "lei-14290": {
+      "particao": "treino",
+      "balde": 15,
+      "documentos": 1,
+      "bytes": 3846,
+      "leis": [
+        "lei-14290"
+      ]
+    },
+    "lei-14293": {
+      "particao": "treino",
+      "balde": 16,
+      "documentos": 1,
+      "bytes": 6071,
+      "leis": [
+        "lei-14293"
+      ]
+    },
+    "lei-14295": {
+      "particao": "treino",
+      "balde": 65,
+      "documentos": 1,
+      "bytes": 1073,
+      "leis": [
+        "lei-14295"
+      ]
+    },
+    "lei-14297": {
+      "particao": "teste",
+      "balde": 98,
+      "documentos": 1,
+      "bytes": 5515,
+      "leis": [
+        "lei-14297"
+      ]
+    },
+    "lei-14301": {
+      "particao": "validacao",
+      "balde": 92,
+      "documentos": 1,
+      "bytes": 38459,
+      "leis": [
+        "lei-14301"
+      ]
+    },
+    "lei-14303": {
+      "particao": "treino",
+      "balde": 77,
+      "documentos": 1,
+      "bytes": 4471,
+      "leis": [
+        "lei-14412"
+      ]
+    },
+    "lei-14305": {
+      "particao": "treino",
+      "balde": 52,
+      "documentos": 1,
+      "bytes": 2442,
+      "leis": [
+        "lei-14305"
+      ]
+    },
+    "lei-14308": {
+      "particao": "treino",
+      "balde": 45,
+      "documentos": 1,
+      "bytes": 10176,
+      "leis": [
+        "lei-14308"
+      ]
+    },
+    "lei-14312": {
+      "particao": "treino",
+      "balde": 5,
+      "documentos": 1,
+      "bytes": 26042,
+      "leis": [
+        "lei-14312"
+      ]
+    },
+    "lei-14317": {
+      "particao": "treino",
+      "balde": 32,
+      "documentos": 1,
+      "bytes": 10845,
+      "leis": [
+        "lei-14317"
+      ]
+    },
+    "lei-14318": {
+      "particao": "treino",
+      "balde": 43,
+      "documentos": 1,
+      "bytes": 2039,
+      "leis": [
+        "lei-14318"
+      ]
+    },
+    "lei-14323": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 1,
+      "bytes": 1800,
+      "leis": [
+        "lei-14323"
+      ]
+    },
+    "lei-14326": {
+      "particao": "treino",
+      "balde": 23,
+      "documentos": 1,
+      "bytes": 1537,
+      "leis": [
+        "lei-14326"
+      ]
+    },
+    "lei-14327": {
+      "particao": "treino",
+      "balde": 85,
+      "documentos": 1,
+      "bytes": 4104,
+      "leis": [
+        "lei-14327"
+      ]
+    },
+    "lei-14332": {
+      "particao": "treino",
+      "balde": 30,
+      "documentos": 1,
+      "bytes": 2086,
+      "leis": [
+        "lei-14332"
+      ]
+    },
+    "lei-14334": {
+      "particao": "treino",
+      "balde": 75,
+      "documentos": 1,
+      "bytes": 2070,
+      "leis": [
+        "lei-14334"
+      ]
+    },
+    "lei-14343": {
+      "particao": "treino",
+      "balde": 72,
+      "documentos": 1,
+      "bytes": 1894,
+      "leis": [
+        "lei-14343"
+      ]
+    },
+    "lei-14351": {
+      "particao": "treino",
+      "balde": 77,
+      "documentos": 2,
+      "bytes": 14518,
+      "leis": [
+        "lei-14351",
+        "lei-14408"
+      ]
+    },
+    "lei-14358": {
+      "particao": "treino",
+      "balde": 14,
+      "documentos": 1,
+      "bytes": 1118,
+      "leis": [
+        "lei-14358"
+      ]
+    },
+    "lei-14366": {
+      "particao": "treino",
+      "balde": 39,
+      "documentos": 1,
+      "bytes": 5738,
+      "leis": [
+        "lei-14366"
+      ]
+    },
+    "lei-14368": {
+      "particao": "treino",
+      "balde": 0,
+      "documentos": 1,
+      "bytes": 31609,
+      "leis": [
+        "lei-14368"
+      ]
+    },
+    "lei-14370": {
+      "particao": "validacao",
+      "balde": 91,
+      "documentos": 1,
+      "bytes": 16287,
+      "leis": [
+        "lei-14370"
+      ]
+    },
+    "lei-14377": {
+      "particao": "treino",
+      "balde": 58,
+      "documentos": 1,
+      "bytes": 22862,
+      "leis": [
+        "lei-14377"
+      ]
+    },
+    "lei-14382": {
+      "particao": "treino",
+      "balde": 61,
+      "documentos": 1,
+      "bytes": 78011,
+      "leis": [
+        "lei-14382"
+      ]
+    },
+    "lei-14386": {
+      "particao": "treino",
+      "balde": 64,
+      "documentos": 1,
+      "bytes": 13888,
+      "leis": [
+        "lei-14386"
+      ]
+    },
+    "lei-14391": {
+      "particao": "treino",
+      "balde": 39,
+      "documentos": 2,
+      "bytes": 2650,
+      "leis": [
+        "lei-14391",
+        "lei-14416"
+      ]
+    },
+    "lei-14393": {
+      "particao": "treino",
+      "balde": 53,
+      "documentos": 1,
+      "bytes": 4174,
+      "leis": [
+        "lei-14393"
+      ]
+    },
+    "lei-14395": {
+      "particao": "treino",
+      "balde": 82,
+      "documentos": 1,
+      "bytes": 996,
+      "leis": [
+        "lei-14395"
+      ]
+    },
+    "lei-14397": {
+      "particao": "treino",
+      "balde": 7,
+      "documentos": 1,
+      "bytes": 1319,
+      "leis": [
+        "lei-14397"
+      ]
+    },
+    "lei-14398": {
+      "particao": "treino",
+      "balde": 48,
+      "documentos": 1,
+      "bytes": 3965,
+      "leis": [
+        "lei-14398"
+      ]
+    },
+    "lei-14399": {
+      "particao": "teste",
+      "balde": 95,
+      "documentos": 1,
+      "bytes": 25678,
+      "leis": [
+        "lei-14399"
+      ]
+    },
+    "lei-14421": {
+      "particao": "treino",
+      "balde": 12,
+      "documentos": 1,
+      "bytes": 15135,
+      "leis": [
+        "lei-14421"
+      ]
+    },
+    "lei-14434": {
+      "particao": "treino",
+      "balde": 62,
+      "documentos": 1,
+      "bytes": 3141,
+      "leis": [
+        "lei-14434"
+      ]
+    },
+    "lei-14437": {
+      "particao": "treino",
+      "balde": 34,
+      "documentos": 1,
+      "bytes": 45834,
+      "leis": [
+        "lei-14437"
+      ]
+    },
+    "lei-14442": {
+      "particao": "treino",
+      "balde": 65,
+      "documentos": 1,
+      "bytes": 10526,
+      "leis": [
+        "lei-14442"
+      ]
+    },
+    "lei-14443": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 1,
+      "bytes": 1943,
+      "leis": [
+        "lei-14443"
+      ]
+    },
+    "lei-14447": {
+      "particao": "treino",
+      "balde": 76,
+      "documentos": 1,
+      "bytes": 8827,
+      "leis": [
+        "lei-14447"
+      ]
+    },
+    "lei-14449": {
+      "particao": "treino",
+      "balde": 21,
+      "documentos": 1,
+      "bytes": 1122,
+      "leis": [
+        "lei-14449"
+      ]
+    },
+    "lei-14450": {
+      "particao": "treino",
+      "balde": 75,
+      "documentos": 1,
+      "bytes": 3600,
+      "leis": [
+        "lei-14450"
+      ]
+    },
+    "lei-14452": {
+      "particao": "treino",
+      "balde": 53,
+      "documentos": 2,
+      "bytes": 143890,
+      "leis": [
+        "lei-14452",
+        "lei-14516"
+      ]
+    },
+    "lei-14461": {
+      "particao": "treino",
+      "balde": 75,
+      "documentos": 1,
+      "bytes": 1532,
+      "leis": [
+        "lei-14461"
+      ]
+    },
+    "lei-14464": {
+      "particao": "treino",
+      "balde": 59,
+      "documentos": 1,
+      "bytes": 1011,
+      "leis": [
+        "lei-14464"
+      ]
+    },
+    "lei-14467": {
+      "particao": "treino",
+      "balde": 42,
+      "documentos": 1,
+      "bytes": 12647,
+      "leis": [
+        "lei-14467"
+      ]
+    },
+    "lei-14473": {
+      "particao": "treino",
+      "balde": 62,
+      "documentos": 1,
+      "bytes": 1900,
+      "leis": [
+        "lei-14473"
+      ]
+    },
+    "lei-14474": {
+      "particao": "teste",
+      "balde": 99,
+      "documentos": 1,
+      "bytes": 15836,
+      "leis": [
+        "lei-14474"
+      ]
+    },
+    "lei-14475": {
+      "particao": "treino",
+      "balde": 47,
+      "documentos": 1,
+      "bytes": 4712,
+      "leis": [
+        "lei-14475"
+      ]
+    },
+    "lei-14479": {
+      "particao": "treino",
+      "balde": 1,
+      "documentos": 1,
+      "bytes": 11455,
+      "leis": [
+        "lei-14479"
+      ]
+    }
+  },
+  "sha256_documentos": "c51d3d40ca60bfeb318408e4bba0732a87d87b97da2a44d30d0b68943086ec71"
+}
