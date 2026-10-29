@@ -1,0 +1,32 @@
+{
+    "title": "Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese (v1.0)",
+    "description": "<p>Code, notebooks, preregistrations and per-run results for building a small language model from scratch, tokenizer included, on one consumer GPU, and for telling whether it is good for the tasks of a specialist domain. One Transformer network of 11 to 12M parameters runs in two generation modes, autoregressive and masked diffusion, on nineteenth-century Brazilian prose and on Brazilian federal legislation.</p><p>The release contains the tested Python package <code>slm</code>, three teaching notebooks in Brazilian Portuguese with English versions (the model in each mode and a tokenizer notebook), the preregistered comparison protocol with frozen hashes, legal tasks built from text alone with a Kneser-Ney floor and public yardsticks, the results of every run, the catalogue of defects that only measurement revealed and a cookbook of recipes. The corpus texts are public domain works and official acts without copyright protection under Brazilian law.</p>",
+    "upload_type": "software",
+    "creators": [
+        {
+            "name": "Brom, Pedro Carvalho",
+            "affiliation": "Federal Institute of Brasília",
+            "orcid": "0000-0002-1288-7695"
+        }
+    ],
+    "keywords": [
+        "small language models",
+        "masked diffusion",
+        "autoregressive language model",
+        "Portuguese",
+        "tokenization",
+        "reproducibility",
+        "preregistration",
+        "evaluation",
+        "education"
+    ],
+    "license": "CC-BY-NC-SA-4.0",
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/pcbrom/homebrewed-slms",
+            "relation": "isSupplementTo",
+            "resource_type": "software",
+            "scheme": "url"
+        }
+    ]
+}

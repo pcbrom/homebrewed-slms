@@ -1,10 +1,11 @@
 # Homebrewed SLMs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23774590.svg)](https://doi.org/10.5281/zenodo.23774590)
 [![Licença: CC BY-NC-SA 4.0](https://img.shields.io/badge/licen%C3%A7a-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Está na hora de criar o seu próprio modelo de linguagem em casa. Este é um material didático para construir do zero, numa GPU doméstica, um modelo de linguagem pequeno (SLM), com dois modos de geração sobre a mesma rede Transformer: difusão mascarada e autoregressivo. Cada etapa da cadeia, do texto bruto às amostras geradas, fica visível e medida, e a troca de domínio exige apenas editar a configuração e o adaptador de dados. O enquadramento completo está em [docs/PROBLEMA.md](docs/PROBLEMA.md).
 
-**Estado:** em construção. O DOI do Zenodo será atribuído no primeiro lançamento, e o selo de citação entrará no topo deste arquivo. A arquitetura está em [docs/ARQUITETURA.md](docs/ARQUITETURA.md), e o plano de construção por marcos em [docs/BUILD.md](docs/BUILD.md).
+**Estado:** versão 1.0, arquivada no Zenodo com o DOI [10.5281/zenodo.23774590](https://doi.org/10.5281/zenodo.23774590), e artigo submetido ao arXiv. A arquitetura está em [docs/ARQUITETURA.md](docs/ARQUITETURA.md), e o plano de construção por marcos em [docs/BUILD.md](docs/BUILD.md).
 
 ![Pipeline do projeto](figuras/pipeline.png)
 
@@ -40,7 +41,9 @@ Este é um projeto didático aberto. Se ele foi útil para a sua aula, pesquisa 
   author  = {Brom, Pedro Carvalho},
   title   = {Homebrewed SLMs: modelos de linguagem pequenos feitos em casa, do zero, com difusão mascarada e autorregressivo},
   year    = {2026},
-  url     = {https://github.com/pcbrom/homebrewed-slms},
+  version = {1.0},
+  doi     = {10.5281/zenodo.23774590},
+  url     = {https://doi.org/10.5281/zenodo.23774590},
   license = {CC-BY-NC-SA-4.0}
 }
 ```
