@@ -1,11 +1,12 @@
 # Homebrewed SLMs
 
+[![arXiv](https://img.shields.io/badge/arXiv-2610.40533-b31b1b.svg)](https://arxiv.org/abs/2610.40533)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23774590.svg)](https://doi.org/10.5281/zenodo.23774590)
 [![Licença: CC BY-NC-SA 4.0](https://img.shields.io/badge/licen%C3%A7a-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Está na hora de criar o seu próprio modelo de linguagem em casa. Este é um material didático para construir do zero, numa GPU doméstica, um modelo de linguagem pequeno (SLM), com dois modos de geração sobre a mesma rede Transformer: difusão mascarada e autoregressivo. Cada etapa da cadeia, do texto bruto às amostras geradas, fica visível e medida, e a troca de domínio exige apenas editar a configuração e o adaptador de dados. O enquadramento completo está em [docs/PROBLEMA.md](docs/PROBLEMA.md).
 
-**Estado:** versão 1.0, arquivada no Zenodo com o DOI [10.5281/zenodo.23774590](https://doi.org/10.5281/zenodo.23774590), e artigo submetido ao arXiv. A arquitetura está em [docs/ARQUITETURA.md](docs/ARQUITETURA.md), e o plano de construção por marcos em [docs/BUILD.md](docs/BUILD.md).
+**Estado:** versão 1.0, arquivada no Zenodo com o DOI [10.5281/zenodo.23774590](https://doi.org/10.5281/zenodo.23774590), e artigo publicado no arXiv, [2610.40533](https://arxiv.org/abs/2610.40533). A arquitetura está em [docs/ARQUITETURA.md](docs/ARQUITETURA.md), e o plano de construção por marcos em [docs/BUILD.md](docs/BUILD.md).
 
 ![Pipeline do projeto](figuras/pipeline.png)
 
@@ -33,8 +34,10 @@ Este é um projeto didático aberto. Se ele foi útil para a sua aula, pesquisa 
   author = {Brom, Pedro Carvalho},
   title  = {Homebrewed {SLMs}: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese},
   year   = {2026},
-  note   = {Preprint},
-  url    = {https://github.com/pcbrom/homebrewed-slms}
+  eprint = {2610.40533},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url    = {https://arxiv.org/abs/2610.40533}
 }
 
 @software{brom_homebrewed_slms,
