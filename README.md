@@ -37,6 +37,7 @@ Este é um projeto didático aberto. Se ele foi útil para a sua aula, pesquisa 
   eprint = {2610.40533},
   archivePrefix = {arXiv},
   primaryClass  = {cs.CL},
+  doi    = {10.48550/arXiv.2610.40533},
   url    = {https://arxiv.org/abs/2610.40533}
 }
 
